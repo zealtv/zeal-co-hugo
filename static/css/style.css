@@ -1,3 +1,7 @@
+
+:root{
+  --max-width: 1200px; 
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -82,7 +86,7 @@ p{
 
 .site-container{
   /*maximum content width is this width * 0.75*/
-  max-width: 1200px;
+  max-width: var(--max-width);
   /* min-width: 320px; */
   /* min-width: 100vw; */
   margin: auto; 
@@ -250,8 +254,8 @@ p{
 
   .gallery-item{
     width: unset;
-    /* max-width: 45vw; */
-    height: 20vw;
+    max-width: calc(var(--max-width) * 0.75);
+    height: 28vh;
     /* width: 20vw; */
     /* min-width: 20vw; */
     /* max-width: 40vw; */
