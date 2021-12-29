@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <title>ZEAL.CO</title>
+</head>
+<body>
+<div class="site-container">
+
+  <!-- <div class="header">
+  {{ block "header" . }}
+  {{ partial "header"  (dict "Kind" .Kind "Template" "Home")}}
+  {{ end }}
+  </div> -->
+
+  <div class="nav">
+  {{block "nav" . }}
+  {{ partial "nav" }}
+  {{ end }}
+  </div>
+  
+  <div class="main">
+  {{ block "main" . }}
+  {{ end }}
+  
+  </div>
+  
+  <div class="flex-spacer"></div>
+
+  <div class="footer">
+  {{ block "footer" . }}
+  {{ partial "footer" . }}
+  {{ end }}
+  </div>
+
+</div>
+</body>
+</html>
