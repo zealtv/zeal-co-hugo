@@ -254,19 +254,10 @@ p{
 
   .gallery-item{
     width: unset;
-    max-width: calc(var(--max-width) * 0.75);
+    /* max-width: calc(var(--max-width) * 0.75); */
     height: 28vh;
-    /* width: 20vw; */
-    /* min-width: 20vw; */
-    /* max-width: 40vw; */
-    /* width: 100%; */
     margin: 0.6rem;
-    /* padding: 2rem; */
-
     flex-grow: 1;
-    /* min-width: 100px; */
-    /* min-height: 100px; */
-    
     background-color: aqua;
   }
 
