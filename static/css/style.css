@@ -59,7 +59,7 @@ table {
 }
 
 html{
-  background-color: azure;
+  background-color: cornsilk;
 }
 
 /* end reset */
@@ -67,7 +67,7 @@ html{
 
 h1{
   font-size: 1.6rem;
-  color: red;
+  color: crimson;
 }
 
 h2{
@@ -236,7 +236,7 @@ em{
   height: 28vh;
   background-color: aqua;
   color: green;
-  border: 2px solid #757575;
+  border: 2px solid #f35df8;
   border-radius: 2px;
   overflow: hidden;
   background-position: center; 
@@ -267,8 +267,6 @@ em{
       "content contextual-nav"
   }
 
-
-
   .gallery-item{
     width: unset;
     /* max-width: calc(var(--max-width) * 0.75); */
@@ -289,6 +287,6 @@ em{
 
   .nav-item h1{
     font-size: 3em;
-    color: red;
+    /* color: red; */
   }
 }
