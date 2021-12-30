@@ -17,7 +17,7 @@ Trainer.
 
 ## Publications
 
-2020
+### 2020
 
 [Robert Jarvis, Darrin Verhagen **Composing in Spacetime with Rainbows: Spatial Metacomposition in the Real World** Audio Mostly, Graz](https://zeal.co/project/aileron)
 
@@ -25,13 +25,13 @@ Trainer.
 
 Yan Wang, Zhuying Li, Robert Jarvis, Joseph La Delpha, Rohit Ashok Khot, Florian 'Floyd' Mueller **WeScream!: Toward Understanding the Design of Playful Social Gustosonic Experiences with Ice Cream** DIS, Eindhoven
 
-2019
+### 2019
 
 Yan Wang, Zhuying Li, Robert Jarvis, Rohit Ashok Khot, Florian 'Floyd' Mueller **iScream!: Towards the Design of Playful Gustosonic Experiences with Ice Cream** CHI, Glasgow
 
 Yan Wang, Zhuying Li, Robert Jarvis, Angelina Russo, Rohit Ashok Khot, Florian 'Floyd' Mueller **Towards Understanding the Design of Playful Gustosonic Experiences with Ice Cream** CHIPlay, Barcelona
 
-2018
+### 2018
 
 Yan Wang, Zhuying Li, Robert Jarvis, Rohit Ashok Khot, Florian 'Floyd' Mueller **The Singing Carrot: Designing Playful Experiences with Food Sounds** CHIPlay, Melbourne
 
@@ -41,70 +41,70 @@ Joseph La Delfa, Robert Jarvis, Rohit Ashok Khot, Florian ‘Floyd’ Mueller **
 
 ## Awards
 
-2018
+### 2018
 
 **RTP Scholarship** RMIT University, Melbourne
 
-2015
+### 2015
 
 [**Visual Music Award** Institute for New Media, Frankfurt](https://zeal.co/project/luminesce)
 
-2012
+### 2012
 
 [**Vice Chancellor's Award, The International Space Time Concerto Competition** The University of Newcastle](https://zeal.co/project/concerto-for-light-sculpture)
 
-2005
+### 2005
 
 **Elder School's Jazz Award** The University of Adelaide
 
 ## Education
 
-2021
+### 2021
 
 **Max Certified Trainer** Cycling '74
 
-2013
+### 2013
 
 **Master of Computing (Dist.)** RMIT University
 
-2006
+### 2006
 
 **Bachelor of Music (Hons.)** Adelaide University
 
 ## Employment
 
-2019 - Current
+### 2019 - Current
 
 **Supervisor**  Victorian College of the Arts *(Interactive Composition)*
 
-2017 - Current
+### 2017 - Current
 
 **Director of Technology**  Playable Streets
 
-2021
+### 2021
 
 **Lecturer**  RMIT University *(Interactive Media)*
 
-2015 - 2018
+### 2015 - 2018
 
 **Software Developer**  The National Gallery of Victoria
 
-2017 - 2018
+### 2017 - 2018
 
 **Lecturer**  RMIT University *(Experimental Digital Experience)*
 
-2015 - 2016
+### 2015 - 2016
 
 **Lecturer**  Victorian College of the Arts *(Vision and Interactivity)*
 
-2014 - 2016
+### 2014 - 2016
 
 **Co-Director**  Blunk
 
-2014
+### 2014
 
 **Lecturer**  RMIT University *(Design for Interactive Media)*
 
-2010 - 2012
+### 2010 - 2012
 
 **Lecturer**  Collarts *(Music Theory and Improvisation)*

@@ -8,10 +8,6 @@ tags: ["av", "interactive", "music", "research",  "performance"]
 tier: 0
 draft: "false"
 ---
-This is a project page bud.
-
-<h1>hi</h1>
-
 {{< youtube zTETqfC6vvA >}}
 
 <!-- https://www.youtube-nocookie.com/embed/zTETqfC6vvA?enablejsapi=1&rel=0;modestbranding=1&showsearch=0 -->

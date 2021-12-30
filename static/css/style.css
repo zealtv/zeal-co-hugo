@@ -80,8 +80,25 @@ h2{
   border-radius: 1px;
 }
 
+h3 {
+  font-size: 1.1rem;
+  padding: 0.5rem;
+  font-weight: bold;
+  /* color: #000000FF; */
+  opacity: 25%;
+}
+
 p{
-  padding: 0.6rem;
+  padding: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+strong{
+  font-weight: bold;
+}
+
+em{
+  font-style: italic;
 }
 
 .site-container{
