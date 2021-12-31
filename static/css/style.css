@@ -20,35 +20,42 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-	margin: 0;
+  margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
   font-family: 'Courier New', Courier, monospace;
+  color: black;
+  line-height: 1.3rem;
+}
+
+a{
+  text-decoration: underline;
+  text-decoration-color: hotpink;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-	display: block;
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 blockquote, q {
-	quotes: none;
+  quotes: none;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: '';
+  content: '';
 	content: none;
 }
 table {
-	border-collapse: collapse;
+  border-collapse: collapse;
 	border-spacing: 0;
 }
 
@@ -68,7 +75,14 @@ html{
 h1{
   font-size: 1.6rem;
   color: crimson;
+  font-weight: lighter;
 }
+
+h1 a{
+  text-decoration: none;
+}
+
+
 
 h2{
   font-size: 1.6rem;
@@ -83,6 +97,7 @@ h2{
 h3 {
   font-size: 1.1rem;
   padding: 0.5rem;
+  margin-top: 0.5rem;
   font-weight: bold;
   /* color: #000000FF; */
   opacity: 25%;
@@ -94,7 +109,10 @@ p{
 }
 
 strong{
-  font-weight: bold;
+  font-weight: bolder;
+  /* text-shadow: #f35df8; */
+  /* text-transform: uppercase; */
+  /* font-style: ; */
 }
 
 em{
@@ -110,6 +128,7 @@ em{
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+
 }
 
 
@@ -148,9 +167,11 @@ em{
 
 .nav-item{
   margin: 0.6rem;
+  text-decoration: none;
   /* flex-grow: 1.1; */
   /* display: flex; */
   /* flex-direction: row; */
+  /* font-weight: unset; */
 }
 
 
@@ -159,11 +180,12 @@ em{
   flex-shrink: 1;
   background-color: black;
   min-width: 0;
+  opacity: 0;
 }
 
 /* MAIN */
 .main{
-  background-color: blueviolet;
+  background-color: yellow;
 }
 
 /*CONTAINER FOR SINGLE PAGE*/
@@ -185,6 +207,10 @@ em{
 
 .content img{
   max-width: 100%;
+  max-height: 50vh;
+  display: block;
+  margin: auto;
+  margin-bottom: 0.6rem;
 }
 
 /* CONTEXTUAL NAV */
@@ -192,8 +218,9 @@ em{
   grid-area: contextual-nav;
   text-align: center; 
   text-transform:capitalize;
-  background-color:rgb(255, 0, 234);
+  background-color:yellowgreen;
   color:rgb(255, 255, 255);
+  height: 100%;
  
 }
 
@@ -207,17 +234,14 @@ em{
 .footer{
   grid-area: footer;
   color: white;
-  background-color:#757575;
-  /* text-align:center; */
-  /* position: absolute; */
+  background-color:orange;
   bottom: 0;
   right: 0;
-  /* width: 100%; */
   text-align: right;
 }
 
-.footer a{ 
-  color: white;
+.footer p{
+  opacity: 0.5;
 }
 
 .contactContainer{
@@ -230,7 +254,9 @@ input{
   border: black;
   border-style: dashed;
   border-width: 2px;
-  width: 60%;
+  width: 40%;
+  margin-top: 0.5rem;
+  height: 1.5rem;
 }
 
 textarea{

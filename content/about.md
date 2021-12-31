@@ -4,6 +4,7 @@ date: 2021-12-25T21:20:39+11:00
 draft: false
 ---
 ![Bob Jarvis Portrait](/images/BobJarvisPortrait.jpg)
+
 Bob Jarvis is an Australian artist and researcher working with music, 
 vision, and code to explore the bleeding edge of multimodal composition 
 and performance, his award-winning interactive, recorded, and performed 
