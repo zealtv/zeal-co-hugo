@@ -18,7 +18,7 @@ where:
   - "Kew Courthouse"
   - "St Paul's Cathedral"
   - "The Melbourne Recital Centre"
-tier: 1
+tier: 0
 ---
 
 
