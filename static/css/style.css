@@ -216,11 +216,31 @@ em{
   text-align: right;
 }
 
-
 .footer a{ 
   color: white;
 }
 
+.contactContainer{
+  /* TODO right side padding is uneven */
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+input{
+  border: black;
+  border-style: dashed;
+  border-width: 2px;
+  width: 60%;
+}
+
+textarea{
+  border: black;
+  border-style: dashed;
+  border-width: 2px;
+  resize: none;
+  width: 100%;
+  height: 300px;
+}
 /*LIST GALLERY*/
 .gallery-container{
   display: flex;
@@ -240,14 +260,11 @@ em{
   border-radius: 2px;
   overflow: hidden;
   background-position: center; 
-  /* background-repeat: no-repeat; Do not repeat the image */
-  /* background-size: cover; ize the background image to cover the entire container */
+  /* background-size: cover;  */
+  /* background-size: contain; */
   display: flex;
-  /* flex-direction: column; */
   flex-wrap: wrap;
   justify-content: space-around;
-
-  /* align-content: center; */
 }
 
 .gallery-item div{
@@ -269,7 +286,6 @@ em{
 
   .gallery-item{
     width: unset;
-    /* max-width: calc(var(--max-width) * 0.75); */
     height: 28vh;
     margin: 0.6rem;
     flex-grow: 1;
@@ -287,6 +303,5 @@ em{
 
   .nav-item h1{
     font-size: 3em;
-    /* color: red; */
   }
 }
