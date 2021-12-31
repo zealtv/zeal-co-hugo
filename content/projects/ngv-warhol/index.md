@@ -1,5 +1,5 @@
 ---
-title: "Andy Warhol's Photobooth - Studio Cats @ NGV"
+title: "Andy Warhol's Photobooth @ NGV"
 when: 
   - "2015"
 heroImage: "./hero.jpg"
