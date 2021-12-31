@@ -6,7 +6,7 @@ heroImage: "./hero.jpg"
 what: "Gliding flight as musical performance"
 tags: ["av", "interactive", "music", "research",  "performance"]
 tier: 0
-draft: "false"
+draft: "true"
 ---
 {{< youtube zTETqfC6vvA >}}
 
