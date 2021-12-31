@@ -1,5 +1,5 @@
 ---
-title: "Luminesce: audio-visual performance for choir and light"
+title: "Luminesce: for light and voices"
 when: 
   - "2013"
   - "2014"

@@ -6,9 +6,9 @@ draft: false
 ![Bob Jarvis Portrait](/images/BobJarvisPortrait.jpg)
 
 Bob Jarvis is an Australian artist and researcher working with music, 
-vision, and code to explore the bleeding edge of multimodal composition 
-and performance, his award-winning interactive, recorded, and performed 
-audio-visual works having been exhibited internationally. Bob works as 
+vision, and code to explore the bleeding edge of multi-modal composition 
+and performance.  His award-winning interactive, recorded, and performed 
+audio-visual works have been exhibited internationally. Bob works as 
 Director of Technology for Melbourne interactive arts company Playable 
 Streets, lectures and supervises at RMIT University and The Victorian 
 College of the Arts, and offers one-on-one tuition as a Max Certified 
