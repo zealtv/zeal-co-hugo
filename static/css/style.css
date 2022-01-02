@@ -75,8 +75,9 @@ html{
 h1{
   font-size: 1.6rem;
   color: crimson;
-  font-weight: lighter;
+  /* font-weight: lighter; */
   margin-top: 1rem;
+  font-weight: 900;
 }
 
 h1 a{
@@ -93,7 +94,6 @@ h2{
   mix-blend-mode: hard-light;
   background-color: rgb(255, 225, 252);
   border-radius: 1px;
-  /* margin-top: 3rem; */
 }
 
 h3 {
@@ -101,7 +101,6 @@ h3 {
   padding: 0.5rem;
   margin-top: 0.5rem;
   font-weight: bold;
-  /* color: #000000FF; */
   opacity: 25%;
 }
 
@@ -112,9 +111,6 @@ p{
 
 strong{
   font-weight: bolder;
-  /* text-shadow: #f35df8; */
-  /* text-transform: uppercase; */
-  /* font-style: ; */
 }
 
 em{
@@ -360,6 +356,7 @@ textarea{
 
   .nav-item h1{
     font-size: 3em;
+    font-weight: 500;
   }
 
   .footer{
