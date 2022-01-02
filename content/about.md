@@ -7,13 +7,16 @@ draft: false
 
 Bob Jarvis is an Australian artist and researcher working with music, 
 vision, and code to explore the bleeding edge of multi-modal composition 
-and performance.  His award-winning interactive, recorded, and performed 
+and performance.  
+
+His award-winning interactive, recorded, and performed 
 audio-visual works have been exhibited internationally. Bob works as 
 Director of Technology for Melbourne interactive arts company Playable 
 Streets, lectures and supervises at RMIT University and The Victorian 
 College of the Arts, and offers one-on-one tuition as a Max Certified 
 Trainer.
 
+{{< figure src="/images/MaxCertifiedTrainer-2021-dark.jpg" alt="Max Certified Trainer Logo" height="100">}}
 
 ## Publications
 
