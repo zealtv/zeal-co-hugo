@@ -8,11 +8,9 @@ tags:
   - "av"  
   - "music"
 tier: 1
+abstract: "Adelaide to Melbourne is a musical sonification of the approach and landing into Melbourne airport.  Shot at night, the aircraft's navigation beacons and the street lights below provide rhythm and pitch data for Piano, Marimba, and Xylophone."  
 ---
-
 {{< vimeo 128698185 >}}
-
-Video of the approach to Melbourne airport sonified for piano, marimba and xylophone.
 
 The piece takes a practical approach the phenomenon of synesthesia and aleatoric music, allowing the moving image to produce a composition with only distant intervention and direction from the composer. Three vertical columns of pixels are analyzed and converted into musical notes for piano, marimba and xylophone, with the brightness of the pixels varying the velocity of the notes.
 

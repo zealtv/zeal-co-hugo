@@ -326,6 +326,11 @@ textarea{
   margin: 0;
 }
 
+.project-abstract{
+  text-align: center;
+  margin: 1.6rem;
+}
+
 
 /* BIG SCREENS */
 @media (min-width: 600px) {

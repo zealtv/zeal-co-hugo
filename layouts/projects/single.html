@@ -13,10 +13,9 @@
       {{if .Params.with}} <div><strong>with</strong>  {{range .Params.with}} <span>◽ {{.}} </span> {{end}} </div> {{end}}
       {{if .Params.when}} <div><strong>when</strong> {{range .Params.when}} <span>◽ {{.}} </span> {{end}} </div> {{end}}
       {{if .Params.where}} <div><strong>where</strong> {{range .Params.where}} <span>◽ {{.}} </span> {{end}} </div> {{end}}
-      
-
     </div>
     
+    {{with .Params.abstract}}<div class="project-abstract"><em>{{.}}</em></div>{{end}}
 
 
     {{ .Content }}
