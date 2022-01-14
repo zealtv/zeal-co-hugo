@@ -12,11 +12,11 @@ abstract: "Slingshot is a composition for solo baritone ukulele.  The piece is s
 ---
 {{< youtube FaqRa3x7JJQ >}}
  
-Over 2020 and 2021 I found myself, like many others, displaced.  Akin to music, one change is often paired with another.  So there  I found myself, living in another state clocking up a good number of hours on the baritone ukulele.
+Over 2020 and 2021 I found myself, like many others, displaced.  Akin to music, one change is often paired with another.  So there  I found myself, living in another state, clocking up a good number of hours on the baritone ukulele.
 
-It is a very limited instrument.  Even with percussive taps, and articulations, harmonics are generally weak on the nylon strings.  But, to paraphrase myself, limitations are the sugar-free energy drink of creativity.
+It is a very limited instrument that resists extended technique.  Even with percussive taps, and articulations, harmonics are generally weak on the nylon strings.  But, to paraphrase myself, limitations are the sugar-free energy drink of creativity.
 
-Being such a comfortable instrument, it lends itself well to absent-minded improvisation - a kind of musical automatic writing.  Around the time of the January 6t insurrection, I captured my musical response to the news unfolding in realtime.  A recording I then titled "Duet for Baritione Ukulele and the Passing of Time"
+Being such a comfortable instrument, it lends itself well to absent-minded improvisation - a kind of musical automatic writing.  Around the time of the January 6th insurrection, I captured my musical response to the news unfolding in realtime.  A recording I then titled "Duet for Baritione Ukulele and the Passing of Time".
 
 {{<youtube 9c43Empqcgc>}}
 
