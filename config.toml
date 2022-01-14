@@ -2,5 +2,3 @@ baseURL = "http://zeal.co/"
 languageCode = "en-us"
 title = "ZEAL.CO"
 
-[params]
-favicon = “/favicon/favicon.ico” # Path to favicon file
