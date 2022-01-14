@@ -9,10 +9,12 @@
     
     <div class="project-meta">
       <h2>{{.Params.title}}</h2>
-      {{with .Params.what}} <div><strong>what</strong> ◽ {{.}}</div> {{end}}
-      {{if .Params.with}} <div><strong>with</strong>  {{range .Params.with}} <span>◽ {{.}} </span> {{end}} </div> {{end}}
-      {{if .Params.when}} <div><strong>when</strong> {{range .Params.when}} <span>◽ {{.}} </span> {{end}} </div> {{end}}
-      {{if .Params.where}} <div><strong>where</strong> {{range .Params.where}} <span>◽ {{.}} </span> {{end}} </div> {{end}}
+      <table>
+      {{with .Params.what}} <tr> <td><strong>what</strong></td> <td> 💛 {{.}} </td></tr>{{end}}
+      {{if .Params.with}} <tr> <td><strong>with</strong></td>  <td>{{range .Params.with}} <span> 💛 {{.}} </span> {{end}}</td>  </tr>{{end}}
+      {{if .Params.when}} <tr> <td><strong>when</strong></td> <td>{{range .Params.when}} <span> 💛 {{.}} </span> {{end}}</td>  </tr>{{end}}
+      {{if .Params.where}} <tr> <td><strong>where</strong></td> <td>{{range .Params.where}} <span> 💛 {{.}} </span> {{end}}</td>  </tr>{{end}}
+      </table>
     </div>
     
     {{with .Params.abstract}}<div class="project-abstract"><em>{{.}}</em></div>{{end}}

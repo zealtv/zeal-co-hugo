@@ -310,8 +310,9 @@ textarea{
   background-color: rgb(164, 137, 216);
 }
 
-.project-meta div {
-  padding: 0.3rem;
+.project-meta td {
+  padding: 0.1rem;
+  padding-left: 0.5rem;
 }
 
 .project-hero-banner{
@@ -324,7 +325,9 @@ textarea{
 
 .project-abstract{
   text-align: center;
-  margin: 1.6rem;
+  padding: 1.6rem;
+  background-color: rgb(175, 151, 216);
+
 }
 
 
