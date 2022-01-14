@@ -1,7 +1,8 @@
 ---
 title: "Slingshot"
 when: 
-  - "2021-11-26"
+  - "2021"
+where: "Mt Lofty, South Australia"
 heroImage: "./hero.jpg"
 what: "Piece for solo baritone ukulele"
 tags: ["music"]
