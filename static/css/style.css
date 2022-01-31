@@ -281,6 +281,10 @@ textarea{
   /* overflow: hidden; */
 }
 
+.gallery-container a{
+  text-decoration: none;
+}
+
 .gallery-item{
   width: calc(100vw - 20px);
   height: 28vh;
@@ -305,8 +309,53 @@ textarea{
   margin: 0.6rem;
 }
 
-.gallery-container a{
+.note-item{
+  /* width: calc(100vw - 20px); */
+  /* height: 28vh; */
+  background-color: blueviolet;
+  /* color: green; */
+  border: 2px solid darkviolet;
+  border-radius: 2px;
+  overflow: hidden;
+  background-position: center; 
+  display: flex;
+  flex-shrink: 1;
+  /* max-width: 96vw; */
+  /* max-width: 45vw; */
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  justify-content: start;
+  margin: 0.6rem;
   text-decoration: none;
+}
+
+.note-item div span{
+  overflow: hidden;
+  /* background-color: #f35df8; */
+  max-width: 33vw;
+  padding: 2rem;
+  margin: 2rem;
+}
+
+.note-date{
+  color: whitesmoke;
+  padding: 0.2rem;
+}
+
+.note-item h2{
+  overflow: hidden;
+  /* background-color: #f35df8; */
+  max-width: 66vw;
+  padding: 1rem;
+}
+
+
+.summary-div{
+  overflow: hidden;
+  background-color: orchid;
+  max-width: 33vw;
+  padding: 1rem;
+  border-top-right-radius: 2rem;
 }
 
 

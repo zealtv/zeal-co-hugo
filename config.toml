@@ -3,9 +3,16 @@ languageCode = "en-us"
 title = "ZEAL.CO"
 ignorefiles = [ "notebook/Templates/*" ]
 enableGitInfo = true
+summaryLength = 10
 
 
 # this post discusses a use for this:
 # https://blog.bobhy.com/blog/lessons-learned-in-hugo-config/
 # [permalinks]
     # notebook = "/notebook/:slug"
+
+[frontmatter]
+  date = ['date', 'publishDate', 'lastmod']
+  expiryDate = ['expiryDate']
+  lastmod = [':git', 'lastmod', ':fileModTime', 'date', 'publishDate']
+  publishDate = ['publishDate', 'date']

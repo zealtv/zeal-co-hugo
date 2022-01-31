@@ -1,16 +1,16 @@
 {{ define "main" }}
   <div class="content">
     <div class="gallery-container">
-      {{ range .Pages.ByLastmod }}
+      {{ range .Pages.ByLastmod.Reverse }}
      
       <a href="{{.URL}}">
-        <div class="gallery-item"
+        <div class="note-item"
         {{ if .Params.heroImage }}
           style="background-image:url(' {{ .URL }}{{ .Params.heroImage }} ');"
         {{end}}>
             <h2>{{.Title}}</h2>
-            <span>📅{{.Date}} </span>
-            <p>{{.Summary}}</p>
+            <span class="note-date">📅{{.Params.lastmod}} </span>
+            <div class="summary-div">{{.Summary}}</div>
         </div>
         </a>
       {{ end }}
