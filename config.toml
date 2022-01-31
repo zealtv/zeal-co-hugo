@@ -1,4 +1,4 @@
 baseURL = "http://zeal.co/"
 languageCode = "en-us"
 title = "ZEAL.CO"
-
+ignorefiles = [ "notebook/Templates/.*" ]

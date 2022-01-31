@@ -1,0 +1,31 @@
+{{ define "main" }}
+<div class="main-grid-container">
+  <div class="content">
+    
+    <!-- <div class="project-hero-banner"
+    {{ if .Params.heroImage }}
+      style="background-image:url(' {{ .URL }}{{ .Params.heroImage }} ');"
+    {{end}}>
+    </div> -->
+
+    <div class="project-meta">
+      <h2>{{.Params.title}}</h2>
+      <table>
+      {{with .Params.what}} <tr> <td><strong>what</strong></td> <td> 💛 {{.}} </td></tr>{{end}}
+      {{if .Params.with}} <tr> <td><strong>with</strong></td>  <td>{{range .Params.with}} <span> 💛 {{.}} </span> {{end}}</td>  </tr>{{end}}
+      {{if .Params.when}} <tr> <td><strong>when</strong></td> <td>{{range .Params.when}} <span> 💛 {{.}} </span> {{end}}</td>  </tr>{{end}}
+      {{if .Params.where}} <tr> <td><strong>where</strong></td> <td>{{range .Params.where}} <span> 💛 {{.}} </span> {{end}}</td>  </tr>{{end}}
+      </table>
+    </div>
+    
+    {{with .Params.abstract}}<div class="project-abstract"><em>{{.}}</em></div>{{end}}
+
+
+    {{ .Content }}
+
+  </div>
+  
+  
+  <div class="contextual-nav"></div>
+</div>
+{{end}}

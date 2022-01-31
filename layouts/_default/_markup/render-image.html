@@ -1,0 +1,18 @@
+{{ $destination := .Destination }}
+{{ $isAbsolute := hasPrefix .Destination "http" }}
+{{ $isNotebook := eq .Page.Type "notebook" }} 
+
+<!-- THIS IS A KLUDGE AS I COULDN'T GET SECTION SPECIFIC MARKDOWN HOOKS TO WORK -->
+<!-- if type is of notebook, and if path does not begin with http, we assume it is relative and adjust accordingly -->
+
+{{if $isNotebook }}
+  {{if not $isAbsolute }}
+    {{$destination = $destination | htmlEscape | safeURL}}
+    {{$destination = path.Join "../" $destination}}
+  {{end}}
+{{end}}
+  
+<p class="notebook-image">
+  <img src="{{$destination}}" alt="🖼"  /> 
+</p>
+

@@ -1,0 +1,18 @@
+<!-- <a href="https://google.com">{{ .Text | safeHTML }}</a> -->
+{{ $inputpath := .Destination }}
+
+{{ $destination := .Destination }}
+{{ $isAbsolute := hasPrefix .Destination "http" }}
+{{ $isNotebook := eq .Page.Type "notebook" }} 
+
+<!-- THIS IS A KLUDGE AS I COULDN'T GET SECTION SPECIFIC MARKDOWN HOOKS TO WORK -->
+<!-- if type is of notebook, and if path does not begin with http, we assume it is relative and adjust accordingly -->
+
+{{if $isNotebook }}
+  {{if not $isAbsolute }}
+    {{$destination = replace $inputpath "%20" " " | urlize |  strings.TrimSuffix ".md" | safeURL}}
+    {{$destination = path.Join "../" $destination}}
+  {{end}}
+{{end}}
+
+<a href="{{ $destination }}">{{ .Text | safeHTML }}</a>
