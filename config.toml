@@ -1,4 +1,11 @@
 baseURL = "http://zeal.co/"
 languageCode = "en-us"
 title = "ZEAL.CO"
-ignorefiles = [ "notebook/Templates/.*" ]
+ignorefiles = [ "notebook/Templates/*" ]
+enableGitInfo = true
+
+
+# this post discusses a use for this:
+# https://blog.bobhy.com/blog/lessons-learned-in-hugo-config/
+# [permalinks]
+    # notebook = "/notebook/:slug"
