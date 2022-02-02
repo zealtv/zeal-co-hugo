@@ -235,6 +235,7 @@ code {
 .content{
   background-color: yellow;
   /* display: flex; */
+  max-width: 100vw;
 }
 
 .content img{
