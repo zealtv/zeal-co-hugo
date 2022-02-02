@@ -14,5 +14,7 @@ summaryLength = 10
 [frontmatter]
   date = ['date', 'publishDate', 'lastmod']
   expiryDate = ['expiryDate']
-  lastmod = [':git', 'lastmod', ':fileModTime', 'date', 'publishDate']
+  lastmod = ['lastmod', ':fileModTime', 'date', 'publishDate']
+  # git was giving the same lastmod time to all notebook files
+  # lastmod = [':git', 'lastmod', ':fileModTime', 'date', 'publishDate']
   publishDate = ['publishDate', 'date']
