@@ -50,7 +50,7 @@ ol, ul {
 }
 
 li::before{
-  content: '◾ ';
+  content: '🍄 ';
 }
 
 hr{
@@ -134,6 +134,10 @@ strong{
 
 em{
   font-style: italic;
+}
+
+del {
+  text-decoration: line-through;
 }
 
 pre{
