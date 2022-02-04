@@ -44,9 +44,14 @@ body {
   line-height: 1;
 }
 ol, ul {
-  list-style:  none;
-  /* padding: 1rem; */
-  margin: 1rem;
+  list-style: none;
+  padding-left: 1rem;
+  /* margin: 1rem; */
+  /* why no worky? */
+}
+
+li{
+  padding-bottom: 1rem;
 }
 
 li::before{
