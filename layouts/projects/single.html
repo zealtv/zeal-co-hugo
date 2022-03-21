@@ -4,7 +4,7 @@
     
     <div class="project-hero-banner"
     {{ if .Params.heroImage }}
-      style="background-image:url(' {{ .URL }}{{ .Params.heroImage }} ');"
+      style="background-image:url(' {{ .Permalink }}{{ .Params.heroImage }} ');"
     {{end}}></div>
     
     <div class="project-meta">

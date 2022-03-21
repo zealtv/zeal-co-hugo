@@ -3,10 +3,10 @@
     <div class="gallery-container">
       {{ range (.Pages.ByParam "tier") }}
      
-      <a href="{{.URL}}">
+      <a href="{{.Permalink}}">
         <div class="gallery-item"
         {{ if .Params.heroImage }}
-          style="background-image:url(' {{ .URL }}{{ .Params.heroImage }} ');"
+          style="background-image:url(' {{ .Permalink }}{{ .Params.heroImage }} ');"
         {{end}}>
             <div><h2>{{.Title}}</h2></div>
             <!-- <div>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div> -->

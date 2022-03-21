@@ -46,7 +46,7 @@ body {
 ol, ul {
   list-style: none;
   padding-left: 1rem;
-  /* margin: 1rem; */
+  margin: 1rem 0.25rem;
   /* why no worky? */
 }
 
@@ -64,6 +64,11 @@ hr{
 
 blockquote, q {
   quotes: none;
+  margin: 1rem;
+  border-color: #333333;
+  border-style: dashed;
+  border-width: 1px;
+  font-style: italic;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -152,9 +157,10 @@ pre{
   padding: 1rem;
   background-color: #333333;
   border: limegreen;
-  border-radius: 2px;
   border-style: solid;
   border-radius: 0.6rem;
+  white-space: pre-wrap;
+  word-wrap: break-word;
 }
 
 code {

@@ -3,10 +3,10 @@
     <div class="gallery-container">
       {{ range .Pages.ByLastmod.Reverse }}
      
-      <a href="{{.URL}}">
+      <a href="{{.Permalink}}">
         <div class="note-item"
         {{ if .Params.heroImage }}
-          style="background-image:url(' {{ .URL }}{{ .Params.heroImage }} ');"
+          style="background-image:url(' {{ .Permalink }}{{ .Params.heroImage }} ');"
         {{end}}>
             <h2>{{.Title}}</h2>
             <span class="note-date">📅{{.Params.lastmod}} </span>
