@@ -64,11 +64,6 @@ hr{
 
 blockquote, q {
   quotes: none;
-  margin: 1rem;
-  border-color: #333333;
-  border-style: dashed;
-  border-width: 1px;
-  font-style: italic;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
@@ -165,6 +160,14 @@ pre{
 
 code {
   color: limegreen;
+}
+
+blockquote, q {
+  margin: 2.33rem 2.33rem;
+  border-color: #333333;
+  border-style: dashed;
+  border-width: 1px;
+  font-style: italic;
 }
 
 .site-container{
