@@ -132,6 +132,7 @@ h4 {
 p{
   /* margin:0; */
   margin: 1rem;
+  /* margin-right: 2rem; */
   /* margin-bottom: 0.25rem; */
 }
 
@@ -148,7 +149,8 @@ del {
 }
 
 pre{
-  margin: 1rem;
+  margin: 1rem 5%;
+  /* width: 80%; */
   padding: 1rem;
   background-color: #333333;
   border: limegreen;
@@ -237,6 +239,9 @@ blockquote, q {
 /* MAIN */
 .main{
   background-color: yellow;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  /* word-wrap: break-word; */
 }
 
 /*CONTAINER FOR SINGLE PAGE*/
