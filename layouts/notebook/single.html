@@ -8,8 +8,17 @@
     {{end}}>
     </div> -->
 
+
+
     <div class="project-meta">
+
       <h2>{{.Params.title}}</h2>
+
+      {{ if .Params.git }}
+      <h4><a href=' {{ .Params.git }} '>🟢 RELATED CODE AVAILABLE</a> </h4>
+      {{end}}
+      
+
       <table>
       {{with .Params.what}} <tr> <td><strong>what</strong></td> <td> 💛 {{.}} </td></tr>{{end}}
       {{if .Params.with}} <tr> <td><strong>with</strong></td>  <td>{{range .Params.with}} <span> 💛 {{.}} </span> {{end}}</td>  </tr>{{end}}
