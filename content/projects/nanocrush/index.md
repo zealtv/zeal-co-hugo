@@ -2,20 +2,17 @@
 title: "nanocrush"
 when: 
   - "2021-02-20"
-heroImage: "./hero.jpg"
-what: "."
+heroImage: "./crushbot-higher-res-animated.gif"
+what: "Short Audiovisual works as proof-of-stake NFTs"
 where:
-  - "."
-with: 
-  - "."
+  - "hic et nunc, tezos"
 tags: 
     - "animation"
     - "av"
     - "music"
-    - "software"
-tier: 3
+tier: 2
 draft: "true"
-abstract: "Looping audiovisual pixel works." 
+abstract: "Objects of quantum value.  Simultaneously worthless and priceless." 
 ---
 
 Eighteen flowers...
