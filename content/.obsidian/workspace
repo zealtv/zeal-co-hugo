@@ -11,7 +11,7 @@
           "state": {
             "file": "projects/nanocrush/index.md",
             "mode": "source",
-            "source": false
+            "source": true
           }
         }
       }
@@ -128,6 +128,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "16d28557fa1b9d6f",
-  "lastOpenFiles": []
+  "active": "995c2cd4dff804f7",
+  "lastOpenFiles": [
+    "projects/nanocrush/EighteenFlowers1.mp4",
+    "projects/nanocrush/index.md",
+    "projects/nanocrush/eighteen flowers notes.md",
+    "projects/bowie-booth/index.md",
+    "projects/aileron/index.md"
+  ]
 }

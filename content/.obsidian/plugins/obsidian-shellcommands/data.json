@@ -4,7 +4,7 @@
   "obsidian_command_palette_prefix": "Execute: ",
   "preview_variables_in_command_palette": true,
   "show_autocomplete_menu": true,
-  "working_directory": "",
+  "working_directory": "..",
   "default_shells": {},
   "environment_variable_path_augmentations": {},
   "error_message_duration": 20,
@@ -17,11 +17,71 @@
     {
       "id": "tpzuzzrqzl",
       "platform_specific_commands": {
-        "default": "cd ..; git add .; git commit -m \"✒️ commit from obsidian\"; git push origin main"
+        "default": "git add .; git commit -m \"✒️ commit from obsidian\"; git push origin main"
       },
       "shells": {},
       "alias": "",
       "icon": "zap",
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "arshg3chnd",
+      "platform_specific_commands": {
+        "default": "hugo serve "
+      },
+      "shells": {},
+      "alias": "Hugo Serve  🤖",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "lr90xmej7h",
+      "platform_specific_commands": {
+        "default": "hugo serve -D"
+      },
+      "shells": {},
+      "alias": "Hugo Serve Draft 🤖🗒",
+      "icon": null,
+      "confirm_execution": false,
+      "ignore_error_codes": [],
+      "output_channels": {
+        "stdout": "ignore",
+        "stderr": "notification"
+      },
+      "output_channel_order": "stdout-first",
+      "events": {},
+      "command_palette_availability": "enabled",
+      "preactions": [],
+      "variable_default_values": {}
+    },
+    {
+      "id": "pbda9sc86u",
+      "platform_specific_commands": {
+        "default": "pkill hugo"
+      },
+      "shells": {},
+      "alias": "Hugo Kill ❌😵",
+      "icon": null,
       "confirm_execution": false,
       "ignore_error_codes": [],
       "output_channels": {

@@ -494,3 +494,13 @@ textarea{
     /* flex-direction: row; */
   }
 }
+
+.video {
+  margin: 0.3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+/*   background: black; */
+
+
+}
