@@ -10,7 +10,7 @@ tags:
     - "animation"
     - "av"
     - "music"
-tier: 2
+tier: 1
 abstract: "looping visual music pixel animations: transcendant objects of quantum value in the style of the 2021 pandemic and nft stampede" 
 ---
 
