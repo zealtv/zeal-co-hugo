@@ -5,7 +5,7 @@ when:
 heroImage: "./crushbot-higher-res-animated.gif"
 what: "Short Audiovisual works as proof-of-stake NFTs"
 where:
-  - "hic et nunc, tezos"
+  - "the tezos blockchain"
 tags: 
     - "animation"
     - "av"
@@ -14,6 +14,8 @@ tier: 2
 draft: "true"
 abstract: "Objects of quantum value.  Simultaneously worthless and priceless." 
 ---
+
+
 
 Eighteen flowers...
 
