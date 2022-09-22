@@ -18,9 +18,9 @@ abstract: "looping visual music pixel animations: transcendant objects of quantu
 ### (18 Editions) 
 
 {{< video "./EighteenFlowers1.mp4" "video">}}
-[right click save as [MP4]](./EighteenFlowers1.mp4) 
 
 ## https://objkt.com/asset/hicetnunc/478911
+[right click save as [MP4]](./EighteenFlowers1.mp4) 
 
 ~~~
 🌻 New OBJKT audio-visual piece "Eighteen Flowers #1"
@@ -47,9 +47,10 @@ audiovisual
 ### (16 Editions)
 
 {{< video1 "./SixteenDrumpads1.mp4" "video">}}
-[right click save as [MP4]](./SixteenDrumpads.mp4) 
 
 ## https://objkt.com/asset/hicetnunc/454079
+
+[right click save as [MP4]](./SixteenDrumpads.mp4) 
 
 ~~~
 Synchronized digital light and sound. 2021. 
