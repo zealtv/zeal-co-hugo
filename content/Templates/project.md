@@ -1,14 +1,14 @@
 ---
 title: {{title}}
-when: 
+when:
   - "2020-02-20"
 heroImage: "./hero.jpg"
 what: "."
 where:
   - "."
-with: 
+with:
   - "."
-tags: 
+tags:
     - "animation"
     - "av"
     - "interactive"
