@@ -14,7 +14,7 @@ tier: 1
 abstract: "looping visual music pixel animations: transcendant objects of quantum value in the style of the 2021 pandemic and nft stampede" 
 ---
 
-# Eighteen Flowers (18 Editions)
+# Eighteen Flowers
 ## https://objkt.com/asset/hicetnunc/478911
 ### (16 Editions) 
 [right click save as [MP4]](./EighteenFlowers1.mp4) 
@@ -41,9 +41,6 @@ pixelart
 animation
 audiovisual
 ~~~
-![[PNG]](./18fgenerative.png )
-![[PNG]](./EighteenFlowers1.png)
-![[PNG]](./eighteen-max.png )
 
 ---
 
@@ -66,8 +63,7 @@ Max 8.2.0
 ffmpeg 2021-09-22-git-447cf53774
 ~~~
 
-
-![[twitter-banner.png]](./twitter-banner.png )
+---
 
 
 

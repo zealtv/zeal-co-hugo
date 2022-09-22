@@ -61,7 +61,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "39b167be8eccb65c",
@@ -128,10 +129,15 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "995c2cd4dff804f7",
+  "active": "16d28557fa1b9d6f",
   "lastOpenFiles": [
-    "projects/nanocrush/EighteenFlowers1.mp4",
+    "notebook/connection express.md",
+    "notebook/Neurotheology, aliens, and understanding the immaterial.md",
+    "notebook/Hyperpop is smart..md",
+    "notebook/Introduction to Max by way of Microtonality.md",
+    "notebook/Jacques Vallee and The Popular Audience.md",
     "projects/nanocrush/index.md",
+    "projects/nanocrush/EighteenFlowers1.mp4",
     "projects/nanocrush/eighteen flowers notes.md",
     "projects/bowie-booth/index.md",
     "projects/aileron/index.md"
