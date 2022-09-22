@@ -11,7 +11,7 @@ tags:
     - "av"
     - "music"
 tier: 1
-abstract: "looping visual music pixel animations: transcendant objects of quantum value in the style of the 2021 pandemic and nft stampede" 
+abstract: "transcendant objects of quantum value in the style of the 2021 pandemic and nft stampede" 
 ---
 
 # Eighteen Flowers
