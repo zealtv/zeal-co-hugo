@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "notebook/README.md",
+            "file": "projects/nanocrush/index.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "notebook/README.md",
+                "file": "projects/nanocrush/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "notebook/README.md",
+                "file": "projects/nanocrush/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "notebook/README.md"
+                "file": "projects/nanocrush/index.md"
               }
             }
           }
@@ -128,8 +128,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "995c2cd4dff804f7",
+  "active": "16d28557fa1b9d6f",
   "lastOpenFiles": [
+    "notebook/README.md",
     "Templates/project.md",
     "Templates/note.md",
     "projects/iscream/index.md",
@@ -138,7 +139,6 @@
     "projects/bugpeeps/index.md",
     "projects/axis/index.md",
     "projects/aileron/index.md",
-    "projects/obstinate/index.md",
-    "projects/remixes-and-collabs/index.md"
+    "projects/obstinate/index.md"
   ]
 }

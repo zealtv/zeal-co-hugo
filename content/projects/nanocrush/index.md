@@ -15,8 +15,7 @@ abstract: "looping visual music pixel animations: transcendant objects of quantu
 ---
 
 # Eighteen Flowers
-
-### (16 Editions) 
+### (18 Editions) 
 
 {{< video "./EighteenFlowers1.mp4" "video">}}
 [right click save as [MP4]](./EighteenFlowers1.mp4) 
