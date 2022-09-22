@@ -17,10 +17,9 @@ abstract: "looping visual music pixel animations: transcendant objects of quantu
 # Eighteen Flowers
 
 ### (16 Editions) 
-[right click save as [MP4]](./EighteenFlowers1.mp4) 
-
 
 {{< video "./EighteenFlowers1.mp4" "video">}}
+[right click save as [MP4]](./EighteenFlowers1.mp4) 
 
 ## https://objkt.com/asset/hicetnunc/478911
 
@@ -47,11 +46,9 @@ audiovisual
 
 # Sixteen Drumpads
 ### (16 Editions)
-[right click save as [MP4]](./SixteenDrumpads.mp4) 
-
-
 
 {{< video1 "./SixteenDrumpads1.mp4" "video">}}
+[right click save as [MP4]](./SixteenDrumpads.mp4) 
 
 ## https://objkt.com/asset/hicetnunc/454079
 
