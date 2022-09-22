@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "projects/nanocrush/index.md",
+            "file": "notebook/Templates/project.md",
             "mode": "source",
             "source": true
           }
@@ -61,8 +61,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "39b167be8eccb65c",
@@ -78,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/nanocrush/index.md",
+                "file": "notebook/Templates/project.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/nanocrush/index.md",
+                "file": "notebook/Templates/project.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/nanocrush/index.md"
+                "file": "notebook/Templates/project.md"
               }
             }
           }
@@ -131,15 +130,15 @@
   },
   "active": "16d28557fa1b9d6f",
   "lastOpenFiles": [
-    "notebook/connection express.md",
-    "notebook/Neurotheology, aliens, and understanding the immaterial.md",
-    "notebook/Hyperpop is smart..md",
-    "notebook/Introduction to Max by way of Microtonality.md",
-    "notebook/Jacques Vallee and The Popular Audience.md",
-    "projects/nanocrush/index.md",
-    "projects/nanocrush/EighteenFlowers1.mp4",
-    "projects/nanocrush/eighteen flowers notes.md",
-    "projects/bowie-booth/index.md",
-    "projects/aileron/index.md"
+    "notebook/Templates/note.md",
+    "notebook/Templates/project.md",
+    "projects/iscream/index.md",
+    "projects/i-am/index.md",
+    "projects/coach/index.md",
+    "projects/bugpeeps/index.md",
+    "projects/axis/index.md",
+    "projects/aileron/index.md",
+    "projects/obstinate/index.md",
+    "projects/remixes-and-collabs/index.md"
   ]
 }
