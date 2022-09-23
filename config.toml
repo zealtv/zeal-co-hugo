@@ -4,6 +4,7 @@ title = "ZEAL.CO"
 ignorefiles = [ "Templates/*" ]
 enableGitInfo = true
 summaryLength = 10
+googleAnalytics = "333696126"
 
 
 # this post discusses a use for this:
