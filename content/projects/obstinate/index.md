@@ -1,7 +1,7 @@
 ---
 title: "Obstinate"
 when: 
-  - "2020-04-04"
+  - "2015"
 heroImage: "hero.jpeg"
 what: "Stop motion animated music video with custom software"
 tags: 

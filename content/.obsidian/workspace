@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "projects/slingshot/index.md",
+            "file": "projects/obstinate/index.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/slingshot/index.md",
+                "file": "projects/obstinate/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/slingshot/index.md",
+                "file": "projects/obstinate/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/slingshot/index.md"
+                "file": "projects/obstinate/index.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "16d28557fa1b9d6f",
   "lastOpenFiles": [
+    "projects/slingshot/index.md",
     "projects/nanocrush/index.md",
     "about.md",
     "search.md",
@@ -138,7 +139,6 @@
     "Templates/note.md",
     "projects/fireflies/fireflies.md",
     "projects/i-am/index.md",
-    "projects/fireflies/hero.png",
-    "projects/invenio-apra-art-music-awards/index.md"
+    "projects/fireflies/hero.png"
   ]
 }
