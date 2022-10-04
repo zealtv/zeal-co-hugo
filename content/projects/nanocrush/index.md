@@ -15,7 +15,6 @@ abstract: "simultaneously priceless and worthless: transcendant objects of quant
 ---
 
 # Eighteen Flowers
-### (18 Editions) 
 
 {{< video "./EighteenFlowers1.mp4" "video">}}
 
@@ -23,10 +22,8 @@ abstract: "simultaneously priceless and worthless: transcendant objects of quant
 [right click save as [MP4]](./EighteenFlowers1.mp4) 
 
 ~~~
-🌻 New OBJKT audio-visual piece "Eighteen Flowers #1"
-hic.art/478911 | 18 editions | SOUND ON 🔊
-
 Synchronized digital light and sound. 2021.
+18 editions.
 
 Software used in creation:
 Aseprite v1.3-beta6-x64
@@ -34,17 +31,11 @@ Max 8.2.0
 OBS Studio 27.1.3 (64 bit)
 Avidemux 2.7.8
 
-music
-loop
-pixelart
-animation
-audiovisual
 ~~~
 
 ---
 
 # Sixteen Drumpads
-### (16 Editions)
 
 {{< video1 "./SixteenDrumpads1.mp4" "video">}}
 
@@ -54,6 +45,7 @@ audiovisual
 
 ~~~
 Synchronized digital light and sound. 2021. 
+16 editions.
 
 Software used in creation: 
 Aseprite v1.3-beta6-x64 

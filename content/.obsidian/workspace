@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "about.md",
+            "file": "projects/nanocrush/index.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "about.md",
+                "file": "projects/nanocrush/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "about.md",
+                "file": "projects/nanocrush/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "about.md"
+                "file": "projects/nanocrush/index.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "16d28557fa1b9d6f",
   "lastOpenFiles": [
+    "about.md",
     "search.md",
     "contact.md",
     "Templates/project.md",
@@ -138,7 +139,6 @@
     "projects/i-am/index.md",
     "projects/fireflies/hero.png",
     "projects/invenio-apra-art-music-awards/index.md",
-    "projects/invenio-apra-art-music-awards/hero.jpg",
-    "projects/iscream/hero.jpg"
+    "projects/invenio-apra-art-music-awards/hero.jpg"
   ]
 }
