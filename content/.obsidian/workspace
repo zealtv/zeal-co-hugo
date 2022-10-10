@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "projects/obstinate/index.md",
+            "file": "notebook/VIZZIE SNIPPETS.md",
             "mode": "source",
             "source": false
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/obstinate/index.md",
+                "file": "notebook/VIZZIE SNIPPETS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/obstinate/index.md",
+                "file": "notebook/VIZZIE SNIPPETS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/obstinate/index.md"
+                "file": "notebook/VIZZIE SNIPPETS.md"
               }
             }
           }
@@ -130,6 +130,7 @@
   },
   "active": "16d28557fa1b9d6f",
   "lastOpenFiles": [
+    "projects/obstinate/index.md",
     "projects/slingshot/index.md",
     "projects/nanocrush/index.md",
     "about.md",
@@ -138,7 +139,6 @@
     "Templates/project.md",
     "Templates/note.md",
     "projects/fireflies/fireflies.md",
-    "projects/i-am/index.md",
-    "projects/fireflies/hero.png"
+    "projects/i-am/index.md"
   ]
 }
