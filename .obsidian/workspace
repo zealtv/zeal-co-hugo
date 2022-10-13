@@ -1,33 +1,29 @@
 {
   "main": {
-    "id": "1d1705f2108d8ace",
+    "id": "980ce378d5766e6a",
     "type": "split",
     "children": [
       {
-        "id": "16d28557fa1b9d6f",
+        "id": "67551e9a36d1abf9",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "projects/elevon one/index.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "6c4a6efcc85bdfb9",
+    "id": "14181ac9f1a14a3c",
     "type": "split",
     "children": [
       {
-        "id": "050c1009a3749e7f",
+        "id": "6761f9a639cef383",
         "type": "tabs",
         "children": [
           {
-            "id": "995c2cd4dff804f7",
+            "id": "5269688cb9b328b1",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +31,7 @@
             }
           },
           {
-            "id": "0076825cb1fa21aa",
+            "id": "54022e4d5bafe614",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,7 +46,7 @@
             }
           },
           {
-            "id": "2fab8137c5bc0cf7",
+            "id": "fbebba06bbbab49b",
             "type": "leaf",
             "state": {
               "type": "starred",
@@ -61,23 +57,22 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 269.5
   },
   "right": {
-    "id": "39b167be8eccb65c",
+    "id": "3e41d1fc7bab045f",
     "type": "split",
     "children": [
       {
-        "id": "d476df17f3e1303b",
+        "id": "a58890e7969ac660",
         "type": "tabs",
         "children": [
           {
-            "id": "00cab725cf982042",
+            "id": "852677111bdeb836",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/elevon one/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,19 +84,18 @@
             }
           },
           {
-            "id": "2f46003002533f44",
+            "id": "78c925fdfbf34e37",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/elevon one/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "25a71a80817998a3",
+            "id": "aae6dbbe6519f058",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -112,13 +106,11 @@
             }
           },
           {
-            "id": "7ddb7c88099cfba8",
+            "id": "de5295f697a82900",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "projects/elevon one/index.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -128,17 +120,6 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "16d28557fa1b9d6f",
-  "lastOpenFiles": [
-    "about.md",
-    "projects/elevon one/index.md",
-    "projects/gideon/index.md",
-    "projects/slingshot/index.md",
-    "projects/obstinate/index.md",
-    "notebook/VIZZIE SNIPPETS.md",
-    "projects/nanocrush/index.md",
-    "search.md",
-    "contact.md",
-    "Templates/project.md"
-  ]
+  "active": "67551e9a36d1abf9",
+  "lastOpenFiles": []
 }
