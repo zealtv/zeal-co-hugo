@@ -1,5 +1,6 @@
 {
   "theme": "obsidian",
   "translucency": false,
-  "cssTheme": "Bubble Space"
+  "cssTheme": "Bubble Space",
+  "accentColor": ""
 }
