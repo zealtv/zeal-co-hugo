@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/elevon one/index.md",
+                "file": "notebook/Metahoax and Deniable Credibility.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 228.5
   },
   "right": {
     "id": "39b167be8eccb65c",
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "projects/elevon one/index.md",
+                "file": "notebook/Metahoax and Deniable Credibility.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "projects/elevon one/index.md",
+                "file": "notebook/Metahoax and Deniable Credibility.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "projects/elevon one/index.md"
+                "file": "notebook/Metahoax and Deniable Credibility.md"
               }
             }
           }
@@ -136,20 +136,17 @@
     "width": 300,
     "collapsed": true
   },
-  "ribbon": {
-    "mostRecentAction": ""
-  },
   "active": "16d28557fa1b9d6f",
   "lastOpenFiles": [
-    "about.md",
+    "notebook/UAPs and demonstrations of beauty.md",
+    "notebook/Kidology, Metamodernism & Healing Division.md",
+    "notebook/Accelerating Dissonance.md",
     "projects/elevon one/index.md",
+    "about.md",
     "projects/gideon/index.md",
     "projects/slingshot/index.md",
     "projects/obstinate/index.md",
     "notebook/VIZZIE SNIPPETS.md",
-    "projects/nanocrush/index.md",
-    "search.md",
-    "contact.md",
-    "Templates/project.md"
+    "projects/nanocrush/index.md"
   ]
 }

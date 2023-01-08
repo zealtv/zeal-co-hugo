@@ -2,7 +2,7 @@
 title: UAPs and demonstrations of beauty
 date: 2022-06-30
 lastmod: 2022-09-18T19:50
-draft: false
+draft: true
 ---
 
 {{<youtube FxH-nLkj2Pw>}}
