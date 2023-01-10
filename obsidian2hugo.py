@@ -35,8 +35,101 @@ def get_file_links(markdown_file):
 
 
 
+
 # Function to recursively iterate over all files in a directory
-def iterate_files(src_path, dst_path):
+def process_notebook(src_path, dst_path):
+
+        src_notebook_path = os.path.join(src_path, "notebook")
+
+        # Iterate over all files in the source path
+        for name in os.listdir(src_notebook_path):
+            
+            # Get the full path of the file or directory
+            src_full_path = os.path.join(src_path, "notebook", name)
+            dst_full_path = os.path.join(dst_path, "notebook", name)
+
+            
+            # print(dst_full_path)
+
+
+            # is_hidden = os.path.split(name)[1].startswith(".")
+
+            # if os.path.isdir(src_full_path) and not is_hidden and name != "files":
+            #     print("processing folder: ", src_full_path)
+            #     # print(dst_full_path)
+            #     #recursively iterate files
+            #     iterate_files(src_full_path, dst_full_path)
+
+
+            if name.endswith(".md"):
+                # Check if markdown file has publish flag
+                doPublish = False
+                try:
+                    doPublish = has_publish_frontmatter(src_full_path)
+                except:
+                    print("Broken front matter: ", name)
+
+                if doPublish:
+                    print("found markdown to publish: ", name)
+                    
+                    shutil.copy(src_full_path, dst_full_path)
+                    
+                    # !IMPORTANT! links to files (ie embeded images) must use relative paths
+                    file_links = get_file_links(src_full_path)
+                    
+                    for file in file_links:
+                        print("Found file linked in markdown: ", file)
+
+                        file_src_full_path = os.path.join(src_path, file)
+                        file_dst_full_path = os.path.join(dst_path, file)
+                        if os.path.isfile(file_src_full_path):
+                            print("Copying file: ", file_src_full_path)
+                            shutil.copy(file_src_full_path, file_dst_full_path)
+                        else:
+                            print("File not found. Skipping: ", file_src_full_path)
+
+
+
+
+
+# MAIN ----------------------------------------------------
+# Get the path from the command line arguments
+src_path = sys.argv[1]
+dst_path = sys.argv[2]
+
+
+
+# Create destination folders
+
+# Create the "notebook" directory in the destination path
+notebook_dst_path = os.path.join(dst_path, "notebook")
+shutil.rmtree(notebook_dst_path, ignore_errors=True)
+os.makedirs(notebook_dst_path, exist_ok=True)
+
+# Create "file" directory in the destination path
+files_dst_path = os.path.join(dst_path, "files")
+shutil.rmtree(files_dst_path, ignore_errors=True)
+os.makedirs(files_dst_path, exist_ok=True)
+
+
+# TODO 
+# Process notebook, projects, literature notes etc independantly
+
+# Iterate over src path and copy files
+process_notebook(src_path, dst_path)
+
+
+# TODO
+# process in place MD files into hugo MD 
+## convert wikilinks to MD links
+## convert youtube links to hugo shortcodes
+## convert vimeo links to hugo shortcodes
+
+
+
+
+# Function to recursively iterate over all files in a directory
+def process_notebook(src_path, dst_path):
 
         # Iterate over all files in the source path
         for name in os.listdir(src_path):
@@ -101,38 +194,3 @@ def iterate_files(src_path, dst_path):
                             shutil.copy(file_src_full_path, file_dst_full_path)
                         else:
                             print("File not found. Skipping: ", file_src_full_path)
-
-
-
-# MAIN ----------------------------------------------------
-# Get the path from the command line arguments
-src_path = sys.argv[1]
-dst_path = sys.argv[2]
-
-
-
-# Create destination folders
-
-# Create the "notebook" directory in the destination path
-notebook_dst_path = os.path.join(dst_path, "notebook")
-shutil.rmtree(notebook_dst_path, ignore_errors=True)
-os.makedirs(notebook_dst_path, exist_ok=True)
-
-# Create "file" directory in the destination path
-files_dst_path = os.path.join(dst_path, "files")
-shutil.rmtree(files_dst_path, ignore_errors=True)
-os.makedirs(files_dst_path, exist_ok=True)
-
-
-# TODO 
-# Process notebook, projects, literature notes etc independantly
-
-# Iterate over src path and copy files
-iterate_files(src_path, dst_path)
-
-
-# TODO
-# process in place MD files into hugo MD 
-## convert wikilinks to MD links
-## convert youtube links to hugo shortcodes
-## convert vimeo links to hugo shortcodes
