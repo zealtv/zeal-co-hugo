@@ -4,7 +4,7 @@ import sys
 import shutil
 import frontmatter
 
-# Function to check if markdown file is has publish=True in yaml frontmatter
+
 def has_publish_frontmatter(markdown_file):
     with open(markdown_file, "r") as f:
 
@@ -24,30 +24,24 @@ def get_file_links(markdown_file):
     with open(markdown_file, "r") as f:
         # Iterate over all lines in the file
         for line in f:
-            # Use a regular expression to find links to files in the "files" directory
+            
+            # find all content between double square brackets [[ content ]]
             matches = re.findall(r"\[\[(.*?)\]\]", line)            
-            # If any matches were found, remove any ")" or "]" characters and add the resulting file paths to the list
+
             for match in matches:
+
+                # filter only links pointing to files directory
                 if "files/" in match:
+
+                    # truncate the path before the first occurrence of " ", "|", or ")", but only after a "." character
                     match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
                     file_links.append(match)
 
-                # file_links.append(file_link)
-
-                # file_link = re.match(r"^.*\.([^\.]+)", match).group()
-
-                # file_link = match.replace(")", "").replace("]", "")
     # Return the list of file links
     return file_links
 
 
 
-
-
-
-
-
-# Function to recursively iterate over all files in a directory
 def process_notebook(src_path, dst_path):
 
         src_notebook_path = os.path.join(src_path, "notebook")
@@ -65,10 +59,10 @@ def process_notebook(src_path, dst_path):
                 try:
                     doPublish = has_publish_frontmatter(src_full_path)
                 except:
-                    print("Broken front matter: ", this_file)
+                    print("!!! Broken front matter: ", this_file, "!!!")
 
                 if doPublish:
-                    print("found markdown to publish: ", this_file)
+                    print("Found markdown to publish: ", this_file)
                     
                     shutil.copy(src_full_path, dst_full_path)
                     
@@ -76,7 +70,7 @@ def process_notebook(src_path, dst_path):
                     file_links = get_file_links(src_full_path)
                     
                     for file in file_links:
-                        print("copying ", file)
+
                         file_src_full_path = os.path.join(src_path, file)
                         file_dst_full_path = os.path.join(dst_path, file)
 
