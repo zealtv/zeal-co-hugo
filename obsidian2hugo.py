@@ -25,11 +25,18 @@ def get_file_links(markdown_file):
         # Iterate over all lines in the file
         for line in f:
             # Use a regular expression to find links to files in the "files" directory
-            matches = re.findall(r"files/.*", line)
+            matches = re.findall(r"\[\[(.*?)\]\]", line)            
             # If any matches were found, remove any ")" or "]" characters and add the resulting file paths to the list
             for match in matches:
-                file_link = match.replace(")", "").replace("]", "")
-                file_links.append(file_link)
+                if "files/" in match:
+                    match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
+                    file_links.append(match)
+
+                # file_links.append(file_link)
+
+                # file_link = re.match(r"^.*\.([^\.]+)", match).group()
+
+                # file_link = match.replace(")", "").replace("]", "")
     # Return the list of file links
     return file_links
 
