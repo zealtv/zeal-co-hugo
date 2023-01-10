@@ -27,7 +27,6 @@ def get_file_links(markdown_file):
             
             # find all content between double square brackets [[ content ]]
             matches = re.findall(r"\[\[(.*?)\]\]", line)            
-
             for match in matches:
 
                 # filter only links pointing to files directory
@@ -37,8 +36,40 @@ def get_file_links(markdown_file):
                     match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
                     file_links.append(match)
 
+
+            # # find all content between round brackets [ md link ]( content )
+            # matches = re.findall(r"\((.*?)\)", line)            
+            # for match in matches:
+
+            #     # filter only links pointing to files directory
+            #     if "files/" in match:
+
+            #         # truncate the path before the first occurrence of " ", "|", or ")", but only after a "." character
+            #         match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
+            #         file_links.append(match)
+
+
+
     # Return the list of file links
     return file_links
+
+
+
+def process_wikilinks(markdown_file):
+    # Read the entire contents of the markdown file into a string
+    with open(markdown_file, "r") as f:
+        contents = f.read()
+
+    # # to test: Replace all "." characters with "?" characters
+    # contents = contents.replace(".", "?")
+    
+    p = re.compile(r'!\[\[(.+?)\]\]')
+    # contents = re.sub(p, r'![\1](../\1)', contents)
+    contents = re.sub(p, r'![\1](../\1)', contents)
+    
+    # Write the modified contents back to the markdown file
+    with open(markdown_file, "w") as f:
+        f.write(contents)
 
 
 
@@ -62,9 +93,11 @@ def process_notebook(src_path, dst_path):
                     print("!!! Broken front matter: ", this_file, "!!!")
 
                 if doPublish:
-                    print("Found markdown to publish: ", this_file)
+                    print("Copying note: ", this_file)
                     
                     shutil.copy(src_full_path, dst_full_path)
+
+                    process_wikilinks(dst_full_path)
                     
                     # !IMPORTANT! links to files (ie embeded images) must use relative paths
                     file_links = get_file_links(src_full_path)
@@ -83,12 +116,12 @@ def process_notebook(src_path, dst_path):
 
 
 
-
 # MAIN ----------------------------------------------------
 # Get the path from the command line arguments
 src_path = sys.argv[1]
 dst_path = sys.argv[2]
 
+dst_path = os.path.join(dst_path, "content")
 
 # PROCESS NOTEBOOK
 
@@ -107,13 +140,12 @@ os.makedirs(files_dst_path, exist_ok=True)
 process_notebook(src_path, dst_path)
 
 
-# TODO 
-# Process notebook, projects, literature notes etc independantly
 
 
 # TODO
 # process in place MD files into hugo MD 
-## convert wikilinks to MD links
+## convert image wikilinks to MD links
+## convert link wikilinks to hugo refs: [About]({{< ref "/about" >}} "About Us")
 ## convert youtube links to hugo shortcodes
 ## convert vimeo links to hugo shortcodes
 
