@@ -2,6 +2,7 @@
 title: Easy Github credentials
 date: 2022-05-10
 lastmod: 2022-08-16T09:20
+publish: y
 ---
 
 Github authentication in the terminal is a pain.  github-cli allows for one-time,  interactive, browser-based authentication

@@ -2,7 +2,7 @@
 title: Reviewing Qualitative and Quantitative Features of Music Reported to Support Peak Mystical Experiences during Psychedelic Therapy Sessions Psychedelic Assisted Therapy
 date: 2022-07-17
 lastmod: 2022-07-19T18:37
-draft: false
+publish: y
 ---
 
  Review of paper by by Frederick S. Barrett, Hollis Robbins, David Smooke, Jenine L. Brown, and Roland R. Griffiths.

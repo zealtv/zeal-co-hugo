@@ -25,20 +25,8 @@ def get_file_links(markdown_file):
         # Iterate over all lines in the file
         for line in f:
             
-            # find all content between double square brackets [[ content ]]
-            matches = re.findall(r"\[\[(.*?)\]\]", line)            
-            for match in matches:
-
-                # filter only links pointing to files directory
-                if "files/" in match:
-
-                    # truncate the path before the first occurrence of " ", "|", or ")", but only after a "." character
-                    match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
-                    file_links.append(match)
-
-
-            # # find all content between round brackets [ md link ]( content )
-            # matches = re.findall(r"\((.*?)\)", line)            
+            # # find all content between double square brackets [[ content ]]
+            # matches = re.findall(r"\[\[(.*?)\]\]", line)            
             # for match in matches:
 
             #     # filter only links pointing to files directory
@@ -47,6 +35,18 @@ def get_file_links(markdown_file):
             #         # truncate the path before the first occurrence of " ", "|", or ")", but only after a "." character
             #         match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
             #         file_links.append(match)
+
+
+            # find all content between round brackets [ md link ]( content )
+            matches = re.findall(r"\((.*?)\)", line)            
+            for match in matches:
+
+                # filter only links pointing to files directory
+                if "files/" in match:
+
+                    # truncate the path before the first occurrence of " ", "|", or ")", but only after a "." character
+                    match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
+                    file_links.append(match)
 
 
 
@@ -103,7 +103,8 @@ def process_notebook(src_path, dst_path):
                     file_links = get_file_links(src_full_path)
                     
                     for file in file_links:
-
+                        file = file.lstrip("../")
+                        print("file: ", file)
                         file_src_full_path = os.path.join(src_path, file)
                         file_dst_full_path = os.path.join(dst_path, file)
 
@@ -138,7 +139,6 @@ os.makedirs(files_dst_path, exist_ok=True)
 
 # Iterate over src path and copy files
 process_notebook(src_path, dst_path)
-
 
 
 

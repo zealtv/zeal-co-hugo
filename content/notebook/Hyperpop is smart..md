@@ -2,7 +2,7 @@
 title: Hyperpop is smart.
 date: 2022-05-08
 lastmod: 2022-05-08T18:33
-draft: false
+publish: y
 ---
 
 In SOPHIE's Immaterial - there are no drums, just one big, fuck off mono-synth.  There is at least one *line of attention* throughout the verse that surgically leads to one big clap every 8 bars. 

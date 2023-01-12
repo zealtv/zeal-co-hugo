@@ -2,6 +2,7 @@
 title: Composing in Virtual Spaces
 date: 2022-03-21
 lastmod: 2022-03-22T20:41:58+11:00
+publish: y
 ---
 ```
 These notes were written for a presentation to be given at The Victorian College of the Arts, March 23rd 2020.
@@ -122,7 +123,7 @@ So.... let's say we want to build a musical system that takes as an input some k
 * encapsulates adaptive, generative, stochastic music and more.
 
 Recognises music is fundamentally multi-hierarchical
-![](assets/Pasted%20image%2020220322201412.png)
+![](Pasted%20image%2020220322201412.png)
 The above collection of diagrams curated by Florian Thalmann.
 
 ### Tools for Dynamic Music composition
@@ -169,7 +170,7 @@ Now we are beginning  to work in  a generalised, multi-dimensional composition s
 
 {{< youtube ywen9LQ6Wn4>}}
 
-![](assets/Aileron_One_Arrangment.png)
+![](Aileron_One_Arrangment.png)
 
 Aileron One is an interactive musical work that uses draws on audio variometer - an instrument used by glider pilots to perceive the vertical velocity -  as a jumping off point for the exploration of the musical sonification of gliding flight. 
 

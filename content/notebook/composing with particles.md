@@ -2,8 +2,9 @@
 title: composing with particles
 date: 2022-02-12
 lastmod: 2022-02-13T22:55:25+11:00
-draft: false
+publish: y
 ---
+
 
 I am working on a project that requires me to move sounds around an irregular multi-speaker array system.  The aesthetic aim is to have sounds travel through the space as if they are on the wind.
 
@@ -11,7 +12,7 @@ OSC will be used to control these virtual sound objects, and as such, the piece 
 
 An OSC specification has been developed and I am now  investigating what tools I might use.  My first stop was touch designer which initially showed promise - it was easy to get some particles and high level realtime control going - but lacked a easy method for triggering events on the birth and death of individual particles.
 
-![](assets/Pasted%20image%2020220213000243.png)
+![](Pasted%20image%2020220213000243.png)
 
 Next stop was an old time favourite tool openFrameworks.  Looking at [ofxaddons](ofxaddons.com) threw up some existing particle libraries, many of the are very old and being short on time I'm not particularly (ha!) keen on writing a system my self, forces and all.  A visual tool is a better fit.
 
@@ -27,14 +28,14 @@ Unity offers [this](https://assetstore.unity.com/packages/vfx/particles/particip
 
 After a short break - a brain wave!  Node for Max could be a good option here.  A JS particle system could be ideal.   [tsParticles](https://github.com/matteobruni/tsparticles) seems to be the clear leader - though lacks forces like wind.
 
-![](assets/Pasted%20image%2020220213160333.png)
+![](Pasted%20image%2020220213160333.png)
 
 After some experimenting in Unreal - it seems accessing the particle ID in blueprints isn't as straight forward as I would like.  So I returned to TouchDesigner.  I think I may found an efficient enough approach to detecting particle birth and death events via python.
 
 ---
 
 by the way... my ten year-old MacBook Pro's battery just hit this terrifying milestone:
-![](assets/Pasted%20image%2020220213175547.png)
+![](Pasted%20image%2020220213175547.png)
 
 ---
 

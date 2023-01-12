@@ -2,7 +2,7 @@
 title: Metamodernism and the evolution of consciousness
 date: 2022-04-12
 lastmod: 2022-04-26T20:55:13+10:00
-draft: false
+publish: y
 ---
 
 {{< youtube 9BzD3wUEMaQ >}}
@@ -11,7 +11,7 @@ draft: false
 
 Maybe it's just me but it seems like there is a collision of ideas going on.  Some of the ideas go by terms like *meta-modernism*, *integral*, *process philosophy*, *process theology*, *pan-experientalism*, *panpsychism*, *organic cosmology*, and probably a lot more.  Within this area of thinking, there are quite a few people with a new sort of spiritual conviction - proposing a sort of proto-framework that values all perspectives.... ah I think I lost my way in describing it.  It's a lot of ideas all at once.  I'm just going to throw down a smattering of them.
 
-![](assets/Pasted%20image%2020220413142256.png)
+![](Pasted%20image%2020220413142256.png)
 
 I recently came upon *The Ever-Present Origin* by Jean Gebser - a book hypothesising historical leaps in consciousness awareness throughout human evolution.   He described observing the emergence of a new consciousness structure beginning to be expressed through art, scientific discovery, philosophy, etc. from the 1940's.
 
@@ -31,7 +31,7 @@ And then there are the various states of consciousness - dreams, hypnagogic hall
 
 So how can we fit that into a science-shaped hole?
 
-![](assets/Hieronymus_Bosch_013.jpg)
+![](Hieronymus_Bosch_013.jpg)
 
 This article I think sums up well the leap from new ontology to a new frame of reality - a new science: https://runningfather.wordpress.com/2013/03/22/new-to-the-philosophere-panexperiential-holism-and-its-implications-by-justin/
 

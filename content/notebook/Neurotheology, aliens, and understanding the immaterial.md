@@ -2,12 +2,12 @@
 title: Neurotheology, aliens, and interpreting the immaterial
 date: 2022-04-23
 lastmod: 2022-05-24T17:51
-draft: false
+publish: y
 ---
 ```
 Standard scratchpad disclaimer.  
 I am not tied to any of the perspectives below.
-I've changed my mind.  Mind changing good 👍.
+I believe beliefs are best held lightly.
 ```
 
 
