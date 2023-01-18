@@ -73,7 +73,7 @@ def process_wikilinks(markdown_file):
 
 
 
-def replace_youtube_link(file_path):
+def replace_youtube_links(file_path):
     with open(file_path, 'r') as file:
         content = file.read()
 
@@ -83,6 +83,18 @@ def replace_youtube_link(file_path):
     with open(file_path, 'w') as file:
         file.write(content)
 
+
+def replace_vimeo_links(file_path):
+    # Open the file and read its content
+    with open(file_path, "r") as file:
+        content = file.read()
+
+    # Find all Vimeo links and replace them with Hugo shortcodes
+    new_content = re.sub(r"\[.*\]\(https://vimeo.com/(\d+)\)", r"{{< vimeo \1 >}}", content)
+
+    # Write the new content to the file
+    with open(file_path, "w") as file:
+        file.write(new_content)
 
 
 
@@ -111,9 +123,9 @@ def process_notebook(src_path, dst_path):
                     shutil.copy(src_full_path, dst_full_path)
 
                     process_wikilinks(dst_full_path)
-                    replace_youtube_link(dst_full_path)
-
-                    #TODO: proces youtube links
+                    replace_youtube_links(dst_full_path)
+                    replace_vimeo_links(dst_full_path)
+                    
                     
                     # !IMPORTANT! links to files (ie embeded images) must use relative paths
                     file_links = get_file_links(src_full_path)
