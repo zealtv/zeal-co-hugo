@@ -73,6 +73,19 @@ def process_wikilinks(markdown_file):
 
 
 
+def replace_youtube_link(file_path):
+    with open(file_path, 'r') as file:
+        content = file.read()
+
+    youtube_link_regex = re.compile(r'\[.*\]\(https://youtube\.com/watch\?v=([^)\s]+)\)')
+    content = youtube_link_regex.sub(r'{{< youtube \1 >}}', content)
+
+    with open(file_path, 'w') as file:
+        file.write(content)
+
+
+
+
 def process_notebook(src_path, dst_path):
 
         src_notebook_path = os.path.join(src_path, "notebook")
@@ -98,6 +111,9 @@ def process_notebook(src_path, dst_path):
                     shutil.copy(src_full_path, dst_full_path)
 
                     process_wikilinks(dst_full_path)
+                    replace_youtube_link(dst_full_path)
+
+                    #TODO: proces youtube links
                     
                     # !IMPORTANT! links to files (ie embeded images) must use relative paths
                     file_links = get_file_links(src_full_path)
