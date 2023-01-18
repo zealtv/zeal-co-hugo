@@ -1,11 +1,10 @@
 ---
 title: "Matt Harloffs Tuning Sequence - and tuning sequence as functional application of art"
 date: 2022-05-07
-lastmod: 2022-05-08T18:43
-draft: false
+publish: y
 ---
 
-{{<youtube 6xAjX-9ZSa8>}}
+{{< youtube 6xAjX-9ZSa8 >}}
 
 When I build software for interfacing with music - I often iterate back and forth between writing tuning sequences and system refinement.  On reflection I often over emphasise the development aspect of this process, as that is the part I find easier.  It is analytical and stepwise, so to figure out what the next step is, you just need to think it through.  The composition is much harder - here you need to probe around in the dark, or if you are lucky something will just appear. 
 

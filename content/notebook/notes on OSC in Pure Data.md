@@ -1,8 +1,7 @@
 ---
-title: notes on OSC in Pure Data
+title: "notes on OSC in Pure Data"
 date: 2022-02-26
-lastmod: 2022-02-26T21:37:15+11:00
-draft: true
+publish: y
 ---
 
 Working on my PhD project, I am needing to send and receive telemetry data as OSC.  While doing this I've noticed I am losing precision in my latitude and longitude readings.  I have these  stored as floating point values with 7 decimals of accuracy, though after parsing them in PD I am down to 4 decimal points.  I suspect the OSCParse object is to blame here.

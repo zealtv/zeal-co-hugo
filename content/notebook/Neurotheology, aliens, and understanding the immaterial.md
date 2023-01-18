@@ -1,19 +1,18 @@
 ---
-title: Neurotheology, aliens, and interpreting the immaterial
+title: "Neurotheology, aliens, and interpreting the immaterial"
 date: 2022-04-23
-lastmod: 2022-05-24T17:51
-draft: false
+publish: y
 ---
 ```
 Standard scratchpad disclaimer.  
 I am not tied to any of the perspectives below.
-I've changed my mind.  Mind changing good 👍.
+I believe beliefs are best held lightly.
 ```
 
 
-{{<youtube Kv3yIv9nwf8>}}
+{{< youtube Kv3yIv9nwf8 >}}
 
-{{<youtube MU4_vX1eaiE>}}
+{{< youtube MU4_vX1eaiE >}}
 
 In his discussion with Jefferey Mishlove, Andy Newberg notes the importance of  "*being open to all paradigms.  There is value in being reductionistic at times, and there is value in not*".  This strikes me as another example of an integral, or [meta-modern](Metamodernism%20and%20the%20evolution%20of%20consciousness.md) stance, looking to draw on transrational conceptions to expand the bounds of  understanding.  
 
@@ -29,7 +28,7 @@ Iain McGilchrist describes specific relationships between areas of the brain ass
 
 This draws some questions from the perspective above.
 
-{{<youtube tu5sf3OD_mc>}}
+{{< youtube tu5sf3OD_mc >}}
 
 ```
 - at 25:03 -
@@ -86,8 +85,7 @@ Jacques Vallee describes the phenomenon acting as a *metasystem*.  It's not what
 ```
 Like a small subset of caterpillars all hallucinating butterfly wings.
 
-A hullination that contains an absurd truth they are unable to decipher - but something that will reveal itself, emerging into reality via their minds, to be ultimately incorporated into their being. 
-
+A hullucination that contains an absurd truth they are unable to decipher - but something that will reveal itself, emerging into reality via their minds, to be ultimately incorporated into their being. 
 ```
 
 Maybe this perceptual hallucination eternally evades us, nevertheless leading us.  Like a carrot on a stick we carry in front of ourselves.  Forever.

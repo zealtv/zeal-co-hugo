@@ -1,11 +1,11 @@
 ---
-title: NEXTECH QC3868
+title: "NEXTECH QC3868"
 date: 2022-01-31
-lastmod: 2022-02-02T23:06:06+11:00
+publish: y
 ---
 
 
-![](assets/Pasted%20image%2020220129143605.png)
+![](../files/nextech.png)
 
 
 
@@ -37,14 +37,14 @@ You can then access the following:
 [http://admin:admin@192.168.1.120:9527/snapshot.cgi?user=admin&pwd=admin](http://admin:admin@192.168.1.120:9527/snapshot.cgi?user=admin&pwd=admin)
 
 
-![](assets/Pasted%20image%2020220129212255.png)
+![](../files/nextech-touch001.png)
 
 RTSP in TouchDesigner could be a bit of a game changer in cases where latency isn't critical.
 
 
 The camera's IR sensitivity interferes with colours. It's not a faithful representation but has a good vibe when giving you colour.
 
-![](assets/Pasted%20image%2020220129232525.png)
+![](../files/nextech-touch002.png)
 
 
 ## Specs
@@ -86,7 +86,7 @@ The camera's IR sensitivity interferes with colours. It's not a faithful represe
 ## Testing notes 🐉🐉🐉🐉🐉🐉
 
 
-![](assets/Pasted%20image%2020220129175619.png)
+![](../files/nextech-touch003.png)
 
 Camera battery arrived very flat.  
 
@@ -112,8 +112,8 @@ I can ping the camera.
 
 Using the BlueCAM search tool from the www.bluecam.cloud found in the spec sheet, I was able to see this:
 
-![](assets/Pasted%20image%2020220129193822.png)
- ![](assets/Pasted%20image%2020220129193858.png)
+![](../files/nextech-touch004.png)
+![](../files/nextech-touch005.png)
 
 Revealing RTSP streams!
 
@@ -125,12 +125,12 @@ user: admin
 pass: admin
 ```
 
-![](assets/Pasted%20image%2020220129200015.png)
+![](../files/nextech-touch006.png)
 
 The firefox stream viewer looks 720p.  Lacenty is good.  Deals with low light well.
 
-![](assets/Pasted%20image%2020220129200135.png)
-![](assets/Pasted%20image%2020220129200218.png)
+![](../files/nextech-touch007.png)
+![](../files/nextech-touch008.png)
 
 No instantly apparent configuration settings for joining WiFi.
 Would ideally like to join WiFi without broadcasting a stream to a third party.
@@ -143,13 +143,13 @@ Pairing light goes solid after viewing QR code.
 Gave the camera a static local ip in router and rebooted camera.
 Camera reconnected with reserved ip.
 
-![](assets/Pasted%20image%2020220129202750.png)
+![](../files/nextech-touch009.png)
 
 Progress.
 
 And we have the full res stream in VLC!
 
-![](assets/Pasted%20image%2020220129203154.png)
+![](../files/nextech-touch010.png)
 
 [rtsp://admin:admin@192.168.1.120:6554/stream_0](rtsp://admin:admin@192.168.1.120:6554/stream_0)
 

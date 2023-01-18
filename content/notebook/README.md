@@ -1,8 +1,7 @@
 ---
 title: README
 date: 2022-01-31
-draft: false
-lastmod: 2022-02-02T22:12:52+11:00
+publish: y
 ---
 
 # The open notebook of Bob Jarvis

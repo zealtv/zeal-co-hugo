@@ -1,11 +1,10 @@
 ---
-title: packetPunk - OSC logging on an ESP32 Watch
+title: "packetPunk - OSC logging on an ESP32 Watch"
 date: 2022-02-02
-lastmod: 2022-02-05T21:55:11+11:00
-draft: false
+publish: y
 ---
 
-![](assets/Pasted%20image%2020220202163610.png)
+![](../files/packetpunk.png)
 
 Sold as the **dstike esp32 watch devkit**, this is an ESP32 microcontroller with an OLED display, a NeoPixel, flashlight, buzzer, battery, charging circuit, SD card slot, and a few buttons.
 
@@ -43,7 +42,7 @@ More details: https://github.com/adafruit/Adafruit_NeoPixel
 https://github.com/lspoplove/D-duino-project/blob/master/ESP32WatchDev/ESP32WatchTest.ino
 
 ### 5. Build settings
-![](assets/Pasted%20image%2020220202173518.png)
+![](../files/packetpunk-build-settings.png)
 
 ### 6. Working with SD cards
 This is a particularly useful [sketch outlining SD card file procedures](https://github.com/espressif/arduino-esp32/blob/master/libraries/SD_MMC/examples/SDMMC_Test/SDMMC_Test.ino) 

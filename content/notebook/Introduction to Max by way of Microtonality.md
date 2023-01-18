@@ -1,14 +1,13 @@
 ---
 title: An Introduction to Max by way of Microtonality
 date: 2022-04-03
-lastmod: 2022-05-10T12:04
-draft: false
+publish: y
 ---
 ```
 This is a tutorial outline for a tailored introduction to Max session.
 ```
 
-[Download the patch](assets/microtonal-keyboard.maxpat)
+[Download the patch](microtonal-keyboard.maxpat)
 
 [Max](https://cycling74.com) is a visual programming environment for multimedia.  It excels at synthesis, rapid prototyping, interaction design, interactive installation, video and graphics manipulation and performance, generative music creation, digital signals processing, and a lot more.  I find I spend much of my time in Max as it is an excellent, and reliable home base for tech-enabled music and interaction applications. 
 
@@ -18,10 +17,10 @@ What I hope to put together here are some Max fundamentals to help you begin wor
 
 We are going to build something that lets us play [microtonally](https://en.wikipedia.org/wiki/Microtonal_music) - allowing us to access a smattering of the notes in between the notes of the western equal temperament piano keyboard, starting with [24TET tuning](https://en.wikipedia.org/wiki/Quarter_tone).  In its simplest form it will look something like this:
 
-![](assets/Pasted%20image%2020220403131251.png)
+![](../files/simple-midi-in-max.png)
 
 We'll then use encapsulation to make it polyphonic like so:
-![](assets/Pasted%20image%2020220403131957.png)
+![](../files/poly-midi-in-max.png)
 
 
 ## Types of objects in Max
@@ -89,15 +88,15 @@ In Max, see: Documentation -> MSP -> Polyphony
 
 I you look at the first tutorial in the documentation noted above, you can see they demonstrate the "hard way" to realise polyphony in Max.  This is similar to the demo provided above: 
 
-![](assets/Pasted%20image%2020220403131957.png)
+![](../files/poly-midi-in-max.png)
 
 The tutorial discuss the cons of this approach, noting the patching complexity and CPU efficiency considerations.  The poly~ object comes to the rescue here.
 
 We're going to start with making our patch polyphonic the "hard way", and as an extension, you may want to explore using the poly~ object to make your match more efficient - it also helps us handle things like release envelopes more effectively.  This approach is, however, more complex, so starting "the hard way" is in some ways easier!
 
-![](assets/Pasted%20image%2020220422153122.png)
+![](..files/more-poly-in-max.png)
 
-[Download the patch!](assets/poly-just-intonation-synth.zip)
+[Download the patch!](poly-just-intonation-synth.zip)
 
 For more complex synthesis, take a look at the MSP -> Tutorials -> Basics page in the Max documentation.
 
@@ -116,4 +115,4 @@ For more complex synthesis, take a look at the MSP -> Tutorials -> Basics page i
 
 If we were to instead take a short cut to getting just intonation working in Max, we could also use Live 11's Microtruner device inside Max, routing it to a VST, M4L, or AU device like so:
 
-![](assets/Screen%20Shot%202022-05-09%20at%209.12.55%20pm.png)
+![](../files/simple-equal-temperment.png)

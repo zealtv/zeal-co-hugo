@@ -1,11 +1,10 @@
 ---
-title: The Ariel Encounter
+title: "The Ariel Encounter"
 date: 2022-05-24
-lastmod: 2022-05-25T14:02
-draft: false
+publish: y
 ---
 
-{{<youtube UCqVpwg0oPc>}}
+{{< youtube UCqVpwg0oPc >}}
 
 A term floated in Ufology - *high strangeness* - has had me thinking.  This term is so broad as to suck in every single thing that does not conform to our expectations of reality.  That is anything beyond the modern world view.  This is  a pretty good rule of thumb as the realm of the impossible is always going to be a larger infinite set than the realm of the possible.  But you are gonna get some collateral damage.  And this leads to the confusion at that liminal space right between what we know and what we do not.  Confusing the matter further, I do not think this space at the edge of reality is a spectrum - I think it is multidimensional.
 
@@ -31,23 +30,23 @@ But what else are we supposed to believe? - because the idea that creatures of o
 
 [arielphenomenon.com](https://arielphenomenon.com/)
 
-{{<youtube XlNcr0FtL-s>}}
+{{< youtube XlNcr0FtL-s >}}
 
-{{<youtube 3Ok9gxnbs0A>}}
+{{< youtube 3Ok9gxnbs0A >}}
 
-{{<youtube h1r6KKZw0-M>}}
+{{< youtube h1r6KKZw0-M >}}
 
-{{<youtube LDF8uMWXGHE>}}
+{{< youtube LDF8uMWXGHE >}}
 
-{{<youtube FpV5uue5TIo>}}
+{{< youtube FpV5uue5TIo >}}
 
-{{<youtube IsvS-ld3-38>}}
+{{< youtube IsvS-ld3-38 >}}
 
-{{<youtube CYB6drPdWwQ>}}
+{{< youtube CYB6drPdWwQ >}}
 
-{{<youtube 1rtJpw_WWDg>}}
+{{< youtube 1rtJpw_WWDg >}}
 
-{{<youtube BAz6N5R4YlQ>}}
+{{< youtube BAz6N5R4YlQ >}}
 
-{{<youtube Vw_DMXEZt6Q>}}
+{{< youtube Vw_DMXEZt6Q >}}
 

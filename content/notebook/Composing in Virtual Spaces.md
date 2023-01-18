@@ -1,8 +1,9 @@
 ---
-title: Composing in Virtual Spaces
+title: "Composing in Virtual Spaces"
 date: 2022-03-21
-lastmod: 2022-03-22T20:41:58+11:00
+publish: y
 ---
+
 ```
 These notes were written for a presentation to be given at The Victorian College of the Arts, March 23rd 2020.
 
@@ -34,9 +35,10 @@ Questions for y'all:
 
 ### Foreshadowing...
 
-{{< youtube qfVjxAudeio>}}
+{{< youtube qfVjxAudeio >}}
 
 I am mostly going to be talking about an area of research I have been working on involving the creation of  musical representations of motion - specifically that of gliding aircraft and similar activities which could loosely fall under the umbrella of *flow sports*.  I'll start with a teaser of the piece *Aileron One* and we'll discuss it in more detail as we go.
+
 
 ## Music+
 
@@ -67,7 +69,7 @@ Interestingly - this view of musicality is built atop predicting events in time,
 
 So let's define Music+  as simply **patterns in time**.  This can encapsulate composing, arranging, improvising, and performing. We often see multiple artforms and modalities presented alongside sonic musical performance.  From a music+ perspective,  all temporal (and contextual) elements of these artworks can be considered to be musical elements able to be composed, arranged, performed, or improvised.
 
-{{< youtube l1nR9ZJaA90 >}} 
+{{< youtube l1nR9ZJaA90 >}}
 {{< youtube QgPrnCmsGY8 >}}
 
 
@@ -81,10 +83,10 @@ Out of the various modalities, the relationship between vision and sound is like
 
 Some of my previous work has been attempting to extract the musical qualities present in visual stimuli or vice versa - translating between vision and sound, sound and vision.
 
-{{< vimeo 128698185>}}
+{{< vimeo 128698185 >}}
 Adelaide to Melbourne - expressing audibly changes in vision over time
 
-{{< vimeo 181424784>}}
+{{< vimeo 181424784 >}}
 Luminesce - expressing visually changes in sound over time
 
 
@@ -122,7 +124,7 @@ So.... let's say we want to build a musical system that takes as an input some k
 * encapsulates adaptive, generative, stochastic music and more.
 
 Recognises music is fundamentally multi-hierarchical
-![](assets/Pasted%20image%2020220322201412.png)
+![](../files/musical-structure-holon.png)
 The above collection of diagrams curated by Florian Thalmann.
 
 ### Tools for Dynamic Music composition
@@ -167,9 +169,9 @@ Now we are beginning  to work in  a generalised, multi-dimensional composition s
 
 ## Composing music for virtual space
 
-{{< youtube ywen9LQ6Wn4>}}
+{{< youtube ywen9LQ6Wn4 >}}
 
-![](assets/Aileron_One_Arrangment.png)
+![](files/Aileron_One_Arrangment.png)
 
 Aileron One is an interactive musical work that uses draws on audio variometer - an instrument used by glider pilots to perceive the vertical velocity -  as a jumping off point for the exploration of the musical sonification of gliding flight. 
 
@@ -183,7 +185,7 @@ My primary take away from this was changes in velocity can change our musical pe
 
 *This principle applies to the rate of change of any continuous data source, not just position*
 
-{{<youtube UVnK7ySaeNc>}}
+{{< youtube UVnK7ySaeNc >}}
 
   The two-dimensional grid of Ableton's session view became too cumbersome so I decided to build atop a different framework which led to the development of Elevon.
   
