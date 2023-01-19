@@ -154,17 +154,19 @@ dst_path = os.path.join(dst_path, "content")
 
 # PROCESS NOTEBOOK
 
+print("clearing content/notebook")
 # Create the "notebook" directory in the destination path
 notebook_dst_path = os.path.join(dst_path, "notebook")
 shutil.rmtree(notebook_dst_path, ignore_errors=True)
 os.makedirs(notebook_dst_path, exist_ok=True)
 
+print("clearing content/files")
 # Create "file" directory in the destination path
 files_dst_path = os.path.join(dst_path, "files")
 shutil.rmtree(files_dst_path, ignore_errors=True)
 os.makedirs(files_dst_path, exist_ok=True)
 
-
+print("processing obisdian notes")
 # Iterate over src path and copy files
 process_notebook(src_path, dst_path)
 
