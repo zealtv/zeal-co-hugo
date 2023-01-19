@@ -4,12 +4,12 @@ date: 2022-01-31
 publish: y
 ---
 
-I am surveying small, locally streaming cameras for applications in art installations such as capturing video to process, present, or to use for tracking, analysis, or interaction.
+I am surveying small, locally streaming cameras for applications in art installations.   The focus is on affordable, hackable, wearable cameras for performance or interaction applications.
 
 ![](../files/nextech.png)
 
 # NEXTECH QC3868
-Recently I tested the [Nextech mini wifi camera](NEXTECH%20QC3868.md) - a handy device for portable realtime video streaming where latency is not a major factor
+Recently I tested the [Nextech mini wifi camera](NEXTECH%20QC3868.md) - a handy device for portable realtime video streaming where latency is not a major factor.  Battery powered, good IR illumination at night, small and light.
 
 # UV4L
 [This is a good example of a Raspberry pi approach](https://www.reddit.com/r/raspberry_pi/comments/ppu00m/prototype_low_latency_wireless_streaming_camera/) that focusses on low latency - particularly helpful when using for tracking gestures, sonifying, or video piloting.   The system above uses [UV4L](https://www.linux-projects.org/uv4l/)  that allows you to capture and stream an HDMI output.  So you could, for example, build an [openframeworks](http://openframeworks.cc) app displaying a fullscreen video feed and then forward the fullscreen output of that application as a low latency MJPG stream.
