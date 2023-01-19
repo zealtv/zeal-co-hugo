@@ -9,3 +9,15 @@ The content of this website is pulled from my private obsidian vault includes pr
 ```
 pip install python-frontmatter
 ```
+
+## Updating Content
+to build content/notebook and content/files, run:
+
+```
+./obsidian2hugo.py [obsidian notebook path] [zeal-co-hugo path]
+
+# ie
+./obsidian2hugo.py ../notebook ./
+``` 
+
+Then commit and push to git.  This can all be tied to a hotkey from within obsidian using the *shell commands* plugin.
