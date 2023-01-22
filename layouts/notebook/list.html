@@ -1,7 +1,7 @@
 {{ define "main" }}
   <div class="content">
     <div class="gallery-container">
-      {{ range .Pages.ByLastmod.Reverse }}
+      {{ range .Pages }}
      
       <a href="{{.Permalink}}">
         <div class="note-item"
