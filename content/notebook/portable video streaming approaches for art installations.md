@@ -1,6 +1,6 @@
 ---
 title: "portable video streaming approaches for art installations"
-date: 2022-01-31
+date: 2022-05-31
 publish: y
 ---
 
