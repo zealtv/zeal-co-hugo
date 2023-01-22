@@ -2,7 +2,7 @@
 title: "An Analog Harmony Protocol - AKA Intermals"
 publish: y
 date: 2023-01-10
-abstract: "A simple protocol for defining harmony as a signal."
+abstract: "A simple protocol for desribing chord voicings as a signal."
 ---
 
 # Analog Harmony Protocol
@@ -20,10 +20,12 @@ The possible chord voicings are both limited and limitless.
 		  .
 	   -12.074    
 	left< . >right
-	  |       |
-	  |       |_ three additional voices 0, 7, and 11 semitones above the root _
-	  |
-	  |_ twelve semitones below a whatever reference pitch _
+	|        |
+	|        | three additional voices 0, 7,
+	|        | and 11 semitones above the root
+	|
+	| twelve semitones below 
+	| whatever reference pitch
 
 ```
 
