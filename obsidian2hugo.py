@@ -6,7 +6,7 @@ import frontmatter
 
 
 def has_publish_frontmatter(markdown_file):
-    with open(markdown_file, "r") as f:
+    with open(markdown_file, mode="r", encoding="utf-8") as f:
 
         thismdfile = frontmatter.load(f)
 
@@ -21,7 +21,7 @@ def get_file_links(markdown_file):
     # Initialize a list to store the file links
     file_links = []
     # Open the markdown file for reading
-    with open(markdown_file, "r") as f:
+    with open(markdown_file, mode="r", encoding="utf-8") as f:
         # Iterate over all lines in the file
         for line in f:
             
@@ -57,7 +57,7 @@ def get_file_links(markdown_file):
 
 def process_wikilinks(markdown_file):
     # Read the entire contents of the markdown file into a string
-    with open(markdown_file, "r") as f:
+    with open(markdown_file, mode="r", encoding="utf-8") as f:
         contents = f.read()
 
     # # to test: Replace all "." characters with "?" characters
@@ -68,32 +68,32 @@ def process_wikilinks(markdown_file):
     contents = re.sub(p, r'![\1](../\1)', contents)
     
     # Write the modified contents back to the markdown file
-    with open(markdown_file, "w") as f:
+    with open(markdown_file, mode="w", encoding="utf-8") as f:
         f.write(contents)
 
 
 
 def replace_youtube_links(file_path):
-    with open(file_path, 'r') as file:
+    with open(file_path, mode="r", encoding="utf-8") as file:
         content = file.read()
 
     youtube_link_regex = re.compile(r'\[.*\]\(https://youtube\.com/watch\?v=([^)\s]+)\)')
     content = youtube_link_regex.sub(r'{{< youtube \1 >}}', content)
 
-    with open(file_path, 'w') as file:
+    with open(file_path, mode="w", encoding="utf-8") as file:
         file.write(content)
 
 
 def replace_vimeo_links(file_path):
     # Open the file and read its content
-    with open(file_path, "r") as file:
+    with open(file_path, mode="r", encoding="utf-8") as file:
         content = file.read()
 
     # Find all Vimeo links and replace them with Hugo shortcodes
     new_content = re.sub(r"\[.*\]\(https://vimeo.com/(\d+)\)", r"{{< vimeo \1 >}}", content)
 
     # Write the new content to the file
-    with open(file_path, "w") as file:
+    with open(file_path, mode="w", encoding="utf-8") as file:
         file.write(new_content)
 
 

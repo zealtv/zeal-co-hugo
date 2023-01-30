@@ -1,7 +1,7 @@
 ---
 title: "One-on-One Sessions"
 heroImage: "./1on1.png"
-what: "Personalised Art and Technology Training"
+what: "Personalised Learning"
 where: 
  - "via Zoom"
 #  - "via video upload"
@@ -12,7 +12,7 @@ when:
 #  - "Asynchronously"
 tier: 0
 calltoaction: y
-# abstract: "60 minute one-on-ones with Bob... for training, project assistance, or whatever ✨"  
+abstract: "Zoom one-on-ones with Bob... for skilling up, project assistance, miscellaneous ✨"  
 draft: "True"
 ---
 
@@ -25,7 +25,7 @@ TODO: Picture of Bob teaching, and being professional.
 
 # 🎓 Graduate-level  
 # ⚗️ Project-led  
-# 🧔 One-on-One Instruction
+# 🧔 One-on-One Learning
 
 
 
@@ -48,10 +48,9 @@ more 👉 [about Bob](/about)
 ---
 
 
-### **Meet via Zoom for a 60-minute one-on-one**
+### Item: **60-minute Zoom one-on-one w/ Bob**
 
-
-### Cost: **💲80 USD🌎**  
+### Cost: **$80 USD** 🌎
 
 ---
 ## ✨🦉✨🦉✨🦉✨🦉✨
@@ -65,21 +64,35 @@ more 👉 [about Bob](/about)
 ---
 
 # FAQ
-#### What services are used to facilitate the service?
- Calendly for scheduling and intake form, Paypal for payment, Zoom for one-on-sessions.
+
+#### How many sessions can I do?
+🍪 Sessions can be reoccurring, one-off,  sporadic or, regular.  
+
+🍪 For example: a short series of sessions can be structured around your current project.  
+
+🍪 Or in a single session we can do a first-pass technical plan for your next creative work or grant proposal.
 
 
-#### Can I have more than one session?
-Sessions can be reoccurring or one-offs.  
+#### How is each session prepared?
+You can include attachments and links to any relevant media.  Screenshots are very helpful.  
 
-For in-depth learning it can be effectiveto structure a progression of about six sessions through out the duration of a project.  This can be something you are already working on, or I can help you devise something to suit your goals.
+<!-- We often structure a progression of about six sessions across the duration of a project.  This can be a real-world project you are already working on, or I can help you devise something to suit your learning goals.
 
-One-off sessions can be useful at the planning stages of a project.
+One-off sessions are offered to help point you in a productive direction, for consultation on an upcoming project, or for miscellaneous requests.  -->
+
+#### What hardware or software do I need?
+🍪 You'll at least need something to Zoom with, and internet access.   
+
+🍪 Demo versions of most software works great for learning.  Many tools are free or cheap 🍟
+
+#### Which 3rd parties are used?
+ 🍪 Calendly for scheduling and intake  
+ 🍪 Paypal for payment  
+ 🍪 Zoom for sessions
 
 
-
-#### Where can I ask another question?
-get in touch [🤜💥🤛](/contact)
+#### I have a different question.
+[get in touch 🤜💥🤛](/contact)
 
 
 <!-- 
