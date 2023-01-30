@@ -4,8 +4,6 @@ when:
   - "2015"
 heroImage: "./hero.jpg"
 what: "Interactive photobooth installation"
-tags: 
-  - "interactive"
 where:
  - "The Australian Centre for the Moving Image"
 tier: 2

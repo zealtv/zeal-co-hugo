@@ -4,7 +4,6 @@ when:
   - "2020-04-04"
 heroImage: "./hero.png"
 what: "Live interactive performance system"
-tags: ["av", "music", "research", "performance"]
 with: ["Alistair Mclean", "The Australian Creative Music Ensemble"]
 where: ["The Melbourne Festival"]
 tier: 1

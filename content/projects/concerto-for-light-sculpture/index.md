@@ -4,9 +4,6 @@ when:
   - "2012"
 heroImage: "./concerto-for-light-sculpture-project.jpg"
 what: "Audio-visual Composition and Performance"
-tags:
-  - "av"
-  - "performance"
 where:
   - "University of Newcastle"
 tier: 2

@@ -4,7 +4,6 @@ when:
   - "2011"
 heroImage: "./hero.jpg"
 what: "Custom MIDI hardware"
-tags: [ "hardware"]
 tier: 2
 draft: "true"
 ---

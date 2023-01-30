@@ -4,8 +4,6 @@ when:
   - "2016"
 heroImage: "./hero.jpg"
 what: "Educational interactive installation"
-tags:
-  - "interactive"
 with:
   - "Jean Poole"
   - "D.A. Calf"

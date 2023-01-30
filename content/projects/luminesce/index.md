@@ -7,9 +7,6 @@ when:
   - "2017"
 heroImage: "./hero.png"
 what: "Audiovisual performance for choir and light"
-tags:
-  - "av"
-  - "performance"
 with:
   - "Gian Slater"
   - "Invenio"

@@ -4,9 +4,6 @@ when:
   - "2015"
 heroImage: "./hero.jpg"
 what: "Single channel, generative audio-visual composition"
-tags: 
-  - "av"  
-  - "music"
 tier: 1
 abstract: "Adelaide to Melbourne is a musical sonification of the approach and landing into Melbourne airport.  Shot at night, the aircraft's navigation beacons and the street lights below provide rhythm and pitch data for Piano, Marimba, and Xylophone."  
 ---

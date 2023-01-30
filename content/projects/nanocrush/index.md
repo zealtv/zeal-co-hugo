@@ -6,10 +6,6 @@ heroImage: "./crushbot-higher-res-animated.gif"
 what: "short audiovisual works as proof-of-stake NFTs"
 where:
   - "the tezos blockchain"
-tags: 
-    - "animation"
-    - "av"
-    - "music"
 tier: 1
 abstract: "simultaneously priceless and worthless: transcendant objects of quantum value in the style of the 2021 pandemic and nft stampede" 
 ---

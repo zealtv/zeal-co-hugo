@@ -4,7 +4,6 @@ when:
   - "2014"
 heroImage: "./hero.jpg"
 what: "Technical demonstration, installation, and single channel audio-visual work"
-tags: ["av", "interactive", "software"]
 with: ["Oliver Elmers"]
 where: ["Melbourne Media Lab"]
 tier: 2

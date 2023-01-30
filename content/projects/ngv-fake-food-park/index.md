@@ -4,8 +4,6 @@ when:
   - "2017"
 heroImage: "./hero.png"
 what: "Interactive photobooth installation"
-tags:
-  - "interactive"
 where:
   - "The National Gallery of Victoria"
 tier: 1

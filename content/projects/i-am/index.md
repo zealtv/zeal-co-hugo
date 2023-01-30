@@ -4,7 +4,6 @@ when:
   - "2020-06-04"
 heroImage: "./hero.png"
 what: "Generative video accompaniment for Invenio"
-tags: ["animation", "av", "music"]
 with: ["Gian Slater", "Invenio"]
 tier: 1
 ---

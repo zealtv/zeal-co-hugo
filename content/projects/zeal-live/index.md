@@ -4,7 +4,6 @@ date:
   - "2020-04-04"
 description: "Multiple live audiovisual performances"
 heroImage: "./hero.jpg"
-tags: ["av", "music", "performance"]
 tier: 2
 draft: "true"
 ---

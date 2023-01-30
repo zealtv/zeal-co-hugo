@@ -4,7 +4,6 @@ when:
   - "2020-06-04"
 heroImage: "./hero.jpg"
 what: "Gliding flight as musical performance"
-tags: ["av", "interactive", "music", "research",  "performance"]
 tier: 0
 draft: "true"
 ---

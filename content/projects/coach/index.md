@@ -4,11 +4,10 @@ when:
   - "2009"
 heroImage: "./hero.jpg"
 what: "Stopmotion animation music video"
-tags: ["animation"]
 with: ["Faux Pas"]
 where: ["Future Film Festival"]
 tier: 2
-draft: "true"
+# draft: "true"
 ---
 
 

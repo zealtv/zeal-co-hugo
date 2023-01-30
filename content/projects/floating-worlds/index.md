@@ -4,8 +4,6 @@ when:
   - "2015"
 heroImage: "./floatingWorlds.png"
 what: "Interactive installation with kinetic projection mapping"
-tags:
-  - "interactive"
 with:
   - "Justin Dwyer"
 where:

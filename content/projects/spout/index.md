@@ -4,8 +4,6 @@ when:
   - "2020-04-04"
 heroImage: "./spout-project1.jpg"
 what: "Interapplication video texture sharing framework for windows"
-tags: 
-  - "software"
 with: 
   -  "Lynn Jarvis"
 tier: 1

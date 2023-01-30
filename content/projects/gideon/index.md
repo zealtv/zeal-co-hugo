@@ -4,7 +4,6 @@ when:
   - "2009"
 heroImage: "./hero.jpg"
 what: "Stop motion music video"
-tags: ["animation"]
 with: ["Agnes Kain"]
 tier: 2
 ---

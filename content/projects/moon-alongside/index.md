@@ -4,7 +4,6 @@ when:
   - "2010"
 heroImage: "./hero.jpg"
 what: "LP Record"
-tags: ["music"]
 tier: 1
 ---
 

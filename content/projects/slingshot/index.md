@@ -5,7 +5,6 @@ when:
 where: ["Mt Lofty, South Australia"]
 heroImage: "./hero.jpg"
 what: "Piece for solo baritone ukulele"
-tags: ["music"]
 tier: 0
 draft: "false"
 abstract: "Slingshot is a composition for solo baritone ukulele.  The piece is structured around a three-over-four polyrhythm, and  it is situated somewhere within a progressive/minimalist/folk genre Venn diagram." 

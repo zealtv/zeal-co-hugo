@@ -8,15 +8,6 @@ where:
   - "."
 with: 
   - "."
-tags: 
-    - "animation"
-    - "av"
-    - "interactive"
-    - "music"
-    - "research"
-    - "hardware"
-    - "software"
-    - "performance"
 tier: 3
 draft: "true"
 ---

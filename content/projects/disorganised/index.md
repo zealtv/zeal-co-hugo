@@ -4,7 +4,6 @@ when:
   - "2014"
 heroImage: "./hero.png"
 what: "Live audiovisual performance"
-tags: ["av", "performance"]
 with: ["James Annesley", "Tristan Courtney"]
 where: ["The Melbourne Town Hall"]
 tier: 2

@@ -4,7 +4,6 @@ when:
   - "2008"
 heroImage: "./hero.jpg"
 what: "EP record"
-tags: ["music"]
 tier: 2
 draft: "true"
 ---

@@ -9,8 +9,6 @@ where:
 with: 
   - "Additive Lighting"
   - "Samsung"
-tags: 
-    - "interactive"
 tier: 3
 draft: "true"
 ---

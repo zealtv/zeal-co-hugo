@@ -8,11 +8,6 @@ where:
   - "Meat Market, Melbourne"
 with:
   - "Invenio"
-tags:
-    - "animation"
-    - "av"
-    - "music"
-    - "performance"
 tier: 3
 draft: "true"
 ---

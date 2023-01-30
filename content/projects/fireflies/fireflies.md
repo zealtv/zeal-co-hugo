@@ -9,15 +9,6 @@ where:
 with:
   - "Gian Slater"
   - "Leon Yuhanov"
-tags:
-    - "animation"
-    - "av"
-    - "interactive"
-    - "music"
-    - "research"
-    - "hardware"
-    - "software"
-    - "performance"
 tier: 3
 draft: "true"
 ---

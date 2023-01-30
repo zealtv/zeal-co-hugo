@@ -4,10 +4,6 @@ when:
   - "2011"
 heroImage: "./s2l-project1.jpg"
 what: "Audio-visual Performance"
-tags:
-  - "av"
-  - "performance"
-  - "interactive"
 where:
   - "Salamanca Arts Centre, Hobart"
 with:

@@ -4,8 +4,6 @@ when:
   - "2012"
 heroImage: "./hero.jpg"
 what: "Large-scale interactive audio-visual installation"
-tags: 
-  - "interactive"
 where:
   - "Adelaide Fringe Festival"
 with:

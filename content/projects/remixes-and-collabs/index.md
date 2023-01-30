@@ -4,7 +4,6 @@ when:
   - "2020-04-04"
 heroImage: "./hero.jpg"
 what: ""
-tags: ["music"]
 tier: 2
 draft: "true"
 ---

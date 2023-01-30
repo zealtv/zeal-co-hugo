@@ -4,9 +4,6 @@ when:
   - "2014"
 heroImage: "./hero.png"
 what: "Live audio-visual performance"
-tags: 
-  - "av"
-  - "performance"
 where:
  - "The Victorian College of The Arts"
 with: 

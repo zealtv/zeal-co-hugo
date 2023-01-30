@@ -9,12 +9,6 @@ where:
   - "Melbourne International Jazz Festival"
 with: 
   - "Playable Streets"
-tags: 
-    - "interactive"
-    - "music"
-    - "research"
-    - "hardware"
-    - "performance"
 tier: 3
 draft: "true"
 ---

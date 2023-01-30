@@ -4,7 +4,6 @@ when:
   - "2020-04-04"
 heroImage: "./hero.jpg"
 what: "Stop motion animation with paper, props and projection"
-tags: ["animation"]
 tier: 2
 draft: "true"
 ---

@@ -4,8 +4,6 @@ when:
   - "2016"
 heroImage: "./hero.png"
 what: "Interactive photobooth installation"
-tags:
-  - "interactive"
 with:
   - "Natasha Johns-Messenger"
 where:

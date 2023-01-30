@@ -4,7 +4,6 @@ when:
   - "2009"
 heroImage: "./hero.jpg"
 what: "Guitar Hero musical performance software"
-tags: ["software"]
 tier: 2
 ---
 

@@ -4,10 +4,9 @@ when:
   - "2015"
 heroImage: "hero.jpeg"
 what: "Stop motion animated music video with custom software"
-tags: 
-  - "animation"
 with: 
   - "Packwood"
+git: "https://github.com/zealtv/Obstinate-Music-Video"
 tier: 0
 ---
 

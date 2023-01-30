@@ -4,8 +4,6 @@ when:
   - "2015"
 heroImage: "./hero.jpg"
 what: "Interactive photobooth installation"
-tags:
-  - "interactive"
 with:
   - "Studio Joho"
 where:

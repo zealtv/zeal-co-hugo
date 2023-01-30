@@ -4,7 +4,6 @@ when:
   - "2010"
 heroImage: "./hero.png"
 what: "MIDI sequenced animated music video"
-tags: ["animation", "av"]
 tier: 2
 ---
 

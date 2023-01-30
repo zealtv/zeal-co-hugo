@@ -4,9 +4,6 @@ when:
   - "2014"
 heroImage: "./flavour-conductor-project.jpg"
 what: "Software for interactive pipe-organ performance"
-tags: 
-  - "av"
-  - "software"
 with: 
   - "Bompas and Parr"
   - "Johnny Walker"
