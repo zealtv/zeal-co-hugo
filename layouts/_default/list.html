@@ -4,16 +4,28 @@
       {{ range (.Pages.ByParam "tier") }}
      
       <a href="{{.Permalink}}">
-        <div class="gallery-item"
-        {{ if .Params.heroImage }}
-          style="background-image:url(' {{ .Permalink }}{{ .Params.heroImage }} ');"
+        <div 
+        
+        {{ if .Params.calltoaction }}
+
+          class="gallery-item call-to-action"
+
+        {{else}}
+          
+          class="gallery-item"
+          
+          {{ if .Params.heroImage }}
+            style="background-image:url(' {{ .Permalink }}{{ .Params.heroImage }} ');"
+          {{end}}
+        
+                
         {{end}}>
+
+          {{ if .Params.calltoaction }}
+            <div>{{.Title}}</div>    
+          {{else}}
             <div><h2>{{.Title}}</h2></div>
-            <!-- <div>{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div> -->
-            <!-- <div>{{ if .Params.tags }}<strong>Tags:</strong> {{range .Params.tags}}<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div> -->
-            <!-- <div>{{ if .Params.categories }}<strong>Categories:</strong> {{range .Params.categories}}<a href="{{ "/categories/" | relLangURL }}{{ . | urlize }}">{{ . }}</a> {{end}}{{end}}</div> -->
-      
-            <!-- <p style="font-size:18px;">{{.Summary}}</p> -->
+          {{end}}
         </div>
         </a>
       {{ end }}

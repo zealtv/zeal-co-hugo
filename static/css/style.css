@@ -55,7 +55,7 @@ li{
 }
 
 li::before{
-  content: '🍄 ';
+  content: '🍪 ';
 }
 
 hr{
@@ -344,10 +344,11 @@ textarea{
   text-decoration: none;
 }
 
+/* project cell */
 .gallery-item{
   width: calc(100vw - 20px);
   height: 28vh;
-  background-color: aqua;
+  background-color: rgb(255, 83, 255);
   color: green;
   border: 2px solid #f35df8;
   border-radius: 2px;
@@ -361,6 +362,13 @@ textarea{
   text-decoration: none;
 }
 
+
+.call-to-action{
+  background: rgb(26,237,242);
+  background: linear-gradient(54deg, rgba(26,237,242,1) 0%, rgba(255,253,45,1) 100%); 
+}
+
+/* project title */
 .gallery-item div{
   justify-self: center;
   align-self: flex-end;
@@ -368,6 +376,20 @@ textarea{
   margin: 0.6rem;
 }
 
+
+/* call to action text */
+.call-to-action div{
+  background-color: #ff4bffda;
+  /* border-radius: 0.3rem; */
+  font-size: 3rem;
+  /* font-weight: bold; */
+  line-height: 2rem;
+  color: rgba(0, 0, 0, 0.75);
+  align-self: center;
+  text-align: end;
+}
+
+/* NOTEBOOK */
 .note-item{
   /* width: calc(100vw - 20px); */
   width: auto;
@@ -459,8 +481,8 @@ textarea{
 }
 
 
-/* BIG SCREENS */
-@media (min-width: 600px) {
+/* -----------------  BIG SCREENS --------- */
+@media (min-width: 690px) {
   .main-grid-container{ 
     grid-template-columns: minmax(400px, auto) 25vw; 
     grid-template-rows: auto; 
@@ -468,16 +490,36 @@ textarea{
       "content contextual-nav"
   }
 
+
+  /* project cell */
   .gallery-item{
     width: unset;
+    min-width: 22vw;
     height: 28vh;
     flex-grow: 1;
-    background-color: aqua;
     margin: 0.6rem;
   }
 
+  /* project title */
+  .gallery-item div{
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-self: center;
+    align-self: flex-end;
+    padding: 1rem;
+    margin: 0.6rem;
+  }
+
+  /* project title - special case of gallery item */
+.call-to-action div{
+  padding: 2.6rem;
+  align-self: center;
+  text-align: end;
+}
+
   .gallery-container a{
     flex-grow: 1;
+
   }
 
   .nav{

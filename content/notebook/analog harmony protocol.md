@@ -1,31 +1,33 @@
 ---
-title: "An Analog Harmony Protocol - AKA Intermals"
+title: "Intermals - A Signal-Based Harmony Protocol"
 publish: y
 date: 2023-01-10
-abstract: "A simple protocol for desribing chord voicings as a signal."
+abstract: "A simple protocol for describing chord voicings as a signal."
 ---
 
-# Analog Harmony Protocol
-Also called "Intermals".
+# Intermals
 This is an idea for encoding a chord and/or harmonic information in a single floating point value.
 
 - The number to the left of the decimal defines the root in semitones. 
 - The numbers to the right of the floating point defines rising semitone steps for each subsequent voice.
 - useful for shooting harmonic information around as signals in rnbo.
+- You can do weird *chord maths* maybe.
 
 The possible chord voicings are both limited and limitless.
 
 ```
-#  --- THE.INTERMAL --- 
-		  .
-	   -12.074    
-	left< . >right
-	|        |
-	|        | three additional voices 0, 7,
-	|        | and 11 semitones above the root
-	|
-	| twelve semitones below 
-	| whatever reference pitch
+-- THE.INTERMAL --------------- 
+	  .
+   -12.074   <---- Signal    
+	  .  
+     / \ _To the right_
+    /   |> Three additional 
+   /    |> voices 0, 7,
+  /     |> and 11 semitones 
+ /      |> above the root.
+|
+|< Root twelve semitones below 
+|< whatever reference pitch.
 
 ```
 
