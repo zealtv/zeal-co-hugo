@@ -8,7 +8,7 @@ abstract: "A software stack for realtime interactive sound, vision, and projecti
 
 # An Introduction to Interactive Audio-Vision
 
-Let's look at a stack of tools for interactive projection video and integrated audio.  We will look at running the stack on a single machine, as well as distributed across a network, as the scenario may call for.
+Let's look at a stack of tools for interactive video projection and integrated audio.  We will look at running the stack on a single machine, as well as distributed across a network, as the scenario may call for.
 
 - TouchDesigner will be the minds-eye of our system, generating and processing vision, then outputting video for projector.
 - Ableton will be the heart of the system, dishing out sequencing commands, as well as sending audio to our interface.
