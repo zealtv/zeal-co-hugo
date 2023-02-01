@@ -17,7 +17,7 @@ Across two machines:
 ![av system on two machines](../files/av-stack-overview-000.png)
 
 On one machine:
-![av system on one machine](../files/ac-stack-overview-001.md)
+![av system on one machine](../files/av-stack-overview-001.png)
 
 # Tools
 We'll make use of the following:
