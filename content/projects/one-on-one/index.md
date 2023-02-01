@@ -1,6 +1,6 @@
 ---
 title: "One-on-One Sessions"
-heroImage: "./1on1.png"
+heroImage: "./hero.jpg"
 what: "Personalised Learning"
 where: 
  - "via Zoom"
