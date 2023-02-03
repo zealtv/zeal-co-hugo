@@ -1,25 +1,23 @@
 ---
-title: "Intermals - A Signal-Based Harmony Protocol"
+title: "the concept formally known as intermals"
 publish: y
 date: 2023-01-10
 abstract: "A simple protocol for describing chord voicings as a signal."
 ---
 
-# Intermals
-This is an idea for encoding a chord and/or harmonic information in a single floating point value.
+#  decimal + interval = decival 
+
+A decival is a way of encoding a chord voicing and relative root pitch as a floating point value.
 
 - The number to the left of the decimal defines the root in semitones. 
 - The numbers to the right of the floating point defines rising semitone steps for each subsequent voice.
-- useful for shooting harmonic information around as signals in rnbo.
-- You can do weird *chord maths* maybe.
 
-The possible chord voicings are both limited and limitless.
+It might be useful for shooting harmonic information around as signals in rnbo.  You can do weird *chord maths* maybe. The possible chord voicings are simultaneously limited and limitless.
 
 ```
--- THE.INTERMAL --------------- 
-	  .
+-- THE DECIVAL --
    -12.074   <---- Signal    
-	  .  
+  
      / \ _To the right_
     /   |> Three additional 
    /    |> voices 0, 7,
@@ -32,7 +30,7 @@ The possible chord voicings are both limited and limitless.
 ```
 
 
-# Example Intermals
+# Example decivals
 
 ```
 Relative to C:

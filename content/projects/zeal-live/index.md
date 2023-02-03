@@ -8,6 +8,11 @@ tier: 2
 draft: "true"
 ---
 
+https://www.youtube.com/watch?v=qBoPGOAhdWU
+
+https://www.youtube.com/watch?v=8n1K7d3iUnA
+
+
 This is a project page bud.
 
 ## Topics covered
