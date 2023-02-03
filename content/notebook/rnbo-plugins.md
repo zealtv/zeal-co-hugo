@@ -23,18 +23,45 @@ We're going to look at using RNBO to export a plugin we can use in our other too
 
 We will look at exporting both effects and instruments as VST3 plugins.
 
-We'll then look at them running an an assortment of hosts.  You should experiment with opening them in the weirdest VST3 or AU compatible host you use.
+We'll then look at running them on an assortment of hosts.  You should experiment with opening them in the weirdest VST3 or AU compatible host you use.
 
-## example rnbo patches
+# Requirements
+- A Mac or Windows machine
+- with [Max](https://cycling74.com/) and [RNBO](https://cycling74.com/products/rnbo) installed
+- and at least one VST3 host such as [Reaper](https://www.reaper.fm). 
+
+# example rnbo patches
 ```
-incoming
+🚀 incoming 
 ```
-## export examples
+# export examples
 ```
-incoming
+🚀 incoming
 ```
-## hosting examples
+# hosting examples
 ```
-incoming
+🚀 incoming
 ```
 
+<!--
+## MuseScore 4
+MuseScore 4 looks for VST3 files in the following places:
+```
+# windows:
+C:\Program Files\Common Files\VST3
+
+# mac and linux:
+~/.vst3/
+/usr/lib/vst3/  
+/usr/local/lib/vst3/
+```
+
+You can set a custom folder location in *preferences > general > folders*
+![musescore-vst3-folder](../files/musescore-vst3-folder.png)
+
+# Pure Data
+
+Use the deken package manager to install the **vstplugin~** external.  open deken by clicking help > find externals, then search for `vstplugin~`, select the latest version and click install.
+
+![vstplugin-in-deken](../files/vstplugin-in-deken.png)
+-->
