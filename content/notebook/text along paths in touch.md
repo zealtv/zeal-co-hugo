@@ -8,14 +8,12 @@ date: 2023-01-30
 
 {{< youtube DPrZDuGfxzw >}}
 
-# Previously
-[an introduction to interactive audio-vision](an%20introduction%20to%20interactive%20audio-vision.md)
+💾💾💾💾💾💾💾
+## 💾[DOWNLOAD ../files/text-paths.5.toe](../files/text-paths.5.toe)  
+💾💾💾💾💾💾💾
+# Related
+- [an introduction to interactive audio-vision](an%20introduction%20to%20interactive%20audio-vision.md)
 
-
-# Next... Digital painting projection map
-- project onto target
-- paint mask with tablet
-- map animation to mask
 
 
 

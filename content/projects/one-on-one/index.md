@@ -50,7 +50,7 @@ more 👉 [about Bob](/about)
 
 ### Item: **60-minute Zoom one-on-one w/ Bob**
 
-### Cost: **$80 USD** 🌎
+### Cost: **$90 USD** 🌎
 
 ---
 ## ✨🦉✨🦉✨🦉✨🦉✨
