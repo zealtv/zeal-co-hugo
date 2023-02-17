@@ -7,18 +7,16 @@ abstract: "A simple protocol for describing chord voicings as a signal."
 
 #  decimal + interval = decival 
 
-A decival is a way of encoding a chord voicing and relative root pitch as a floating point value.
+A decival (or intermal) is a way of encoding a chord voicing and relative root pitch as a floating point value.
 
 - The number to the left of the decimal defines the root in semitones. 
 - The numbers to the right of the floating point defines rising semitone steps for each subsequent voice.
 
-It might be useful for shooting harmonic information around as signals in rnbo.  You can do weird *chord maths* maybe. The possible chord voicings are simultaneously limited and limitless.
-
 ```
--- THE DECIVAL --
+-- THE INTERMAL --
    -12.074   <---- Signal    
   
-     / \ _To the right_
+     / \ 
     /   |> Three additional 
    /    |> voices 0, 7,
   /     |> and 11 semitones 
@@ -29,8 +27,11 @@ It might be useful for shooting harmonic information around as signals in rnbo. 
 
 ```
 
+It might be useful for shooting harmonic information around as signals in rnbo.  You can do weird *chord maths* maybe. The possible chord voicings are simultaneously limited and limitless.
 
-# Example decivals
+
+
+# Example decivals/intermals
 
 ```
 Relative to C:

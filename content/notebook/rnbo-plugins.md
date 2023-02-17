@@ -16,8 +16,7 @@ summary: "how to cram Max into anything"
 # - no spaces
 ---
 
-{{< youtube bvGhFLSfSAs >}}
-## reference: https://rnbo.cycling74.com/learn/using-the-vst-audiounit-target
+{{< youtube PIieUNJIV6A >}}
 
 We're going to look at using RNBO to export a plugin we can use in our other tools.  RNBO patches can be exported as VST3 for Windows, OSX, and Linux, covering the vast majority of tools and operating systems ( and RNBO's JavaScript export can help us target those pesky mobile devices ). 
 
@@ -31,6 +30,7 @@ We'll then look at running them on an assortment of hosts.  You should experimen
 
 
 # Resources
+- A reference write-up and video about [exporting VSTs with RNBO](https://rnbo.cycling74.com/learn/using-the-vst-audiounit-target)
 - The [RNBO explore page](https://rnbo.cycling74.com/explore)  has example patches for a variety of contexts and use cases.
 - About [creating presets using Max snapshots](https://rnbo.cycling74.com/learn/presets-with-snapshots).
 
