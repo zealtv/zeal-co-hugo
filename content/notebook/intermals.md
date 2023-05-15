@@ -14,16 +14,15 @@ A decival (or intermal) is a way of encoding a chord voicing and relative root p
 
 ```
 -- THE INTERMAL --
-   -12.074   <---- Signal    
-  
+   -12.074   
      / \ 
-    /   |> Three additional 
-   /    |> voices 0, 7,
-  /     |> and 11 semitones 
- /      |> above the root.
+    /   Three additional 
+   /    voices 0, 7,
+  /     and 11 semitones 
+ /      above the root.
 |
-|< Root twelve semitones below 
-|< whatever reference pitch.
+Root twelve semitones below 
+whatever reference pitch.
 
 ```
 
