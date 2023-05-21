@@ -4,7 +4,7 @@ when:
   - "2020"
   - "2021"
 heroImage: "./hero.jpg"
-what: "Creative research into Dynamic Music and its application in human flight and performance."
+what: "Creative research into the intersection of Dynamic Music and human flight."
 where:
   - "Bendigo, Victoria"
 tier: 0

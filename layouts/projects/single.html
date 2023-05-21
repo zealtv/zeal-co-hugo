@@ -14,10 +14,13 @@
       {{if .Params.with}} <tr> <td><strong>with</strong></td>  <td>{{range .Params.with}} <span> 🍪 {{.}} </span> {{end}}</td>  </tr>{{end}}
       {{if .Params.when}} <tr> <td><strong>when</strong></td> <td>{{range .Params.when}} <span> 🍪 {{.}} </span> {{end}}</td>  </tr>{{end}}
       {{if .Params.where}} <tr> <td><strong>where</strong></td> <td>{{range .Params.where}} <span> 🍪 {{.}} </span> {{end}}</td>  </tr>{{end}}
-      </table>
-    </div>
-    
-    {{with .Params.abstract}}<div class="project-abstract"><em>{{.}}</em></div>{{end}}
+      {{with .Params.git}} <tr><td><strong> code</strong></td> <td> <a href="{{.}}">💾  {{.}}</a>  </td></tr>   {{end}}
+      
+    </table>
+  </div>
+  
+  {{with .Params.abstract}}<div class="project-abstract"><em>{{.}}</em></div>{{end}}
+  
 
 
     {{ .Content }}
