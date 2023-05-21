@@ -4,7 +4,7 @@ when:
   - "2021"
 what: "exploratory dynamic music system"
 heroImage: "./elevon-2.jpg"
-tier: 0
+tier: 1
 # draft: "false"
 where:
   - "Adelaide, South Australia"
