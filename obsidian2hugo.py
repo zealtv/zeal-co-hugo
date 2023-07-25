@@ -48,8 +48,6 @@ def get_file_links(markdown_file):
                     match = truncated_string = re.match(r"^(.*?\.[^\ |\)]+)", match).group(1)
                     file_links.append(match)
 
-
-
     # Return the list of file links
     return file_links
 
