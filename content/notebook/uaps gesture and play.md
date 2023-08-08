@@ -1,7 +1,6 @@
 ---
 title: "UAPs, gesture and play"
 date: 2022-04-11
-publish: n
 ---
 
 What does it say if the patterns displayed in ufo/uap 

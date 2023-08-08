@@ -1,7 +1,7 @@
 ---
 title: "Neurotheology, Aliens, and Interpreting the Immaterial"
 date: 2022-04-23
-publish: n
+
 ---
 ```
 A three point metamodern disclaimer:
