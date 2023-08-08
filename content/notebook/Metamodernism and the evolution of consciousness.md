@@ -8,7 +8,7 @@ publish: y
 
 **Metamodernism.  Everybody.  We should probably get on board with this.**
 
-Maybe it's just me but it seems like there is a collision of ideas going on.  Some of the ideas go by terms like *meta-modernism*, *integral*, *process philosophy*, *process theology*, *pan-experientalism*, *panpsychism*, *organic cosmology*, and probably a lot more.  Within this area of thinking, there are quite a few people with a new sort of spiritual conviction - proposing a sort of proto-framework that values all perspectives.... ah I think I lost my way in describing it.  It's a lot of ideas all at once.  I'm just going to throw down a smattering of them.
+Maybe it's just me but it seems like there is a collision of ideas going on.  Some of the ideas go by terms like *meta-modernism*, *integral*, *process philosophy*, *process theology*, *pan-experientalism*, *panpsychism*, *organic cosmology*, and probably a lot 
 
 ![](../files/ever-present-origin.png)
 

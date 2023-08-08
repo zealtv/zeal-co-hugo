@@ -1,12 +1,12 @@
 ---
 title: "UAPs, gesture and play"
 date: 2022-04-11
-publish: y
+publish: n
 ---
 
-{{< youtube FxH-nLkj2Pw >}}
+What does it say if the patterns displayed in ufo/uap 
 
-With considerations of authenticity aside, I'm noticing a trend in recent UAP/UFO videos, where orbs of light demonstrate beautiful coordinated flight, in lines at right angles, or in flowing, coordinated, triangular formations, or transform in novel ways.
+{{< youtube FxH-nLkj2Pw >}}
 
 {{< youtube pWF4yYLxy3Q >}}
 
