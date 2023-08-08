@@ -78,7 +78,7 @@ Joseph La Delfa, Robert Jarvis, Rohit Ashok Khot, Florian ‘Floyd’ Mueller **
 
 ### 2019 - Current
 
-**Supervisor**  Victorian College of the Arts *(Interactive Composition)*
+**Lecturer**  Victorian College of the Arts *(Interactive Composition)*
 
 ### 2017 - Current
 
