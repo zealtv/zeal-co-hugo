@@ -6,7 +6,7 @@ publish: y
 
 {{< youtube UCqVpwg0oPc >}}
 
-An amprphous term floated around ufo twitter... "high strangeness".  This term is so broad as to suck in every single thing that does not conform to our expectations of reality.  That is anything beyond the (post/)modern worldview.  This world view is a pretty good rule of thumb as the as far as things go, but becomes unstuck when confronted with anomolies.  Paradox emerges.
+An amorphous term floated around ufo twitter... "high strangeness".  This term is so broad as to suck in every single thing that does not conform to our expectations of reality.  That is anything beyond the (post/)modern worldview.  This world view is a pretty good rule of thumb as the as far as things go, but becomes unstuck when confronted with anomolies.  Paradox emerges.
 
 Some things that are impossible to imagine, might infact be possible.
 
