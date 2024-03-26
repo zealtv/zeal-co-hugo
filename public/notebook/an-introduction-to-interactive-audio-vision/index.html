@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="/favicon/favicon.ico"> 
+    <title>An Introduction to Interactive Audio-Vision|ZEAL.CO</title>
+</head>
+<body>
+<div class="site-container">
+
+  <div class="nav">
+  
+  <a href="/">
+  <div class="nav-item"><h1>ZEAL.CO</h1></div>
+</a>
+<div class="flex-spacer"></div>
+
+<div style="display:flex; flex-wrap: wrap;">
+  
+  <a href="/about"><div class="nav-item">✨ About</div></a>
+  
+  <a href="/notebook"><div class="nav-item">📒 Notebook</div></a>
+  <a href="https://tidycal.com/zealco" target="_blank"><div class="nav-item">🤳 One-on-One </div></a>
+  
+  <a href="/contact"><div class="nav-item">👽 Contact</div></a>
+
+  
+</div>
+  
+  </div>
+  
+  <div class="main">
+  
+<div class="main-grid-container">
+  <div class="content">
+    
+    
+
+
+
+    <div class="project-meta">
+
+      <h2>An Introduction to Interactive Audio-Vision</h2>
+
+      
+      
+
+      <table>
+      
+      
+      
+      
+      </table>
+    </div>
+    
+    <div class="project-abstract"><em>A software stack for realtime interactive sound, vision, and projection mapped video.</em></div>
+
+    <h1 id="an-introduction-to-interactive-audio-vision">An Introduction to Interactive Audio-Vision</h1>
+<p>Let&rsquo;s look at a general-purpose stack of tools for interactive video projection and integrated audio.  We will look at running the stack on a single machine, as well as distributed across a network, as the scenario may call for.</p>
+<ul>
+<li>TouchDesigner will be the minds-eye of our system, generating and processing vision, then outputting video for projector.</li>
+<li>Ableton will be the heart of the system, dishing out sequencing commands, as well as sending audio to our interface.</li>
+<li>Max will provide the neurophysiology, reading and interpreting data from our sensors before sending high level messages to the rest of the system.  This is where our interaction logic will live.</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>Across two machines:
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/av-stack-overview-000.png" alt="🖼"  /> 
+</p>
+
+</p>
+<p>On one machine:
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/av-stack-overview-001.png" alt="🖼"  /> 
+</p>
+
+</p>
+<h1 id="tools">Tools</h1>
+<p>We&rsquo;ll make use of the following:</p>
+<ul>
+<li>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://derivative.ca">TouchDesigner</a></li>
+<li>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://ableton.com">Ableton</a></li>
+<li>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://cycling74.com">Max</a></li>
+<li>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://docs.derivative.ca/TDAbleton">TDAbleton Plugin</a></li>
+<li>A camera or game controller as a sensor</li>
+<li>Media creation tools for creating source material</li>
+</ul>
+<h3 id="extra-stuff-">extra stuff &hellip;</h3>
+<h2 id="phones-as-wireless-sensors">Phones as wireless sensors</h2>
+<p>These send sensor data as OSC over a WiFi network.  This enables all sorts of stuff: geolocked content, motion sonification, environmentally responsive works, etc.
+We can get things like:</p>
+<ul>
+<li>GPS</li>
+<li>rotation</li>
+<li>acceleration</li>
+<li>temperature</li>
+<li>light</li>
+<li>NFC</li>
+</ul>
+<p>iOS: 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.bitshapesoftware.com/instruments/gyrosc/">gyrosc</a><br>
+Android: 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://sensors2.org/osc/">sensors2OSC</a></p>
+<h2 id="phones-as-wireless-cameras">Phones as wireless cameras:</h2>
+<p>The NDI protocol allows sending high-resolution over a network.  Apps on iOS and Android turn the device into a very capable wireless streaming camera.</p>
+<p>iOS and Android: 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.ndi.tv/products/ndi-hx-camera-app/">ndi-hx-camera-app</a></p>
+<h2 id="game-controllers">Game controllers</h2>
+<p>Many game controllers compatible with your operating system can be read into programs like Max and TouchDesigner.  You can leverage the R&amp;D that has been put into developing ergonomic and responsive human interfaces.  <strong>Max</strong> is a great tool for bringing in these sort of human interface devices and sending out OSC messages.</p>
+<h2 id="usb-keyboards">USB keyboards</h2>
+<p>We can hack switches on to the PCB of old USB keyboards to get quick, simple button inputs.  It is workable solution much of the time.</p>
+<h2 id="video-recapture-applications">Video recapture applications</h2>
+<p>These let us record application output</p>
+<p>x-platform: 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://obsproject.com/">OBS Studio</a></p>
+<p>For Windows: 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.lightjams.com/spout-recorder.html">Spout Recorder</a><br>
+For OSX: 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://syphon.info/recorder">Syphon Recorder</a></p>
+<hr>
+<h2 id="future-directions">Future Directions</h2>
+<p>🍪 Later me might think about extending the stack by bringing game engine textures into TouchDesigner from Unity and Unreal.</p>
+<p>🍪 We could look at integrating live video feeds over WiFi using NDI.</p>
+<p>🍪 We could devise novel methods of interaction.</p>
+<p>🍪 We might also look at various approaches to projection mapping inside and outside of TouchDesigner.</p>
+<h1 id="next">Next</h1>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+
+<a href="../text-along-paths-in-touch">text along paths in touch</a></p>
+
+
+  </div>
+  
+  
+  <div class="contextual-nav"></div>
+</div>
+
+  
+  </div>
+  
+  
+
+  <div class="footer">
+  
+  <div> elsewise... 
+  <a href="https://youtube.com/zealtv">📺youtube</a>
+  
+  <a href="https://github.com/zealtv">🔮github</a>
+  <a href="https://webring.xxiivv.com/#random" target="_blank"><img src="/images/icon.black.svg" width="20rem" alt="XXIIVV webring"/>webring</a>
+  <a href="https://zeal.co/index.xml">📰rss</a>
+</div>
+
+<div class="flex-spacer"></div>
+
+<div>ZEAL.CO is also a <a href="https://github.com/zealtv/zeal-co-hugo">git repo.</a></div>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JBCHRK2NDP"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-JBCHRK2NDP', { 'anonymize_ip': false });
+}
+</script>
+
+  
+  </div>
+
+</div>
+</body>
+</html>

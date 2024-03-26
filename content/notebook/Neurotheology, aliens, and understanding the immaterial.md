@@ -1,13 +1,12 @@
 ---
-title: "Neurotheology, Aliens, and Interpreting the Immaterial"
+title: "Neurotheology, aliens, and interpreting the immaterial"
 date: 2022-04-23
-
+publish: y
 ---
 ```
-A three point metamodern disclaimer:
-- I am not wedded to any perspective.
-- Beliefs are best held lightly.
-- Ideas are cheap.
+Standard scratchpad disclaimer.  
+I am not tied to any of the perspectives below.
+I believe beliefs are best held lightly.
 ```
 
 

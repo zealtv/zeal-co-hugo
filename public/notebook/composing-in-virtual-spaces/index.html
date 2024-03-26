@@ -1,0 +1,945 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="/favicon/favicon.ico"> 
+    <title>Composing in Virtual Spaces|ZEAL.CO</title>
+</head>
+<body>
+<div class="site-container">
+
+  <div class="nav">
+  
+  <a href="/">
+  <div class="nav-item"><h1>ZEAL.CO</h1></div>
+</a>
+<div class="flex-spacer"></div>
+
+<div style="display:flex; flex-wrap: wrap;">
+  
+  <a href="/about"><div class="nav-item">✨ About</div></a>
+  
+  <a href="/notebook"><div class="nav-item">📒 Notebook</div></a>
+  <a href="https://tidycal.com/zealco" target="_blank"><div class="nav-item">🤳 One-on-One </div></a>
+  
+  <a href="/contact"><div class="nav-item">👽 Contact</div></a>
+
+  
+</div>
+  
+  </div>
+  
+  <div class="main">
+  
+<div class="main-grid-container">
+  <div class="content">
+    
+    
+
+
+
+    <div class="project-meta">
+
+      <h2>Composing in Virtual Spaces</h2>
+
+      
+      
+
+      <table>
+      
+      
+      
+      
+      </table>
+    </div>
+    
+    
+
+    <pre tabindex="0"><code>These notes were written for a presentation to be given at The Victorian College of the Arts, March 23rd 2020.
+
+Duration: 1hr + 30m Q&amp;A
+</code></pre><h2 id="who-am-i">Who am I?</h2>
+<ul>
+<li>Audio-visual Artist*</li>
+<li>Composer</li>
+<li>Software Developer</li>
+<li>Animator</li>
+<li>Interested in extending conceptions and applications of music</li>
+<li>Pro Frank Zappa</li>
+<li>Anti Lars Ulrich</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>Also:</p>
+<ul>
+<li>PhD Candidate at RMIT University</li>
+<li>Max Certified Trainer</li>
+<li>Director of Technology at Playable Streets</li>
+</ul>
+<!-- raw HTML omitted -->
+<p>Some examples of my previous work are 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/projects/luminesce">here</a>,
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/projects/axis">here</a>,
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/projects/obstinate">here</a>.</p>
+<p>Questions for y&rsquo;all:</p>
+<ul>
+<li>Who has heard of Max or Pure Data?</li>
+<li>Who has worked in a visual or text-based programming language?</li>
+</ul>
+<h3 id="foreshadowing">Foreshadowing&hellip;</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/qfVjxAudeio" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>I am mostly going to be talking about an area of research I have been working on involving the creation of  musical representations of motion - specifically that of gliding aircraft and similar activities which could loosely fall under the umbrella of <em>flow sports</em>.  I&rsquo;ll start with a teaser of the piece <em>Aileron One</em> and we&rsquo;ll discuss it in more detail as we go.</p>
+<h2 id="music">Music+</h2>
+<h4 id="what-the-hell-is-music-anyway">What the hell is music anyway?</h4>
+<p>Music infamously evades definition.   Perhaps the most often cited definition is from Edgard Varèse:</p>
+<blockquote>
+<p>Music is organised sound.</p>
+</blockquote>
+<p>Though it doesn&rsquo;t take long to think of examples of sound that is organised, but usually not considered music.  Think industrial noises, or the warning beeper on a backing up truck. And there are many examples of music that challenge the definition, such as aleatoric music.</p>
+<p>Instead of asking  <em>What is Music?</em>, what if we instead consider <em>What is <strong>Musical</strong>?</em></p>
+<p>To ruthlessly synthesise  musicologist 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://mitpress.mit.edu/books/sweet-anticipation">David Huron</a>.</p>
+<blockquote>
+<p>Musicality is an aesthetic sense (qualia) elicited by the subconscious recognition of temporal patterns.</p>
+</blockquote>
+<p>We use our past musical experiences to build probabilistic mental models to answer the following question from moment to moment:
+<em>Given what has happened in a piece of music thus far, and the current context, what do we expect will happen next?</em></p>
+<p>✅ brain rewards itself</p>
+<p>❌ brainstem reaction (arousal + positive valence)</p>
+<p>The downstream effect is that <strong>Predictability creates musicality,    surprise adds excitement.</strong> If the piece is too predictable we get bored.  If it is too unpredictable, it doesn&rsquo;t sound musical.</p>
+<p>Interestingly - this view of musicality is built atop predicting events in time, it is not constrained to sound.  Theoretically, other time-based artforms such as dance, poetry (<em>i.e. rap</em>), and video, can (i argue do) elicit musical experience.  As could other predictable  natural phenomena such as a leaf falling from a tree, or a rock skipping on a lake.</p>
+<p>So let&rsquo;s define Music+  as simply <strong>patterns in time</strong>.  This can encapsulate composing, arranging, improvising, and performing. We often see multiple artforms and modalities presented alongside sonic musical performance.  From a music+ perspective,  all temporal (and contextual) elements of these artworks can be considered to be musical elements able to be composed, arranged, performed, or improvised.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/l1nR9ZJaA90" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/QgPrnCmsGY8" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>Out of the various modalities, the relationship between vision and sound is likely the most formalised.</p>
+<ul>
+<li>John Whitney  (Visual Music)</li>
+<li>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="http://www.jaroslawkapuscinski.com/">http://www.jaroslawkapuscinski.com/</a></li>
+<li>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.freidaabtan.com/">https://www.freidaabtan.com/</a></li>
+<li>Jonathan Sterne&rsquo;s Audio-visual Litany</li>
+<li>Michel Chion&rsquo;s Audio-vision and Visu-audition</li>
+</ul>
+<p>Some of my previous work has been attempting to extract the musical qualities present in visual stimuli or vice versa - translating between vision and sound, sound and vision.</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/128698185" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+Adelaide to Melbourne - expressing audibly changes in vision over time</p>
+<p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://player.vimeo.com/video/181424784" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="vimeo video" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
+
+Luminesce - expressing visually changes in sound over time</p>
+<p>But here are other modalities with latent musical potential</p>
+<ul>
+<li>Smell</li>
+<li>Touch</li>
+<li>Temperature</li>
+<li>Soma</li>
+<li><strong>Proprioception</strong></li>
+</ul>
+<p>Proprioception is our sense of our own bodies movement.  We can also consider our empathetic response to the movement of others.</p>
+<p>Motion is change in position over time.  Thus patterns in motion <em>are</em> music+.</p>
+<p>Other intermodal composers often talk about sonic or visual motion (Kapuscinski, Whitney)</p>
+<p>What is super cool about motion is we all have predictive models about the physical world - throw a ball up, we expect it to come down. This predictability gives a substrate for musical experience.</p>
+<pre tabindex="0"><code>Ball example.
+
+Glider example.
+</code></pre><p>So&hellip;. let&rsquo;s say we want to build a musical system that takes as an input some kind of motion, and as an output produces some sort of sound.  If we take on this task, we are leaving behind the safe confines of deterministic music and entering the hazy abyss that is&hellip;</p>
+<hr>
+<h2 id="dynamic-music">DYNAMIC MUSIC</h2>
+<ul>
+<li>dynamic music - tracy redhead, florian thalmann</li>
+<li>encapsulates adaptive, generative, stochastic music and more.</li>
+</ul>
+<p>Recognises music is fundamentally multi-hierarchical
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/musical-structure-holon.png" alt="🖼"  /> 
+</p>
+
+
+The above collection of diagrams curated by Florian Thalmann.</p>
+<h3 id="tools-for-dynamic-music-composition">Tools for Dynamic Music composition</h3>
+<ul>
+<li>Music for games is a major domain of Dynamic Music. Most common tools are 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.fmod.com/">FMod</a>, and 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.fmod.com/">WWise</a>.</li>
+<li>I wanted more granular control so I developed my own suites of software tools using, initially in 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://cycling74.com">Max</a>.</li>
+</ul>
+<hr>
+<h2 id="spatial-metacomposition">SPATIAL METACOMPOSITION</h2>
+<ul>
+<li>Composing for motion in digital virtual space.</li>
+<li>Distinct from Spatial Music.</li>
+<li>Create a multidimensional musical space.</li>
+<li>Explore that space to render a musical result.</li>
+<li>Each performance of the metacompostion may be different, so you are in fact composing an infinite set of musical possibilities.</li>
+</ul>
+<p>Space = Sound by Rolf Gelhaar is likely the first ever Spatial Metacomposition:
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/tJyutKQEpLk" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+</p>
+<p>Dimensions of this compositional space do not necessarily conform to those of physical space.  It is <em>non-euclidean</em> and of arbitrary dimensions.</p>
+<pre tabindex="0"><code>Example: compound rotation
+</code></pre><pre tabindex="0"><code>Example: Composing against axes of arbitrary continuous data.
+</code></pre><p>Start with a two dimensional composition space: position X and position Y.</p>
+<p>What happens when we change one axis to acceleration? or temperature? or character health? or radiation level?</p>
+<p>Now we are beginning  to work in  a generalised, multi-dimensional composition space.  Binding events to points in space helps create predictability, but we have the creative scope to break this expectation</p>
+<hr>
+<h2 id="composing-music-for-virtual-space">Composing music for virtual space</h2>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/ywen9LQ6Wn4" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../files/Aileron_One_Arrangment.png" alt="🖼"  /> 
+</p>
+
+</p>
+<p>Aileron One is an interactive musical work that uses draws on audio variometer - an instrument used by glider pilots to perceive the vertical velocity -  as a jumping off point for the exploration of the musical sonification of gliding flight.</p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/QEDEZbJYuZo" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<h3 id="aileron">Aileron</h3>
+<p>I developed the 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://github.com/zealtv/Aileron">Aileron</a> tool suite with the aim of being able to quickly compose spatial meta compositions.   Aileron One was written as a an investigation of the tools as well as the concept of spatial metacomposition.</p>
+<p>My primary take away from this was changes in velocity can change our musical perception (Stockhausen&rsquo;s unified musical time spectrum). We can manage this by bracketing velocities and composing transitions between these brackets, akin to metric modulation but in space rather than time.</p>
+<p><em>This principle applies to the rate of change of any continuous data source, not just position</em></p>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/UVnK7ySaeNc" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>The two-dimensional grid of Ableton&rsquo;s session view became too cumbersome so I decided to build atop a different framework which led to the development of Elevon.</p>
+<h3 id="elevon-">Elevon 🛩</h3>
+<p>For the development of Elevon, I chose to work in Pure Data because it is cross platform and embeddable (raspberry pi).
+This project then split in two -  
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://github.com/zealtv/elevon">elevon</a> for structuring music against n-dimensions of arbitrary continuous data.  Music making tools became  
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://github.com/zealtv/bop">bop</a>.</p>
+<h3 id="bop-">bop 🐦</h3>
+
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/GnQuqaytKiI" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<hr>
+<h2 id="takeaways-">Takeaways 🍱</h2>
+<ul>
+<li>Musical perception can be elicited through other senses - although this may not be consciously recognised by the experiencer.</li>
+<li>Musical perception is based on past experience - we can (and do) push at the boundaries of musical perception to build the basis for new musical experience (Coltrane,  the trajectory through musical history of consonance to dissonance, Stravinsky).</li>
+<li>Technology opens a myriad of creative possibilities - we build upon the existing collective musical memory to slowly expand humanities palette of aesthetic experience.</li>
+<li>The medium of Dynamic Music allow us to create musical representations of arbitrary data.  When applied to motion data we are able to create musical perceptions of changes in position over time.</li>
+<li>The virtual space in which our metacomposition exists is non-euclidean by nature, and of arbitrary dimensions.</li>
+</ul>
+<hr>
+<h2 id="lets-discuss">Let&rsquo;s discuss</h2>
+<ul>
+<li>What applications of Dynamic Music can you think of?</li>
+<li>Can you think of any artforms, human pursuits, or natural phenomenon that have musical qualities, yet aren&rsquo;t usually considered music?</li>
+</ul>
+<hr>
+<h1 id="tabs-for-this-talk">Tabs for this talk</h1>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/about/">https://zeal.co/about/</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/">https://zeal.co/</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://en.wikipedia.org/wiki/Visual_programming_language">https://en.wikipedia.org/wiki/Visual_programming_language</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.youtube.com/watch?v=qfVjxAudeio">https://www.youtube.com/watch?v=qfVjxAudeio</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://en.wikipedia.org/wiki/Definition_of_music">https://en.wikipedia.org/wiki/Definition_of_music</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://mitpress.mit.edu/books/sweet-anticipation">https://mitpress.mit.edu/books/sweet-anticipation</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.youtube.com/watch?v=l1nR9ZJaA90">https://www.youtube.com/watch?v=l1nR9ZJaA90</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://youtu.be/QgPrnCmsGY8?t=69">https://youtu.be/QgPrnCmsGY8?t=69</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://en.wikipedia.org/wiki/John_Whitney_%28animator%29">https://en.wikipedia.org/wiki/John_Whitney_(animator)</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.youtube.com/watch?v=TbV7loKp69s">https://www.youtube.com/watch?v=TbV7loKp69s</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/projects/adelaide-to-melbourne/">https://zeal.co/projects/adelaide-to-melbourne/</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/projects/luminesce/">https://zeal.co/projects/luminesce/</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="http://www.doyletics.com/arj/12signss.jpg">http://www.doyletics.com/arj/12signss.jpg</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://en.wikipedia.org/wiki/Proprioception">https://en.wikipedia.org/wiki/Proprioception</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="http://www.jaroslawkapuscinski.com/work-mondrianvariations.html">http://www.jaroslawkapuscinski.com/work-mondrianvariations.html</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="http://www.tracyredhead.com/?q=content/semantic-machine">http://www.tracyredhead.com/?q=content/semantic-machine</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/notebook/assets/Pasted%20image%2020220322201412.png">https://zeal.co/notebook/assets/Pasted%20image%2020220322201412.png</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.fmod.com/">https://www.fmod.com/</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.audiokinetic.com/en/products/wwise">https://www.audiokinetic.com/en/products/wwise</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://cycling74.com/">https://cycling74.com/</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.youtube.com/watch?v=tJyutKQEpLk">https://www.youtube.com/watch?v=tJyutKQEpLk</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.youtube.com/watch?v=ywen9LQ6Wn4">https://www.youtube.com/watch?v=ywen9LQ6Wn4</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://zeal.co/notebook/assets/Aileron_One_Arrangment.png">https://zeal.co/notebook/assets/Aileron_One_Arrangment.png</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.youtube.com/watch?v=QEDEZbJYuZo">https://www.youtube.com/watch?v=QEDEZbJYuZo</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://github.com/zealtv/Aileron">https://github.com/zealtv/Aileron</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.youtube.com/watch?v=UVnK7ySaeNc">https://www.youtube.com/watch?v=UVnK7ySaeNc</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://github.com/zealtv/elevon">https://github.com/zealtv/elevon</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://github.com/zealtv/bop">https://github.com/zealtv/bop</a></p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://youtu.be/GnQuqaytKiI?t=14">https://youtu.be/GnQuqaytKiI?t=14</a> (live demo)</p>
+<p>
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://youtu.be/l7rjRDxscmA?t=792">oh, you found me</a></p>
+
+
+  </div>
+  
+  
+  <div class="contextual-nav"></div>
+</div>
+
+  
+  </div>
+  
+  
+
+  <div class="footer">
+  
+  <div> elsewise... 
+  <a href="https://youtube.com/zealtv">📺youtube</a>
+  
+  <a href="https://github.com/zealtv">🔮github</a>
+  <a href="https://webring.xxiivv.com/#random" target="_blank"><img src="/images/icon.black.svg" width="20rem" alt="XXIIVV webring"/>webring</a>
+  <a href="https://zeal.co/index.xml">📰rss</a>
+</div>
+
+<div class="flex-spacer"></div>
+
+<div>ZEAL.CO is also a <a href="https://github.com/zealtv/zeal-co-hugo">git repo.</a></div>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JBCHRK2NDP"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-JBCHRK2NDP', { 'anonymize_ip': false });
+}
+</script>
+
+  
+  </div>
+
+</div>
+</body>
+</html>

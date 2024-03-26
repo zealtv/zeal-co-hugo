@@ -1,0 +1,495 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="/favicon/favicon.ico"> 
+    <title>Making a plugin with RNBO|ZEAL.CO</title>
+</head>
+<body>
+<div class="site-container">
+
+  <div class="nav">
+  
+  <a href="/">
+  <div class="nav-item"><h1>ZEAL.CO</h1></div>
+</a>
+<div class="flex-spacer"></div>
+
+<div style="display:flex; flex-wrap: wrap;">
+  
+  <a href="/about"><div class="nav-item">✨ About</div></a>
+  
+  <a href="/notebook"><div class="nav-item">📒 Notebook</div></a>
+  <a href="https://tidycal.com/zealco" target="_blank"><div class="nav-item">🤳 One-on-One </div></a>
+  
+  <a href="/contact"><div class="nav-item">👽 Contact</div></a>
+
+  
+</div>
+  
+  </div>
+  
+  <div class="main">
+  
+<div class="main-grid-container">
+  <div class="content">
+    
+    
+
+
+
+    <div class="project-meta">
+
+      <h2>Making a plugin with RNBO</h2>
+
+      
+      
+
+      <table>
+      
+      
+      
+      
+      </table>
+    </div>
+    
+    
+
+    
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe src="https://www.youtube.com/embed/PIieUNJIV6A" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video"></iframe>
+</div>
+
+<p>We&rsquo;re going to look at using RNBO to export a plugin we can use in our other tools.  RNBO patches can be exported as VST3 for Windows, OSX, and Linux, covering the vast majority of tools and operating systems ( and RNBO&rsquo;s JavaScript export can help us target those pesky mobile devices ).</p>
+<p>We will look at exporting both effects and instruments as VST3 plugins.</p>
+<p>We&rsquo;ll then look at running them on an assortment of hosts.  You should experiment with opening them in the weirdest VST3 or AU compatible host you use.</p>
+<h2 id="download-rnbo-workshop-mess-23maxpatfilesrnbo-workshop-mess-23maxpat">
+
+
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+
+<a href="../../files/rnbo-workshop-mess-23.maxpat">Download rnbo-workshop-mess-23.maxpat</a></h2>
+<h1 id="resources">Resources</h1>
+<ul>
+<li>A reference write-up and video about 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://rnbo.cycling74.com/learn/using-the-vst-audiounit-target">exporting VSTs with RNBO</a></li>
+<li>The 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://rnbo.cycling74.com/explore">RNBO explore page</a>  has example patches for a variety of contexts and use cases.</li>
+<li>About 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://rnbo.cycling74.com/learn/presets-with-snapshots">creating presets using Max snapshots</a>.</li>
+</ul>
+<h1 id="requirements">Requirements</h1>
+<ul>
+<li>A Mac or Windows machine.</li>
+<li>with 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://cycling74.com/">Max</a> and 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://cycling74.com/products/rnbo">RNBO</a> installed.</li>
+<li>and at least one VST3 host such as 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.reaper.fm">Reaper</a>.</li>
+<li>An internet connection for compiling the plug-ins.</li>
+</ul>
+<!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h1 id="creating-a-simple-effect-plugin">Creating a Simple Effect Plugin</h1>
+<h2 id="building-the-plugin">Building the Plugin</h2>
+<ul>
+<li>Open Max</li>
+<li>Using the package manager, install <strong>RNBO Guitar Pedals</strong> and <strong>RNBO Synth Building Blocks</strong></li>
+<li>Create a new patcher</li>
+<li>create a [rnbo~] object</li>
+<li>Copy the internals from one of the guitar pedal effects into your RNBO patcher</li>
+<li>Drag a file from the audio section of the left side bar and connect it to your [rnbo~] object</li>
+<li>Add a [live.gain~] and an [ezdac] to the output of your [rnbo]</li>
+<li>In you Max patcher, add [attrui] objects for each parameter of your effect</li>
+<li>Save your Max patch (so snapshots work).</li>
+</ul>
+<h2 id="creating-presets">Creating Presets</h2>
+<ul>
+<li>Play with the parameters in the [attrui] objects</li>
+<li>Select the [rnbo~] object  and click the snapshot button on the right side bar.</li>
+<li>Make sure it says &ldquo;rnbo~ snapshots&rdquo; at the top of the Snapshots sidebar.</li>
+</ul>
+<h2 id="exporting-as-a-vst3">Exporting as a VST3</h2>
+<ul>
+<li>From your RNBO patcher, open the Export Sidebar on the right side of the window.</li>
+<li>Choose Audio Plugin Export.</li>
+<li>Set &ldquo;Format and Platform&rdquo; to your requirements.</li>
+<li>Give your plugin a name, manufacturer, and manufacturer code as desired.</li>
+<li>Set plugin type to Effect</li>
+<li>Choose an output directory - it can be useful to create a directory specifically for your exported plugin.</li>
+<li>Enable &ldquo;Include Presets&rdquo;</li>
+<li>Click &ldquo;Export to Selected Targets&rdquo;.</li>
+</ul>
+<h1 id="creating-a-simple-microtonal-instrument">Creating a Simple Microtonal Instrument</h1>
+<h2 id="building-the-instrument">Building the Instrument</h2>
+<p>The patch below uses the scala feature of RNBO to implement microtonal tuning systems.
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/rnbo-microtonal-synth.png" alt="🖼"  /> 
+</p>
+
+</p>
+<ul>
+<li>Choose a few scales from the 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.huygens-fokker.org/docs/scalesdir.txt">Scala scales directory</a> and add them as arguments to the [scala.list] object, and to the @enum argument of [param scale] object.</li>
+<li>Set the @polyphony argument of the enclosing [rnbo~] object to hear the microtonal intervals.</li>
+</ul>
+<h1 id="hosting-examples">Hosting Examples</h1>
+<h2 id="musescore-4httpsmusescoreorg">
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://musescore.org">MuseScore 4</a></h2>
+<p>MuseScore 4 looks for VST3 files in the following places:</p>
+<pre tabindex="0"><code># windows:
+C:\Program Files\Common Files\VST3
+
+# mac and linux:
+~/.vst3/
+/usr/lib/vst3/  
+/usr/local/lib/vst3/
+</code></pre><p>You can set a custom folder location in <em>preferences &gt; general &gt; folders</em>
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/musescore-vst3-folder.png" alt="🖼"  /> 
+</p>
+
+</p>
+<h2 id="pure-datahttpspuredatainfo">
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://puredata.info">Pure Data</a></h2>
+<p>Use the deken package manager to install the <strong>vstplugin~</strong> external.  open deken by clicking help &gt; find externals, then search for <code>vstplugin~</code>, select the latest version and click install.</p>
+<p>
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/vstplugin-in-deken.png" alt="🖼"  /> 
+</p>
+
+</p>
+<h2 id="bespoke-synthhttpswwwbespokesynthcom">
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.bespokesynth.com">Bespoke Synth</a></h2>
+<p>Click VST plugins &gt; manage VSTs</p>
+<p>
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/bespoke-header-vsts.png" alt="🖼"  /> 
+</p>
+
+</p>
+<p>Then &ldquo;Scan for new or updated VST3 plug-ins&rdquo;</p>
+<p>
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/bespoke-vst-manager.png" alt="🖼"  /> 
+</p>
+
+</p>
+<p>Add your folder and click scan.</p>
+<p>
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/bespoke-vst-manager-scan.png" alt="🖼"  /> 
+</p>
+
+</p>
+<h2 id="reaperhttpswwwreaperfm">
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://www.reaper.fm/">Reaper</a></h2>
+<ul>
+<li>Click Options &gt; Preferences &gt; VST</li>
+<li>Clicking <em>Edit path list</em> will reveal the currently scanned folders.
+
+
+ 
+
+
+
+
+
+  
+    
+    
+  
+
+  
+<p class="notebook-image">
+  <img src="../../files/reaper-vsts.png" alt="🖼"  /> 
+</p>
+
+</li>
+<li>Add you VST folder to the path list</li>
+<li>click Re-scan &gt; Rescan VST Paths for new/modified plug-ins</li>
+</ul>
+
+
+  </div>
+  
+  
+  <div class="contextual-nav"></div>
+</div>
+
+  
+  </div>
+  
+  
+
+  <div class="footer">
+  
+  <div> elsewise... 
+  <a href="https://youtube.com/zealtv">📺youtube</a>
+  
+  <a href="https://github.com/zealtv">🔮github</a>
+  <a href="https://webring.xxiivv.com/#random" target="_blank"><img src="/images/icon.black.svg" width="20rem" alt="XXIIVV webring"/>webring</a>
+  <a href="https://zeal.co/index.xml">📰rss</a>
+</div>
+
+<div class="flex-spacer"></div>
+
+<div>ZEAL.CO is also a <a href="https://github.com/zealtv/zeal-co-hugo">git repo.</a></div>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JBCHRK2NDP"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-JBCHRK2NDP', { 'anonymize_ip': false });
+}
+</script>
+
+  
+  </div>
+
+</div>
+</body>
+</html>

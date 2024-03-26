@@ -1,9 +1,15 @@
 ---
 title: README
-date: 2023-01-01
+date: 2022-01-01
 publish: y
 ---
 
-This is a scratchpad for text, mostly for my convienience. There are [Alot of errors](http://hyperboleandahalf.blogspot.com/2010/04/alot-is-better-than-you-at-everything.html) and bad formatting. Information will move around, change, or disappear. This notebook and the encapsulating website is backed up as a [Github repo](https://github.com/zealtv/zeal-co-hugo) which will hold a history of changes. 
-🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖🦖
+# The open notebook of Bob Jarvis
 
+These are my working notes as of early '22. There will be snippets of code, notes on projects, and general R&D.  
+
+⭐⭐⭐⭐
+
+This is not currently polished up for public consumption. There *will* be spelling errors.  [Alot of errors](http://hyperboleandahalf.blogspot.com/2010/04/alot-is-better-than-you-at-everything.html). Information will move around, change, or disappear. This notebook and the encapsulating website is backed up as a [Github repo](https://github.com/zealtv/zeal-co-hugo) which will hold a history of changes. Improvements will be made with time.
+
+⭐⭐⭐⭐

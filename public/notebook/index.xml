@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Notebooks on ZEAL.CO</title>
+    <link>http://zeal.co/notebook/</link>
+    <description>Recent content in Notebooks on ZEAL.CO</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 03 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://zeal.co/notebook/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Making a plugin with RNBO</title>
+      <link>http://zeal.co/notebook/rnbo-plugins/</link>
+      <pubDate>Fri, 03 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/rnbo-plugins/</guid>
+      <description>how to cram Max into anything</description>
+    </item>
+    
+    <item>
+      <title>An Introduction to Interactive Audio-Vision</title>
+      <link>http://zeal.co/notebook/an-introduction-to-interactive-audio-vision/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/an-introduction-to-interactive-audio-vision/</guid>
+      <description>An Introduction to Interactive Audio-Vision Let&amp;rsquo;s look at a general-purpose stack of tools for interactive video projection and integrated audio.</description>
+    </item>
+    
+    <item>
+      <title>Animating Text in TouchDesigner</title>
+      <link>http://zeal.co/notebook/text-along-paths-in-touch/</link>
+      <pubDate>Mon, 30 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/text-along-paths-in-touch/</guid>
+      <description>Animating text with the geotext COMP The geotext comp allows for fine granularity 3D text animation.</description>
+    </item>
+    
+    <item>
+      <title>semisteps (the concept formally known as intermals)</title>
+      <link>http://zeal.co/notebook/intermals/</link>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/intermals/</guid>
+      <description>semisteps Semisteps are a way of encoding a chord voicing and relative root pitch as a floating point value.</description>
+    </item>
+    
+    <item>
+      <title>VIZZIE SNIPPETS</title>
+      <link>http://zeal.co/notebook/vizzie-snippets/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/vizzie-snippets/</guid>
+      <description>Where is VIZZIE Video with Sound Simple FX Chromakey / Blue Screen Video Feedback </description>
+    </item>
+    
+    <item>
+      <title>Reviewing Qualitative and Quantitative Features of Music Reported to Support Peak Mystical Experiences during Psychedelic Therapy Sessions Psychedelic Assisted Therapy</title>
+      <link>http://zeal.co/notebook/reviewing-study-into-music-choice-for-psychedelic-assisted-therapy/</link>
+      <pubDate>Sun, 17 Jul 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/reviewing-study-into-music-choice-for-psychedelic-assisted-therapy/</guid>
+      <description>Review of paper by by Frederick S. Barrett, Hollis Robbins, David Smooke, Jenine L.</description>
+    </item>
+    
+    <item>
+      <title>portable video streaming approaches for art installations</title>
+      <link>http://zeal.co/notebook/portable-video-streaming-approaches-for-art-installations/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/portable-video-streaming-approaches-for-art-installations/</guid>
+      <description>I am surveying small, locally streaming cameras for applications in art installations.</description>
+    </item>
+    
+    <item>
+      <title>The Ariel Encounter</title>
+      <link>http://zeal.co/notebook/the-ariel-encounter/</link>
+      <pubDate>Tue, 24 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/the-ariel-encounter/</guid>
+      <description>A term floated in Ufology - high strangeness - has had me thinking.</description>
+    </item>
+    
+    <item>
+      <title>Easy Github credentials</title>
+      <link>http://zeal.co/notebook/easy-github-credentials/</link>
+      <pubDate>Tue, 10 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/easy-github-credentials/</guid>
+      <description>Github authentication in the terminal is a pain. github-cli allows for one-time, interactive, browser-based authentication</description>
+    </item>
+    
+    <item>
+      <title>Hyperpop is smart.</title>
+      <link>http://zeal.co/notebook/hyperpop-is-smart./</link>
+      <pubDate>Sun, 08 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/hyperpop-is-smart./</guid>
+      <description>In SOPHIE&amp;rsquo;s Immaterial - there are no drums, just one big, fuck off mono-synth.</description>
+    </item>
+    
+    <item>
+      <title>Matt Harloffs Tuning Sequence - and tuning sequence as functional application of art</title>
+      <link>http://zeal.co/notebook/tuning-sequences/</link>
+      <pubDate>Sat, 07 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/tuning-sequences/</guid>
+      <description>When I build software for interfacing with music - I often iterate back and forth between writing tuning sequences and system refinement.</description>
+    </item>
+    
+    <item>
+      <title>Interfacing with distributed speaker arrays</title>
+      <link>http://zeal.co/notebook/interfacing-with-distributed-speaker-arrays/</link>
+      <pubDate>Sat, 30 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/interfacing-with-distributed-speaker-arrays/</guid>
+      <description>Continuing work on a system I was exploring earlier here [ composing with particles], I was working with TouchDesigner.</description>
+    </item>
+    
+    <item>
+      <title>Neurotheology, aliens, and interpreting the immaterial</title>
+      <link>http://zeal.co/notebook/neurotheology-aliens-and-understanding-the-immaterial/</link>
+      <pubDate>Sat, 23 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/neurotheology-aliens-and-understanding-the-immaterial/</guid>
+      <description>Standard scratchpad disclaimer. I am not tied to any of the perspectives below.</description>
+    </item>
+    
+    <item>
+      <title>Metamodernism and the evolution of consciousness</title>
+      <link>http://zeal.co/notebook/metamodernism-and-the-evolution-of-consciousness/</link>
+      <pubDate>Tue, 12 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/metamodernism-and-the-evolution-of-consciousness/</guid>
+      <description>Metamodernism. Everybody. We should probably get on board with this.</description>
+    </item>
+    
+    <item>
+      <title>UAPs, gesture and play</title>
+      <link>http://zeal.co/notebook/uaps-gesture-and-play/</link>
+      <pubDate>Mon, 11 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/uaps-gesture-and-play/</guid>
+      <description>With considerations of authenticity aside, I&amp;rsquo;m noticing a trend in recent UAP/UFO videos, where orbs of light demonstrate beautiful coordinated flight, in lines at right angles, or in flowing, coordinated, triangular formations, or transform in novel ways.</description>
+    </item>
+    
+    <item>
+      <title>An Introduction to Max by way of Microtonality</title>
+      <link>http://zeal.co/notebook/introduction-to-max-by-way-of-microtonality/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/introduction-to-max-by-way-of-microtonality/</guid>
+      <description>This is a tutorial outline for a tailored introduction to Max session.</description>
+    </item>
+    
+    <item>
+      <title>Composing in Virtual Spaces</title>
+      <link>http://zeal.co/notebook/composing-in-virtual-spaces/</link>
+      <pubDate>Mon, 21 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/composing-in-virtual-spaces/</guid>
+      <description>These notes were written for a presentation to be given at The Victorian College of the Arts, March 23rd 2020.</description>
+    </item>
+    
+    <item>
+      <title>notes on OSC in Pure Data</title>
+      <link>http://zeal.co/notebook/notes-on-osc-in-pure-data/</link>
+      <pubDate>Sat, 26 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/notes-on-osc-in-pure-data/</guid>
+      <description>Working on my PhD project, I am needing to send and receive telemetry data as OSC.</description>
+    </item>
+    
+    <item>
+      <title>composing with particles</title>
+      <link>http://zeal.co/notebook/composing-with-particles/</link>
+      <pubDate>Sat, 12 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/composing-with-particles/</guid>
+      <description>I am working on a project that requires me to move sounds around an irregular multi-speaker array system.</description>
+    </item>
+    
+    <item>
+      <title>packetPunk - OSC logging on an ESP32 Watch</title>
+      <link>http://zeal.co/notebook/packetpunk-osc-logging-on-the-dstike-esp32-watch/</link>
+      <pubDate>Wed, 02 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/packetpunk-osc-logging-on-the-dstike-esp32-watch/</guid>
+      <description>Sold as the dstike esp32 watch devkit, this is an ESP32 microcontroller with an OLED display, a NeoPixel, flashlight, buzzer, battery, charging circuit, SD card slot, and a few buttons.</description>
+    </item>
+    
+    <item>
+      <title>gyrosc 2 pd</title>
+      <link>http://zeal.co/notebook/gyrosc-2-pd/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/gyrosc-2-pd/</guid>
+      <description>Download gyrosc2pd.pd
+This patch receives OSC data from gyrosc , and tags them with a dynamic send object to be accessed globally via named receive objects.</description>
+    </item>
+    
+    <item>
+      <title>NEXTECH QC3868</title>
+      <link>http://zeal.co/notebook/nextech-qc3868/</link>
+      <pubDate>Mon, 31 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/nextech-qc3868/</guid>
+      <description>The NEXTECH QC3863 ( available here) is a small, battery powered, IP security camera, capable of recording to an internal SD card and being administrated via a mobile app.</description>
+    </item>
+    
+    <item>
+      <title>README</title>
+      <link>http://zeal.co/notebook/readme/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>http://zeal.co/notebook/readme/</guid>
+      <description>The open notebook of Bob Jarvis These are my working notes as of early &amp;lsquo;22.</description>
+    </item>
+    
+  </channel>
+</rss>

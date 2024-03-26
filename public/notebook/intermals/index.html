@@ -1,0 +1,247 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="icon" href="/favicon/favicon.ico"> 
+    <title>semisteps (the concept formally known as intermals)|ZEAL.CO</title>
+</head>
+<body>
+<div class="site-container">
+
+  <div class="nav">
+  
+  <a href="/">
+  <div class="nav-item"><h1>ZEAL.CO</h1></div>
+</a>
+<div class="flex-spacer"></div>
+
+<div style="display:flex; flex-wrap: wrap;">
+  
+  <a href="/about"><div class="nav-item">✨ About</div></a>
+  
+  <a href="/notebook"><div class="nav-item">📒 Notebook</div></a>
+  <a href="https://tidycal.com/zealco" target="_blank"><div class="nav-item">🤳 One-on-One </div></a>
+  
+  <a href="/contact"><div class="nav-item">👽 Contact</div></a>
+
+  
+</div>
+  
+  </div>
+  
+  <div class="main">
+  
+<div class="main-grid-container">
+  <div class="content">
+    
+    
+
+
+
+    <div class="project-meta">
+
+      <h2>semisteps (the concept formally known as intermals)</h2>
+
+      
+      
+
+      <table>
+      
+      
+      
+      
+      </table>
+    </div>
+    
+    <div class="project-abstract"><em>A simple protocol for describing chord voicings as a signal.</em></div>
+
+    <h1 id="semisteps">semisteps</h1>
+<p>Semisteps are a way of encoding a chord voicing and relative root pitch as a floating point value.  Semisteps are currently implemented in 
+
+
+
+
+ 
+
+
+
+
+
+  
+
+
+<a href="https://github.com/zealtv">bop</a>.</p>
+<ul>
+<li>The number to the left of the decimal defines the root in semitones.</li>
+<li>The numbers to the right of the floating point defines rising semitone steps for each subsequent voice.</li>
+</ul>
+<pre tabindex="0"><code>-- THE SEMISTEP --
+   -12.074   
+     / \ 
+    /   Three additional 
+   /    voices 0, 7,
+  /     and 11 semitones 
+ /      above the root.
+|
+Root twelve semitones below 
+whatever reference pitch.
+</code></pre><p>The possible chord voicings are simultaneously limited and limitless.</p>
+<h1 id="example-semisteps">Example semisteps</h1>
+<pre tabindex="0"><code>Relative to C:
+
+Cmaj
+0.43 //root, major 3rd, minor 3rd
+
+Cmaj7
+0.434 //root, major 3rd, minor 3rd, major 3rd
+
+Cmin
+0.34 //root, minor 3rd, major 3rd
+
+Dmin
+2.34 //root, minor 3rd, major 3rd
+
+F stacked 5ths
+5.777 // f c d a  
+
+B half-diminished
+11.334 //root, minor 3rd, minor 3rd, major 3rd
+
+Bmaj
+-1.43  //root, major3rd, minor3rd
+</code></pre><h2 id="variations-on-a-theme">Variations on a theme</h2>
+<h1 id="strings-and-frets">Strings and Frets</h1>
+<pre tabindex="0"><code>Tuning strings using semisteps:
+0.555 // four strings tuned in fourths from a reference pitch
+
+E.ADG // the above tuned to E
+
+Fretting applied:
+0.221 // Emaj E B E G#
+</code></pre><h1 id="bitplucking">Bitplucking</h1>
+<pre tabindex="0"><code>//velocity coded as integer digit array
+
+7965 // envelope values 0 to 9 across four voices
+	
+	// 0 mutes voice, 
+	// 1 lets voice ring
+	// 2 to 9 trigger voice
+</code></pre><h1 id="as-a-speculative-text-based-language">As a speculative text-based language&hellip;</h1>
+<pre tabindex="0"><code>## CHEAT SHEET
+
+[DIGITS] ($)ymbol
+
+@ set root frequency
+= sets string tuning 
+&gt; fret string
+. convert to intermal
+
+` set duration of bar
+/ set subdivision
+# ID tag 
+
+[FLOAT] (l)owercase
+
+  // set instrument (instruments configured externally)
+s // set sampler bank and sample
+a // set analog synth bank and sample
+f // set FM synth bank and sample
+g // set granular synth bank and sample
+
+  // play settings
+r // set retriggering
+k // set attack (rising)
+y // set decay (falling)
+  
+  // play and convert to [SIGNAL]
+p // pluck intermal using attack decay envelope  
+b // bow (interpolate) intermal using attack decay envelope
+
+[SIGNAL] (U)ppercase
+
+G // gain to 1.5
+L // limiter to 0.99
+O // Output
+</code></pre><pre tabindex="0"><code>//EXAMPLE USING STRINGS AND FRETS
+42@10 // set root frequency to E1
+=0555 // string tuning e1 a2 d2 g3 
+&gt;1024 // applying frets f1 a2 e2 b3
+1s001 // sampler bank 1 sample 001 
+p7506 // bitplucking
+1G500 // (G)ain
+0L990 // (L)imiter
+1O001 // (O)utput to dac 1 channel 1
+
+//EXAMPLE USING INTERMALS
+164@8 // set root frequency to E3
+1.434 // intermal f2 a3 e3 b4 
+2a051 // analog synth bank 2 preset 51 
+k1000 // set attack 1000ms
+d5000 // set decay 5000ms
+i7506 // interpolate intermal and velociters
+1G500 // (G)ain to 1.5
+0L990 // (L)imiter to 0.99
+1O001 // (O)utput to dac 1 channel 1
+
+//EXAMPLES SETTING TIME INTERVAL
+1?001 // one whole bar
+2?001 // two whole bars
+1?002 // one half-note
+1?003 // one quater-note triplet
+1?004 // one quater-note
+03?16 // three 16th notes
+040?2 // fourty bars
+1?006 // one eighth note triplet
+1?012 // one 16th note triplet
+
+//EXAMPLE SETTONG ID
+1#001 // could be read as bank one pattern 1
+</code></pre>
+
+  </div>
+  
+  
+  <div class="contextual-nav"></div>
+</div>
+
+  
+  </div>
+  
+  
+
+  <div class="footer">
+  
+  <div> elsewise... 
+  <a href="https://youtube.com/zealtv">📺youtube</a>
+  
+  <a href="https://github.com/zealtv">🔮github</a>
+  <a href="https://webring.xxiivv.com/#random" target="_blank"><img src="/images/icon.black.svg" width="20rem" alt="XXIIVV webring"/>webring</a>
+  <a href="https://zeal.co/index.xml">📰rss</a>
+</div>
+
+<div class="flex-spacer"></div>
+
+<div>ZEAL.CO is also a <a href="https://github.com/zealtv/zeal-co-hugo">git repo.</a></div>
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JBCHRK2NDP"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-JBCHRK2NDP', { 'anonymize_ip': false });
+}
+</script>
+
+  
+  </div>
+
+</div>
+</body>
+</html>
