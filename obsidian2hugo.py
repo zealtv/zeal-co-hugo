@@ -171,6 +171,7 @@ process_notebook(src_path, dst_path)
 
 
 # TODO
+# workflow for projects 
 # process in place MD files into hugo MD 
 ## convert image wikilinks to MD links
 ## convert link wikilinks to hugo refs: [About]({{< ref "/about" >}} "About Us")

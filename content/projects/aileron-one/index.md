@@ -1,5 +1,5 @@
 ---
-title: "AILERON ONE: Human Flight as Musical Performance"
+title: "AILERON ONE"
 when: 
   - "2020"
   - "2021"

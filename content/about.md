@@ -18,6 +18,9 @@ Trainer.
 
 {{< figure src="/images/MaxCertifiedTrainer-2021-dark.jpg" alt="Max Certified Trainer Logo" height="100">}}
 
+## Showreel
+{{< youtube q547GF5BZIw >}}
+
 ## Publications
 
 ### 2020

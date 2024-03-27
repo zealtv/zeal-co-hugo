@@ -22,7 +22,4 @@ The video uses a mix of video processing, computer graphics and stop motion anim
 ![Frame 02424 of Obstinate music video](./assets/Obstinate_02424.jpeg)
 ![Frame 02515 of Obstinate music video](./assets/Obstinate_02515.jpeg)
 
-openFrameworks code for the project is available [here](https://github.com/zealtv/Obstinate-Music-Video).
-
-Documentation of the experimental animation process below:
 {{< youtube j_JSGnVN3KA >}}
