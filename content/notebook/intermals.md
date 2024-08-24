@@ -9,7 +9,7 @@ abstract: A simple protocol for describing chord voicings as a signal.
 Semisteps are a way of encoding a chord voicing and relative root pitch as a floating point value.  Semisteps are currently implemented in [bop](https://github.com/zealtv).
 
 - The number to the left of the decimal defines the root in semitones. 
-- The numbers to the right of the floating point defines rising semitone steps for each subsequent voice.
+- Each digit to the right of the floating point defines a new voice that many semitone above the previous voice.
 
 ```
 -- THE SEMISTEP --
