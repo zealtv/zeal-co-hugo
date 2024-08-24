@@ -1,7 +1,7 @@
 ---
 title: E-Prime
 publish: y
-date: 2024-8-24
+date: 2023-01-09
 abstract: A subset of the english language useful for clarity and fostering a flexible worldview.
 ---
 
