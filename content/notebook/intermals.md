@@ -1,7 +1,7 @@
 ---
 title: semisteps (the concept formally known as intermals)
 publish: y
-date: 2023-01-10
+date: 2024-01-10
 abstract: A simple protocol for describing chord voicings as a signal.
 ---
 
