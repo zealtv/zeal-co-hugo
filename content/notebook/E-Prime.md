@@ -2,10 +2,11 @@
 title: E-Prime
 publish: y
 date: 2024-01-09
-abstract: A subset of the english language useful for clarity and fostering a flexible worldview.
+abstract: "A subset of the english language useful for clarity and fostering a flexible worldview."
 ---
 
 # E-Prime
+
 The term E-Prime refers a subset of english proposed built upon the principles of General Semantics  set out by Alfred Korzybski.  In E-Prime excludes variations of the verb *"to be"* including *be*, *is*, *am*, *are*, *was*, *were*, and *been*.   In practice, the use of E-Prime "fosters a worldview in which the user perceives situations as changeable rather than static, and where verbal formulations derived from experience indicate possibilities rather than certainties."  *("Speaking in e-prime: An experimental method for integrating general semantics into daily life", EW Kellogg,  1987)*
 
 In "To be or not to be: E-Prime as a tool for critical thinking", David Bourland lays out in a simple form the rule-set for E-prime, stating: in E-Prime one simply does without 20 or so of these lexical items; specifically, the "to be" family:
