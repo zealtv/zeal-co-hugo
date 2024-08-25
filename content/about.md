@@ -5,16 +5,11 @@ draft: false
 ---
 ![Bob Jarvis Portrait](/images/BobJarvisPortrait.jpg)
 
-Bob Jarvis is an Australian artist and researcher working with music, 
-vision, and code to explore the bleeding edge of multi-modal composition 
-and performance.  
+Bob Jarvis is an Australian creative technologist working with music, vision, and code to explore the bleeding edge of multi-modal composition and performance.  
 
-His award-winning interactive, recorded, and performed 
-audio-visual works have been exhibited internationally. Bob works as 
-Director of Technology for Melbourne interactive arts company Playable 
-Streets, lectures and supervises at RMIT University and The Victorian 
-College of the Arts, and offers one-on-one tuition as a Max Certified 
-Trainer.
+Bob's diverse and award-winning creative output has been exhibited internationally. Selected creative output includes [*Belief System*](https://zeal.co/project/aileron), a 120 channel spatial audio installation touring internationally with Ranters Theatre, and shortlisted for The Blake Art Prize.  [*Luminesce*](https://zeal.co/projects/belief-system/), a live audio-visual collaboration with vocalist Gian Slater won The International Visual Music Award in Frankfurt in 2015.  The practice-led research work [*Aileron One*](https://zeal.co/project/aileron) broke ground with a world-first integration of music technology and full-sized aircraft, enabling music to be performed via the expressive medium of gliding flight.
+
+Alongside these creative outputs, Bob works as Director of Technology for Melbourne interactive arts company Playable Streets, contributes to multiple open source software projects, lectures and supervises at several universities, and consults as a certified trainer in the Max multimedia programming environment. Bob's current work focuses on themes of belief, ontology, and post-materialism.
 
 {{< figure src="/images/MaxCertifiedTrainer-2021-dark.jpg" alt="Max Certified Trainer Logo" height="100">}}
 
