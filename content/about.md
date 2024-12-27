@@ -5,12 +5,11 @@ draft: false
 ---
 ![Bob Jarvis Portrait](/images/BobJarvisPortrait.jpg)
 
-Bob Jarvis is an Australian creative technologist working with music, vision, and code to explore the bleeding edge of multi-modal composition and performance.  
-
-Bob's diverse and award-winning creative output has been exhibited internationally. Selected creative output includes [*Belief System*](https://zeal.co/project/aileron), a 120-channel spatial audio installation touring internationally with Ranters Theatre, and shortlisted for The Blake Art Prize.  [*Luminesce*](https://zeal.co/projects/belief-system/), a live audio-visual collaboration with vocalist Gian Slater won The International Visual Music Award in Frankfurt in 2015.  The practice-led research work [*Aileron One*](https://zeal.co/project/aileron) broke ground with a world-first integration of music technology and full-sized aircraft, enabling music to be performed via the expressive medium of gliding flight.
-
-Alongside their creative output, Bob works as Director of Technology for Melbourne interactive arts company Playable Streets, contributes to multiple open source software projects, lectures and supervises at several universities, and consults as a certified trainer in the Max multimedia programming environment. Bob's current work focuses on themes of belief, ontology, and post-materialism.
-
+Bob Jarvis creates interactive and temporal artworks that integrate music, animation, code, and text.  Out of their experimental process emerge themes of intermodality, colour, polyrhythm, flight, ontology, belief, and kinaesthetics.
+  
+Selected creative output includes [_Belief System_](https://zeal.co/projects/belief-system/), a 120-channel spatial audio installation touring internationally with Ranters Theatre, and shortlisted for The Blake Art Prize; [_Luminesce_](https://zeal.co/projects/luminesce/), a live, audio-visual collaboration with vocalist Gian Slater which won The International Visual Music Award in Frankfurt in 2015; and the practice-led research work [_Aileron One_](https://zeal.co/project/aileron), a world-first integration of performance technology and full-sized aircraft enabling music to be performed via the expressive medium of gliding flight.  
+  
+Alongside their creative output Bob works as Director of Technology for Melbourne interactive arts company Playable Streets, contributes to open source software projects, lectures at several universities, and consults as a certified trainer in the Max multimedia programming environment.
 {{< figure src="/images/MaxCertifiedTrainer-2021-dark.jpg" alt="Max Certified Trainer Logo" height="100">}}
 
 ## Showreel
