@@ -1,5 +1,5 @@
 ---
-title: Of Live coding and omnichords - Adventures with Semisteps in Max 9
+title: Adventures with Semisteps in Max 9
 date: 2025-01-01
 publish: y
 git: https://github.com/zealtv/super-casio-chord
