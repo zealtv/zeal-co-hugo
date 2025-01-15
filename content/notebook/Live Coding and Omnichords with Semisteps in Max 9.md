@@ -90,7 +90,7 @@ In the patch demonstrated below, textedit objects serve as tracker columns stori
 
 One nice thing about such compact notation is it allows fast and easy mapping.  It was a modest amount of work to map Push pads to both chords and plucks allowing for omnichord style interaction.  
 
-The mapping is done in a single col object that takes incoming midi notes and then with either a picking command, a fretting command, or a semistep.  All of these different can be sent to the same send since the patch knows how to distinguish and interpret them.  Makes for a very flexible and very playable setup.
+The mapping is done in a single col object that takes incoming midi notes and associates them with either a picking command, a fretting command, or a semistep.  All of these different commands can be sent to the same send since the patch knows how to distinguish and interpret them.  It makes for a very flexible and very playable setup.
 
 ![the mapping scheme for the push omnichord](../files/omnichord-coll-mapping.png)
 
