@@ -58,16 +58,12 @@ From Speaking in E-Prime...
 ## Suggestion #1 
 If you find it difficult to compose a sentence in E-Prime, refer to the basic "silent level" experience and describe the actual event. 
 
-
 ```
-| STATEMENT                            | POSSIBLE E-PRIME TRANSLATION                 |
-| ------------------------------------ | -------------------------------------------- |
-| The World of Null-A is a great book! | I really enjoyed reading The World of NullA! |
-| I am fine.                           | I feel fine.                                 |
-| This food is good.                   | This food tastes good.                       |
+| STATEMENT          | E-PRIME TRANSLATION    |
+| ------------------ | ---------------------- |
+| I am fine.         | I feel fine.           |
+| This food is good. | This food tastes good. |
 ```
-
-
 
 
 ## Suggestion #2 
