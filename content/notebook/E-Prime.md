@@ -44,12 +44,10 @@ Bourland goes on to state that there exist other uses of *to be* other than the 
 - Auxiliary. (John is reading. Ivan is plotting. The rose is wilting.) 
 - Existence. (I am. Descartes was. You may be, but then again...) 
 - Location. (John is here. That is neither here nor there.)
-However, by strictly adhering the discipline of E-Prime on can more easily avoid temptation to slip in the  *is of identity* or *is of Predication*. 
+However, by strictly adhering the discipline of E-Prime one can more easily avoid temptation to slip in the  *is of identity* or *is of Predication*. 
 
 In Speaking in E-Prime, Kellog states:
-> In essence, E -prime consists of a more descriptive and extensionally oriented  
- derivative of English, that automatically tends to bring the user back to the level  
- of first person experience.
+> In essence, E -prime consists of a more descriptive and extensionally oriented derivative of English, that automatically tends to bring the user back to the level of first person experience.
 
 
 # Suggested translation strategies 
