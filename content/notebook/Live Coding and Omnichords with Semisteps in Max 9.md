@@ -2,6 +2,7 @@
 title: Of Live coding and omnichords - Adventures with Semisteps in Max 9
 date: 2025-01-01
 publish: y
+git: https://github.com/zealtv/super-casio-chord
 ---
 {{< youtube E0iLENC1d9U >}}
 
@@ -16,7 +17,7 @@ The Ableton-derived objects in Max 9 are easy to use and sound excellent.  If yo
 These sonic upgrades have had me doing more musical exploration in Max than in the past - when most of my Max-time was dedicated to interaction or tool development.  Now Max feels a little closer to a non-linear DAW, somewhere I want to make music. 
 
 # Exploring Chords as Numbers
-An idea I have been exploring is describing chords and other musical descriptors as floating point numbers.  I've been referring to these as **semisteps**. They work like this:
+An idea I have been exploring is describing chords and other musical descriptors as floating point numbers.  I've been referring to these as **[semisteps](intermals.md)**. They work like this:
 
 - The number to the left of the decimal defines the root in semitones. 
 - Each digit to the right of the floating point defines a new voice that many semitone above the previous voice.
