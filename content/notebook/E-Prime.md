@@ -58,49 +58,57 @@ From Speaking in E-Prime...
 ## Suggestion #1 
 If you find it difficult to compose a sentence in E-Prime, refer to the basic "silent level" experience and describe the actual event. 
 
-| STATEMENT                            | POSSIBLE E-PRIME TRANSLATION                          |
-| ------------------------------------ | ----------------------------------------------------- |
-| The World of Null-A is a great book! | I really enjoyed reading the book The World of NullA! |
-| I am fine.                           | I feel fine.                                          |
-| This food is good.                   | This food tastes good.                                |
-   
+
+```
+| STATEMENT                            | POSSIBLE E-PRIME TRANSLATION                 |
+| ------------------------------------ | -------------------------------------------- |
+| The World of Null-A is a great book! | I really enjoyed reading The World of NullA! |
+| I am fine.                           | I feel fine.                                 |
+| This food is good.                   | This food tastes good.                       |
+```
+
+
+
 
 ## Suggestion #2 
 Take an "is" statement at a high level of abstraction/assumption and bring it down to earth. Remove the assumptions and work with what you have left. 
-
+```
 | STATEMENT         | POSSIBLE E-PRIME TRANSLATION      |
 | ----------------- | --------------------------------- |
 | Joan is smart.    | Joan makes $500,000 a year.       |
 | Cleve is smart.   | Cleve scored 160 on an I.Q. test. |
 | Linda is helpful. | Linda helped me.                  |
-|                   |                                   |
+```
 
 ## Suggestion #3 
 Replace the "is" with an action verb. 
-
+```
 | STATEMENT             | POSSIBLE E-PRIME TRANSLATION |
 | --------------------- | ---------------------------- |
 | David is a doctor.    | David practices medicine     |
 | He is a car mechanic. | He repairs cars.             |
 | Risa is a teacher.    | Risa teaches Epistemics.     |
+```
 
 ## Suggestion #4 
 Say what you mean. 
-
+```
 | STATEMENT          | POSSIBLE E-PRIME TRANSLATION |
 | ------------------ | ---------------------------- |
 | Is Leia there?     | Can I speak with Leia?       |
 | What is your name? | What do you call yourself?   |
 | How are you?       | How do you feel?             | 
+```
 
 ## Suggestion #5 
 Change the sentence from the passive to the active voice. 
-
+```
 | STATEMENT                     | POSSIBLE E-PRIME TRANSLATION   |
 | ----------------------------- | ------------------------------ |
 | It was done.                  | Olof did it.                   |
 | The experiment was conducted. | Mike conducted the experiment. |
 | Jack was blessed.             | The Pope blessed Jack          |
+```
 
 
 # An E-Prime Cheat Sheet
