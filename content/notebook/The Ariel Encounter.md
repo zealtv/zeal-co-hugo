@@ -1,16 +1,14 @@
 ---
-title: "The Ariel Encounter"
+title: "The Ariel Encounter and Impossibility"
 date: 2022-05-24
 publish: y
 ---
 
-It's  a pretty good rule of thumb that the realm of the impossible is always going to be a larger infinite set than the realm of the possible.  But you are gonna get some collateral damage.  And this leads to the confusion at that liminal space right between what we know and what we do not. 
+![](../files/possible-v-imaginable.png)
 
-Consider the additional factor of the limits of our imagination.  Within this limit are the things we can imagine that are both possible and impossible.  There are also things we are unable to imagine that are both possible, and impossible. Try to imagine something that is impossible to imagine.  That thing might be possible.
+Within the realm of the things we can possibly imagine to exist, there are things that are both possible and impossible.  Then there are also those things beyond our ability to imagine them... and some of those things might be possible. 
 
-```
-todo: venn diagram of the imaginable, and the possible.
-```
+Try to imagine something that is impossible to imagine.  That thing you can't imagine? It might be possible.
 
 
 We have many credible witnesses to seemingly impossible events.  How can we overcome the limitations of imagination to determine how these events might *actually* intersect with shared reality?
