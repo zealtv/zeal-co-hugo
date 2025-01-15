@@ -13,7 +13,7 @@ publish: y
 ![](../files/vizzie-snippet-003.png)
 
 # A Simple Colour Source with Controls
-![Pasted image 20240916191716.png](../Pasted image 20240916191716.png)
+![](../files/vizzie-snippet-0031.png)
 
 # Video with Sound
 ![](../files/vizzie-snippet-004.png)
@@ -35,4 +35,4 @@ publish: y
 ![](../files/vizzie-snippet-008.png)
 
 # A 2-channel Chromakey setup
-![Pasted image 20240930202304.png](../Pasted image 20240930202304.png)
+![](../files/vizzie-snippet-009.png)
