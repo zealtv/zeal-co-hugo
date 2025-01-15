@@ -14,9 +14,9 @@ I believe beliefs are best held lightly.
 
 {{< youtube MU4_vX1eaiE >}}
 
-In his discussion with Jefferey Mishlove, Andy Newberg notes the importance of  "*being open to all paradigms.  There is value in being reductionistic at times, and there is value in not*".  This strikes me as another example of an integral, or [meta-modern](Metamodernism%20and%20the%20evolution%20of%20consciousness.md) stance, looking to draw on transrational conceptions to expand the bounds of  understanding.  
+In his discussion with Jefferey Mishlove, Andy Newberg notes the importance of  "*being open to all paradigms.  There is value in being reductionistic at times, and there is value in not*".  This strikes me as an example of an integral, or [meta-modern](Metamodernism%20and%20the%20evolution%20of%20consciousness.md) stance, looking to draw on transrational conceptions to expand the bounds of understanding.  
 
-This kind of work [has been pursued in the past](https://en.wikipedia.org/wiki/God_helmet), and not unexpectedly has proven controversial.  It seems extracting new the most value from these sorts of endeavours calls for a willingness to step back from ones own perspective, and a willingness to let a bigger picture come into view
+This kind of work [has been pursued in the past](https://en.wikipedia.org/wiki/God_helmet), and has not unexpectedly proven controversial.  It seems extracting new the most value from these sorts of endeavours calls for a willingness to step back from ones own perspective, and a willingness to let a bigger picture come into view
 
 Easier said than done when the most relevant data consists of profound, subjective experience.  It seems this kind of enquiry calls for rational dreamers, both ice-cold and open-hearted.
 
@@ -39,13 +39,11 @@ McGilchrist explicitly describes the right hemisphere of the brain as being resp
 
 Metamodernism is hot.  Destined to fail and offering so much.
 
-
 McGilchrist is the first citable connection I have come across between integral conscioussness/metamodernism and a flip to panexperientialism.  I live in hope.
 
 ```
 
 On one hand, brain lesions are able to create very specific hallucinations or delusions, like a familiar persons eyes being distorted, or the straight lines of houses skewed diagonally.   [[note  Oliver Sacks]]
-
 
 On the other hand, a significant number of otherwise ordinary people describe unbelievably novel, real, surreal, and unreal experiences complete with a set of esoteric details.  
 
@@ -83,9 +81,10 @@ Jacques Vallee describes the phenomenon acting as a *metasystem*.  It's not what
 [[Jeffrey Kripal]] describes *The Imaginal*.  To interpretively quote him quoting someone else...
 
 ```
-Like a small subset of caterpillars all hallucinating butterfly wings.
+Like a collection of caterpillars all co-hallucinating butterfly wings.
 
 A hullucination that contains an absurd truth they are unable to decipher - but something that will reveal itself, emerging into reality via their minds, to be ultimately incorporated into their being. 
 ```
 
-Maybe this perceptual hallucination eternally evades us, nevertheless leading us.  Like a carrot on a stick we carry in front of ourselves.  Forever.
+Maybe this perceptual hallucination eternally evades us, nevertheless leading us.  Like a carrot on a stick we carry in front of ourselves.  Forever.  🥕
+

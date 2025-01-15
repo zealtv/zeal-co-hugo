@@ -6,9 +6,9 @@ publish: y
 
 {{< youtube 9BzD3wUEMaQ >}} 
 
-**Metamodernism.  Everybody.  We should probably get on board with this.**
 
-Maybe it's just me but it seems like there is a collision of ideas going on.  Some of the ideas go by terms like *meta-modernism*, *integral*, *process philosophy*, *process theology*, *pan-experientalism*, *panpsychism*, *organic cosmology*, and probably a lot more.  Within this area of thinking, there are quite a few people with a new sort of spiritual conviction - proposing a sort of proto-framework that values all perspectives.... ah I think I lost my way in describing it.  It's a lot of ideas all at once.  I'm just going to throw down a smattering of them.
+
+Maybe it's just me but it seems like there is a collision of ideas going on.  Some of the ideas go by terms like *meta-modernism*, *integral*, *process philosophy*, *process theology*, *pan-experientalism*, *panpsychism*, *organic cosmology*, and probably a lot more.  
 
 ![](../files/ever-present-origin.png)
 
@@ -22,9 +22,7 @@ This is a panpsychist framework that considers conscious experience to be fundam
 
 And although the leap to reconsidering the fundamental nature of reality is rather drastic,   isn't that what our current meta-crisis calls for?  Not only that, but an "experience *is* reality" attitude encourages a radically all-affirming,  all-inclusive world-view, and we could do with a bit of that too.
 
-An ontological flip like this tracks perfectly with Gebser's integral consciousness structure, which itself was incorporated into Ken Wilber's formalised Integral thinking technique (which I think is not well served by its luxury juice/MLM branding).
-
-People using a formal or intuitive integral thinking style will discuss the mythic themes of comics as being real, as real as physical reality, merely another entirely real dimension.  
+An ontological flip like this tracks perfectly with Gebser's integral consciousness structure, which itself was incorporated into Ken Wilber's formalised Integral Philosophy.
 
 And then there are the various states of consciousness - dreams, hypnagogic hallucinations, psychedelic experiences - if experience is fundamental, everything experienced in these states is some kind of *first-class* *real*.  
 
@@ -34,7 +32,7 @@ So how can we fit that into a science-shaped hole?
 
 This article I think sums up well the leap from new ontology to a new frame of reality - a new science: https://runningfather.wordpress.com/2013/03/22/new-to-the-philosophere-panexperiential-holism-and-its-implications-by-justin/
 
-Jacques Vallee exemplifies this attitude of *transrationality* with spectacular flare. 
+Jacques Vallee exemplifies this attitude of *transrationality* with flare. 
 
 {{< youtube 3wF9IVqdOQY >}}
 
