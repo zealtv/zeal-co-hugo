@@ -53,12 +53,13 @@ But importantly, guitars need to be tuned. And so this method of notation requir
 Since all we are doing is taking a number, splitting it into digits, and assigning each digit to a string, we can also encode multiple channels of velocity to a single number.
 
 In this case the digit values can define a velocity, with 0 and 1 having special meaning.
-
+```
 | digit | meaning                    |
 | ----- | -------------------------- |
 | 0     | mute string                |
 | 1     | let ring                   | 
 | 2 - 9 | velocity lowest to highest |
+```
 
 so 9.00000 would mean strike the lowest string at maximum velocity and mute every other string. 9.99999 followed by 0.10000 would mean strike all strings at maximum velocity and then mute all but the second string.
 
@@ -68,6 +69,7 @@ Suddenly we have notation for finger picking.
 # Inadvertently Reinventing Tracking (but weirder?)
 The  methods above all encode some musical property - chords, fret fingering (and string tuning), finger picking - as a floating point number.  To be able to use these in combination we can replace the decimal point with another symbol denoting what is being represented.  Additionally, because this requires representing these values as strings rather than floats, we can move the symbol to the front of the string for readability when doable.
 
+```
 | symbol | what is encoded | example | note                                 |
 | ------ | --------------- | ------- | ------------------------------------ |
 | .      | semistep        | 0.43    | major triad from the root            |
@@ -75,6 +77,7 @@ The  methods above all encode some musical property - chords, fret fingering (an
 | =      | string tuning   | =055545 | Standard guitar tuning               |
 | p      | finger picking  | p222222 | pluck all strings at lowest velocity |
 |        |                 |         |                                      |
+```
 
 # Inadvertently Reinventing the Casiochord (but weirder)
 From here we can start to build chord progressions and picking patterns.  We end up decoupling the pitch and amplitude control in a similar way to a stringed instrument - one hand takes care of pitch (holding down the frets), the other hand takes care of amplitude (plucking and muting the strings). What we get for free are guitar-like articulations like hammer-ons, pull-offs, slides, that all come from doing different things at different times with the left and right hands.
