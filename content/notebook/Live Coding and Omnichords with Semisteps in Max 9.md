@@ -82,7 +82,7 @@ The  methods above all encode some musical property - chords, fret fingering (an
 # Inadvertently Reinventing the Casiochord (but weirder)
 From here we can start to build chord progressions and picking patterns.  We end up decoupling the pitch and amplitude control in a similar way to a stringed instrument - one hand takes care of pitch (holding down the frets), the other hand takes care of amplitude (plucking and muting the strings). What we get for free are guitar-like articulations like hammer-ons, pull-offs, slides, that all come from doing different things at different times with the left and right hands.
 
-Textedit objects serve as tracker columns storing a sequence of commands.  Each tracker column connects to a shared transport but have separate subdivision selectors.  In the video below the left column starts with a chord progression in a mix of semisteps and frets, and the middle column has a 3/4 finger picking pattern.  These patterns can be overwritten via the t1, t2, and t3 receives which handily can be set live from the Max console thanks to the new REPL.  The cmd receive bypasses the tracker and sends the command directly to be interpreted.
+In the patch demonstrated below, textedit objects serve as tracker columns storing a sequence of commands.  Each tracker column connects to a shared transport but have separate subdivision selectors.  The left column starts with a chord progression in a mix of semisteps and frets, and the middle column has a 3/4 finger picking pattern.  These patterns can be overwritten via the t1, t2, and t3 receives which handily can be set live from the Max console thanks to the new REPL.  The cmd receive bypasses the tracker and sends the command directly to be interpreted.
 
 {{< youtube 57_gENjvj0g >}}
 
