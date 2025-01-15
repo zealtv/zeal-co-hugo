@@ -94,7 +94,7 @@ The tutorial discuss the cons of this approach, noting the patching complexity a
 
 We're going to start with making our patch polyphonic the "hard way", and as an extension, you may want to explore using the poly~ object to make your match more efficient - it also helps us handle things like release envelopes more effectively.  This approach is, however, more complex, so starting "the hard way" is in some ways easier!
 
-![](..files/more-poly-in-max.png)
+![](../files/more-poly-in-max.png)
 
 [Download the patch!](poly-just-intonation-synth.zip)
 
