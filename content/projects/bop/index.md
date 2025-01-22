@@ -13,6 +13,6 @@ Abstract: "bop is a suite of music-making abstractions for the media programming
 
 {{< youtube 5Vw00N4vCYw >}}
 
-**bop** came out of my [PhD research](/projects/aileron-one) and saw [many iterations](/projects/elevon-one).  It was developed to address some unmet needs I came across working with embeded dynamic music systems and [large-scale wifi-controlled speaker arrays](/projects/belief-system). It's current deployed in [The Plants](https://www.playablestreets.com/the-plants) by [Playable Streets](https://www.playablestreets.com/).
+**bop** came out of my [PhD research](/projects/aileron-one) and saw [many iterations](/projects/elevon-one).  It was developed to address some unmet needs I came across working with embeded dynamic music systems and [large-scale wifi-controlled speaker arrays](/projects/belief-system). It's currently deployed in [The Plants](https://www.playablestreets.com/the-plants) by [Playable Streets](https://www.playablestreets.com/).
 
 You can download and play with bop [here](https://github.com/zealtv/bop).
