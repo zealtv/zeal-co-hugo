@@ -20,7 +20,7 @@ bop is a suite of music-making abstractions for the media programming environmen
 🐦 vanilla compatibility  
 🐦 pop-up graphical user interface [bop.ui]  
 🐦 global bop parameter messaging with built-in automation  
-🐦 module parameter state saves with patch
+🐦 module parameter state saves with patch  
 🐦 flexible, text-based sequencing  
 🐦 [esoteric musical notation](https://zeal.co/notebook/intermals/)
 
