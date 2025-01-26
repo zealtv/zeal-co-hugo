@@ -31,7 +31,17 @@ git clone https://github.com/zealtv/bop --recursive
 ```
 - open \_HOW_TO_BOP_.pd in [pure data vanilla](puredata.info/)
 
-## origins
+# requires
+pd version 0.54.1+
+
+
+## credits
+bop makes use of some of [these](https://github.com/MikeMorenoDSP/pd-mkmr) abstractions by [mike moreno](https://mikemorenodsp.github.io/).
+
+other borrowed code credited in-patch.
+
+
+## origin story
 **bop** came out of my [PhD research](/projects/aileron-one) and saw [many iterations](/projects/elevon-one).  It was developed to address some unmet needs I came across working with embeded dynamic music systems and [large-scale wifi-controlled speaker arrays](/projects/belief-system). It's currently deployed in [The Plants](https://www.playablestreets.com/the-plants) by [Playable Streets](https://www.playablestreets.com/).
 
 You can download and play with bop [here](https://github.com/zealtv/bop).
