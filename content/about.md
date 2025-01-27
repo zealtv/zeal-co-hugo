@@ -15,7 +15,8 @@ Alongside their creative output Bob works as Director of Technology for Melbourn
 ## Showreel
 {{< youtube q547GF5BZIw >}}
 
-## Publications
+
+<!-- ## Publications
 
 ### 2020
 
@@ -107,4 +108,4 @@ Joseph La Delfa, Robert Jarvis, Rohit Ashok Khot, Florian ‘Floyd’ Mueller **
 
 ### 2010 - 2012
 
-**Lecturer**  Collarts *(Music Theory and Improvisation)*
+**Lecturer**  Collarts *(Music Theory and Improvisation)* -->
