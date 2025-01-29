@@ -3,7 +3,18 @@
     <div class="gallery-container">
       {{ range (.Pages.ByParam "tier") }}
      
-      <a href="{{.Permalink}}">
+      <a 
+      
+      {{ if .Params.directlink }}
+        href="{{.Params.directlink}}"
+      {{else}}
+        href="{{.Permalink}}"
+      {{end}}
+      >
+      
+
+      
+      
         <div 
         
         {{ if .Params.calltoaction }}
