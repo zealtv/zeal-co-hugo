@@ -5,7 +5,7 @@ draft: false
 ---
 ![Bob Jarvis Portrait](/images/BobJarvisPortrait.jpg)
 
-Bob Jarvis creates interactive and temporal artworks that integrate music, animation, code, and text.  Out of their experimental process emerge themes of intermodality, colour, polyrhythm, flight, ontology, belief, and kinaesthetics.
+Bob Jarvis creates works integrating music, animation, code, and text.  Out of their experimental process emerge themes of intermodality, colour, polyrhythm, flight, ontology, imperfection, and kinaesthetics.
   
 Selected creative output includes [_Belief System_](https://zeal.co/projects/belief-system/), a 120-channel spatial audio installation touring internationally with Ranters Theatre, and shortlisted for The Blake Art Prize; [_Luminesce_](https://zeal.co/projects/luminesce/), a live, audio-visual collaboration with vocalist Gian Slater which won The International Visual Music Award in Frankfurt in 2015; and the practice-led research work [_Aileron One_](https://zeal.co/project/aileron), a world-first integration of performance technology and full-sized aircraft enabling music to be performed via the expressive medium of gliding flight.  
   
