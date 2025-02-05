@@ -4,6 +4,7 @@ publish: y
 date: 2024-01-10
 abstract: "A simple protocol for describing chord voicings as a signal."
 ---
+{{< youtube E_wUjTwJ_i8 >}}
 
 #  semisteps
 Semisteps are a way of encoding a chord voicing and relative root pitch as a floating point value.  Semisteps are currently implemented in [bop](https://github.com/zealtv).
@@ -85,6 +86,8 @@ Fretting applied:
 
 
 # As a speculative text-based language...
+
+{{< youtube 57_gENjvj0g >}}
 
 ```
 ## CHEAT SHEET
