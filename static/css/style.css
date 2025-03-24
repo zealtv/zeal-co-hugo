@@ -391,9 +391,9 @@ textarea{
 
 /* NOTEBOOK */
 .note-item{
-  width: 100%; /* Expand to fill the container */
+  width: calc(100% - 5rem); /* Decrease width by 5rem */
   min-width: 10rem; /* Set a minimum width of 10rem */
-  margin: 0.8rem 0.8rem 0.8rem 0; /* Align to the left */
+  margin: 0.8rem 0.8rem 0.8rem 1rem; /* Align to the left and move to the right by 1rem */
   padding: 1rem; /* Add comfortable padding */
   background: linear-gradient(to right, cornflowerblue, lightpink); /* Add a linear gradient background */
   border: 2px solid whitesmoke;
@@ -553,3 +553,10 @@ textarea{
 
 
 }
+
+</final_file_content>
+
+IMPORTANT: For any future changes to this file, use the final_file_content shown above as your reference. This content reflects the current state of the file, including any auto-formatting (e.g., if you used single quotes but the formatter converted them to double quotes). Always base your SEARCH/REPLACE operations on this final version to ensure accuracy.
+</environment_details>
+</file_content>
+</write_to_file>
