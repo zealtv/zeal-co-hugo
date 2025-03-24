@@ -2,7 +2,8 @@
 publish: y
 title: "Animating Text in TouchDesigner"
 date: 2023-01-30
-# abstract: "A software stack for realtime interactive sound, vision, and projection mapped video."
+tldr: "This note demonstrates a simple method of animating text along defined paths in TouchDesigner"
+
 ---
 # Animating text with the geotext COMP
 

@@ -8,6 +8,7 @@ date: 2023-02-03
 
 # Optional ---
 summary: "how to cram Max into anything"
+tldr: "This note outlines how to export RNBO patches as VST3 plugins for various operating systems and host them in different environments. It covers creating simple effect and instrument plugins, building them in Max, creating presets, exporting as VST3, and providing hosting examples for MuseScore 4, Pure Data, Bespoke Synth, and Reaper."
 
 # Notes ---
 # Images and links to files require:

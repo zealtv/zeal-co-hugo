@@ -3,6 +3,7 @@ publish: y
 title: "An Introduction to Interactive Audio-Vision"
 date: 2023-01-30
 abstract: "A software stack for realtime interactive sound, vision, and projection mapped video."
+tldr: "This file introduces a general-purpose software stack for interactive video projection and integrated audio. It discusses using TouchDesigner, Ableton, and Max for generating and processing vision, sequencing commands, and interpreting sensor data, respectively."
 ---
 # An Introduction to Interactive Audio-Vision
 

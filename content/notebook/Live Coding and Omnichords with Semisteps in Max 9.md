@@ -3,6 +3,7 @@ title: Adventures with Semisteps in Max 9
 date: 2025-01-01
 publish: y
 git: https://github.com/zealtv/super-casio-chord
+tldr: "This note explores using semisteps in Max 9 for live coding and creating omnichord-style interactions. It discusses the new features in Max 9 that facilitate creative music-making, the concept of semisteps for describing chords as numbers, and how this notation can be extended to define frets, finger-picking patterns, and chord progressions, ultimately leading to a flexible and playable setup mapped to Push pads."
 ---
 {{< youtube E0iLENC1d9U >}}
 
@@ -93,4 +94,3 @@ One nice thing about such compact notation is it allows fast and easy mapping.  
 The mapping is done in a single col object that takes incoming midi notes and associates them with either a picking command, a fretting command, or a semistep.  All of these different commands can be sent to the same send since the patch knows how to distinguish and interpret them.  It makes for a very flexible and very playable setup.
 
 ![the mapping scheme for the push omnichord](../files/omnichord-coll-mapping.png)
-

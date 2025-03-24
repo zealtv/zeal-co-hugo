@@ -2,6 +2,7 @@
 title: "Matt Harloffs Tuning Sequence - and tuning sequence as functional application of art"
 date: 2022-05-07
 publish: y
+tldr: "This note discusses Matt Harloff's tuning sequence as a piece of art with intention, exploring the interplay between functionality and artfulness. It analyzes the musical perception leveraged in the arrangement, including periods of dissonance and key changes, and provides training notes and tuning tips for musicians."
 ---
 
 {{< youtube 6xAjX-9ZSa8 >}}

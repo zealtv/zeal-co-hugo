@@ -1,6 +1,6 @@
 ---
 title: "Zeal Live"
-date: 
+when: 
   - "2020-04-04"
 description: "Multiple live audiovisual performances"
 heroImage: "./hero.jpg"

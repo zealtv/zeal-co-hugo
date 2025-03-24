@@ -2,6 +2,7 @@
 title: "portable video streaming approaches for art installations"
 date: 2022-05-31
 publish: y
+tldr: "This note surveys small, locally streaming cameras for art installations, focusing on affordable, hackable, wearable options. It discusses the NEXTECH QC3868, UV4L on a Raspberry Pi for low latency, and NDI with Dicaffeinate, highlighting the trade-offs between latency, quality, and hardware requirements."
 ---
 
 I am surveying small, locally streaming cameras for applications in art installations.   The focus is on affordable, hackable, wearable cameras for performance or interaction applications.

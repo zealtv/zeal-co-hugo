@@ -2,6 +2,7 @@
 title: "composing with particles"
 date: 2022-02-12
 publish: y
+tldr: "This note discusses the process of composing with particles for a project involving moving sounds around an irregular multi-speaker array system. It explores various tools like TouchDesigner, openFrameworks, Max, Unity, Unreal, and Node for Max before settling on TouchDesigner for its ability to detect particle birth and death events."
 ---
 
 

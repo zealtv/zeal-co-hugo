@@ -2,6 +2,7 @@
 title: "notes on OSC in Pure Data"
 date: 2022-02-26
 publish: y
+tldr: "This note discusses the issue of losing precision in latitude and longitude readings when sending and receiving telemetry data as OSC in Pure Data. It explores the limitations of 32-bit floats and investigates the odot package as a potential solution, noting that Max does not have the same problem."
 ---
 
 Working on my PhD project, I am needing to send and receive telemetry data as OSC.  While doing this I've noticed I am losing precision in my latitude and longitude readings.  I have these  stored as floating point values with 7 decimals of accuracy, though after parsing them in PD I am down to 4 decimal points.  I suspect the OSCParse object is to blame here.
@@ -22,5 +23,3 @@ print: /telemetry 762100 0 0. 0. 0. -36.716118 147.12587 243.215607 0.078466 -0.
 ```
 
 ok - it looks as though this occuring because of the use of 32bit (single precision) floats, which makes sense - although it means max is doing some tricky business under the hood to preserve precision when sending OSC internally.  I am now looking into the (frankly amazing) odot package to see if it can help.
-
-

@@ -2,9 +2,9 @@
 title: semisteps (the concept formally known as intermals)
 publish: y
 date: 2024-01-10
-abstract: "A simple protocol for describing chord voicings as a floating point number."
+abstract: "A simple protocol for describing chord voicings as a signal."
+tldr: "This note introduces semisteps, a simple protocol for encoding a chord voicing and relative root pitch as a floating-point value, implemented in the bop library. It explains the structure of a semistep, provides examples of chord voicings, and explores variations on the theme, including strings and frets, bitplucking, and a speculative text-based language."
 ---
-{{< youtube E_wUjTwJ_i8 >}}
 
 #  semisteps
 Semisteps are a way of encoding a chord voicing and relative root pitch as a floating point value.  Semisteps are currently implemented in [bop](https://github.com/zealtv).
@@ -86,8 +86,6 @@ Fretting applied:
 
 
 # As a speculative text-based language...
-
-{{< youtube 57_gENjvj0g >}}
 
 ```
 ## CHEAT SHEET

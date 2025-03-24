@@ -2,6 +2,7 @@
 title: An Introduction to Max by way of Microtonality
 date: 2022-04-03
 publish: y
+tldr: "This note provides a tutorial outline for an introduction to Max, using the creation of a microtonal interface for a standard MIDI keyboard as a demonstration project. It covers Max fundamentals, object types, concepts, data types, and important objects, as well as steps for implementing polyphony and alternative approaches using Live 11's Microtuner device."
 ---
 ```
 This is a tutorial outline for a tailored introduction to Max session.

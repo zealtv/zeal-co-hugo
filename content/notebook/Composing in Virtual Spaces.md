@@ -2,6 +2,7 @@
 title: "Composing in Virtual Spaces"
 date: 2022-03-21
 publish: y
+tldr: "These notes were written for a presentation at The Victorian College of the Arts about composing in virtual spaces. It discusses the definition of music, musicality, dynamic music, and spatial metacomposition, referencing the Aileron and Elevon tool suites."
 ---
 
 ```

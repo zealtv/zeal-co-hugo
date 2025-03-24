@@ -2,9 +2,11 @@
 title: "Neurotheology, aliens, and interpreting the immaterial"
 date: 2022-04-23
 publish: y
+tldr: |
+  The note explores the intersection of neurotheology and alien encounters, questioning what part of the brain is responsible for specific, subjective perceptual traits related to these encounters. It considers the role of the "Imaginal" in shaping our perception of reality.
 ---
 ```
-Standard scratchpad disclaimer.  
+Standard scratchpad disclaimer.
 I am not tied to any of the perspectives below.
 I believe beliefs are best held lightly.
 ```
@@ -87,4 +89,3 @@ A hullucination that contains an absurd truth they are unable to decipher - but 
 ```
 
 Maybe this perceptual hallucination eternally evades us, nevertheless leading us.  Like a carrot on a stick we carry in front of ourselves.  Forever.  🥕
-

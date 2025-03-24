@@ -2,6 +2,7 @@
 title: "The Ariel Encounter and Impossibility"
 date: 2022-05-24
 publish: y
+tldr: "This note discusses the Ariel School encounter, where over 60 children claimed to have experienced an alien encounter in 1994. It explores the limitations of imagination in determining the reality of such events, the credibility of the children's testimony, and the challenge of navigating the multidimensional truth-space between skepticism and belief."
 ---
 
 ![](../files/possible-v-imaginable.png)
@@ -44,4 +45,3 @@ But what else are we supposed to believe? - because the idea that creatures of o
 {{< youtube BAz6N5R4YlQ >}}
 
 {{< youtube Vw_DMXEZt6Q >}}
-

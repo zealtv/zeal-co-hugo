@@ -3,6 +3,7 @@ title: E-Prime
 publish: y
 date: 2024-01-09
 abstract: "A subset of the english language useful for clarity and fostering a flexible worldview."
+tldr: "This note discusses E-Prime, a subset of English that excludes variations of the verb 'to be' to promote clarity and a flexible worldview. It outlines the rules of E-Prime, its benefits in avoiding the 'is of identity' and 'is of predication,' and provides translation strategies and a cheat sheet for using E-Prime effectively."
 ---
 
 # E-Prime

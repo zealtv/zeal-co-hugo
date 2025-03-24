@@ -2,6 +2,7 @@
 title: "packetPunk - OSC logging on an ESP32 Watch"
 date: 2022-02-02
 publish: y
+tldr: "This note describes the DSTIKE ESP32 watch as an OSC logger and playback device, and introduces packetPunk, an Arduino sketch for logging OSC messages on the ESP32. It provides development notes for the DSTIKE ESP32 watch, including instructions for installing the environment, OLED library, and Adafruit NeoPixel Library, as well as build settings and information on working with SD cards."
 ---
 
 ![](../files/packetpunk.png)
@@ -45,4 +46,4 @@ https://github.com/lspoplove/D-duino-project/blob/master/ESP32WatchDev/ESP32Watc
 ![](../files/packetpunk-build-settings.png)
 
 ### 6. Working with SD cards
-This is a particularly useful [sketch outlining SD card file procedures](https://github.com/espressif/arduino-esp32/blob/master/libraries/SD_MMC/examples/SDMMC_Test/SDMMC_Test.ino) 
+This is a particularly useful [sketch outlining SD card file procedures](https://github.com/espressif/arduino-esp32/blob/master/libraries/SD_MMC/examples/SDMMC_Test/SDMMC_Test.ino)

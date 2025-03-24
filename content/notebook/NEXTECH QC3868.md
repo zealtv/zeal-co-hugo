@@ -2,6 +2,7 @@
 title: "NEXTECH QC3868"
 date: 2022-01-31
 publish: y
+tldr: "This note details the NEXTECH QC3863, a small, battery-powered IP security camera, and how to access its local streaming video. It outlines the steps to connect the camera to WiFi, find its IP address, and access various video streams and snapshots, while also noting the camera's security vulnerabilities and plain text storage of WiFi credentials."
 ---
 
 

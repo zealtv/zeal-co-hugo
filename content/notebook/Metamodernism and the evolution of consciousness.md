@@ -2,6 +2,7 @@
 title: "Metamodernism and the evolution of consciousness"
 date: 2022-04-12
 publish: y
+tldr: "This note explores the collision of ideas surrounding metamodernism, integral theory, process philosophy, and panpsychism, linking them to Jean Gebser's theory of historical leaps in consciousness and Alfred Whitehead's process philosophy. It suggests that this emerging worldview, exemplified by Jacques Vallee's transrationality, offers an optimistic response to the meta-crisis by asserting free will and creativity."
 ---
 
 {{< youtube 9BzD3wUEMaQ >}} 
@@ -53,5 +54,3 @@ https://www.joelightfoot.org/post/the-metamodern-solarpunk-manifesto
 {{< youtube ZckXe4vF34w >}}
 
 {{< youtube Ml2ZN4cFK0k >}}
-
-

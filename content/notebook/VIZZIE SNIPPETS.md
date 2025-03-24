@@ -1,8 +1,8 @@
 ---
 title: VIZZIE SNIPPETS
 date: 2022-10-10
-lastmod: 2022-10-10T21:22
 publish: y
+tldr: "This note provides VIZZIE snippets, showcasing various techniques and setups within the VIZZIE visual programming environment. It includes examples of a simple color source with controls, video with sound, simple FX, MIDI mapping, chromakey/blue screen, and video feedback."
 ---
 
 # Where is VIZZIE
