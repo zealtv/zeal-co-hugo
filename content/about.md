@@ -5,11 +5,18 @@ draft: false
 ---
 ![Bob Jarvis Portrait](/images/BobJarvisPortrait.jpg)
 
-Bob Jarvis creates works integrating music, animation, code, and text.  Out of their experimental process emerge themes of intermodality, colour, polyrhythm, flight, ontology, imperfection, and kinaesthetics.
+Bob Jarvis creates interactive and temporal artworks that integrate music, vision, space, and code.  Out of their experimental process emerge eclectic themes of intermodality, colour, polyrhythm, flight, ontology, belief, and kinaesthetics.
   
-Selected creative output includes [_Belief System_](https://zeal.co/projects/belief-system/), a 120-channel spatial audio installation touring internationally with Ranters Theatre, and shortlisted for The Blake Art Prize; [_Luminesce_](https://zeal.co/projects/luminesce/), a live, audio-visual collaboration with vocalist Gian Slater which won The International Visual Music Award in Frankfurt in 2015; and the practice-led research work [_Aileron One_](https://zeal.co/project/aileron), a world-first integration of performance technology and full-sized aircraft enabling music to be performed via the expressive medium of gliding flight.  
-  
-Alongside their creative output Bob works as Director of Technology for Melbourne interactive arts company Playable Streets, contributes to open source software projects, lectures at several universities, and consults as a certified trainer in the Max multimedia programming environment.
+Recent creative output includes [_Belief System_](https://zeal.co/projects/belief-system/), a 120-channel spatial audio installation touring internationally with Ranters Theatre.  Integrating 4000 recorded interviews of personal beliefs, the collaboration with Adriano Cortese and Anna Tregloan was shortlisted for The Blake Art Prize and has been presented in Australia and Europe.
+
+From 2021-2023, Bob’s ambitious practice-led research project [_Aileron One_](https://zeal.co/project/aileron) realised a world-first integration of performance technology and full-sized aircraft, enabling music to be performed through the expressive medium of gliding flight, and producing published academic and creative outputs.
+
+Earlier work [_Luminesce_](https://zeal.co/projects/luminesce/), a live audio-visual performance with vocalist _Gian Slater_ and her choir _Invenio_ won The International Visual Music Award in Frankfurt in 2015, recognized for its technical innovation and artistic excellence.
+
+As a collaborator Bob designed the networked spatial audio system for Tilman Robinson’s _The Quieter You Become_, winning Outstanding Production Design at the Melbourne Fringe in 2025.  And serving as Director of Technology for Playable Streets, Bob led the development of hardware and software for _The Musical Plants_, an internationally touring interactive work with an ongoing installation at Changi Airport in Singapore.
+ 
+Alongside their creative output, Bob contributes to open source software efforts, lectures on music and technology, and consults as a certified trainer in the Max multimedia programming environment.
+
 {{< figure src="/images/MaxCertifiedTrainer-2021-dark.jpg" alt="Max Certified Trainer Logo" height="100">}}
 
 ## Showreel
