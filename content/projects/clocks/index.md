@@ -8,7 +8,7 @@ heroImage: "./isometricstyleaclockworkmu-29465615.jpg"
 tier: 3
 ---
 
-Clocks is a set of AI image-generation explorations of imaginary clockwork music machines, generated in 2024. Clocks preceded Photosynthesis — both are part of the same subconscious creative attractor. The renders wander through a few illustration styles — isometric, comic, and anime.
+Clocks is a set of AI image-generation explorations of imaginary clockwork music machines, generated in 2024. Clocks preceded Photosynthesis — both are part of the same subconscious creative attractor.
 
 ![isometric clockwork music machine, wooden organ-clock](./isometricstyleaclockworkmu-29465615.jpg)
 ![isometric clockwork music machine, rainbow-lit glass tower](./isometricstyleaclockworkmu-10581095.jpg)
