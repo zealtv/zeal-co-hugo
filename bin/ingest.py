@@ -77,6 +77,7 @@ def main():
     gallery = []
     embeds = []
     docs = []
+    links = []
 
     with open(args.manifest, encoding="utf-8") as f:
         for line in f:
@@ -84,6 +85,10 @@ def main():
             if not m:
                 continue
             role, path = m.group(1), m.group(2).strip()
+
+            if role == "link":
+                links.append(path)
+                continue
 
             if role == "embed":
                 yt = re.match(r"YOUTUBE\s+(\S+)", path)
@@ -139,6 +144,7 @@ def main():
     lines += [f"![{args.slug}](./{g})" for g in gallery]
     lines.append("")
     lines += [f"[{d}](./docs/{d})" for d in docs]
+    lines += [f"[{u}]({u})" for u in links]
     lines.append("")
     with open(index, "w", encoding="utf-8") as f:
         f.write("\n".join(lines))
