@@ -1,0 +1,8 @@
+[build]
+  command = "hugo"
+  publish = "public"
+
+[build.environment]
+  # Netlify's noble build image no longer preinstalls Hugo; pin it explicitly.
+  # 0.139.4 verified to build this site cleanly (2026-07-05).
+  HUGO_VERSION = "0.139.4"
