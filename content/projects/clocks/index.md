@@ -3,12 +3,11 @@ title: "Clocks"
 when:
   - "2024"
 what: "AI image-generation exploration of clockwork music machines"
-abstract: "A series of AI-generated concept images imagining clockwork music machines. Clocks preceded Photosynthesis — both are part of the same subconscious creative attractor."
+where:
+  - "latent space"
 heroImage: "./isometricstyleaclockworkmu-29465615.jpg"
 tier: 3
 ---
-
-Clocks is a set of AI image-generation explorations of imaginary clockwork music machines, generated in 2024. Clocks preceded Photosynthesis — both are part of the same subconscious creative attractor.
 
 ![isometric clockwork music machine, wooden organ-clock](./isometricstyleaclockworkmu-29465615.jpg)
 ![isometric clockwork music machine, rainbow-lit glass tower](./isometricstyleaclockworkmu-10581095.jpg)
@@ -20,9 +19,7 @@ Clocks is a set of AI image-generation explorations of imaginary clockwork music
 ![isometric clockwork music machine, warm wooden daylight scene](./isometricstyleaclockworkmu-59549016.jpg)
 ![isometric clockwork music machine, toy-like playground](./isometricstyleaclockworkmu-78282622.jpg)
 ![isometric clockwork music machine, blue-white tiered platform](./isometricstyleaclockworkmu-80912392.jpg)
-
 ![comic-style clockwork music machine, rainbow arch](./comicaclockworkmusicmachin-20346863.jpg)
 ![comic-style clockwork music machine, cosmic blue dome](./comicaclockworkmusicmachin-8262190.jpg)
 ![comic-style clockwork music machine, gold arch](./comicaclockworkmusicmachin-60840000.jpg)
-
 ![anime-style clockwork music machine, rainbow drum](./animeartworkaclockworkmusi-49656747.jpg)

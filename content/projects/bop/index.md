@@ -6,7 +6,7 @@ heroImage: "./bop-hero.png"
 what: "Fun and friendly music-making modules for Pure Data."
 where:
   - "The Internet"
-tier: 0
+tier: 1
 git: "https://github.com/zealtv/bop"
 Abstract: "bop is a suite of music-making abstractions for the media programming environment Pure Data.  it is designed to be flexible, user-friendly, and fun.  it could be run on old hardware, embedded into gadgets, or be deployed at massive scale in distributed, immersive installations." 
 ---
