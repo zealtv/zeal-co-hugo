@@ -3,12 +3,12 @@ title: "Clocks"
 when:
   - "2024"
 what: "AI image-generation exploration of clockwork music machines"
-abstract: "A series of AI-generated concept images imagining clockwork music machines, produced as a visual offshoot of the Photosynthesis project."
+abstract: "A series of AI-generated concept images imagining clockwork music machines. Clocks preceded Photosynthesis — both are part of the same subconscious creative attractor."
 heroImage: "./isometricstyleaclockworkmu-29465615.jpg"
 tier: 3
 ---
 
-Clocks is a set of AI image-generation explorations of imaginary clockwork music machines, generated in 2024 as a visual offshoot of the Photosynthesis project. The renders wander through a few illustration styles — isometric, comic, and anime.
+Clocks is a set of AI image-generation explorations of imaginary clockwork music machines, generated in 2024. Clocks preceded Photosynthesis — both are part of the same subconscious creative attractor. The renders wander through a few illustration styles — isometric, comic, and anime.
 
 ![isometric clockwork music machine, wooden organ-clock](./isometricstyleaclockworkmu-29465615.jpg)
 ![isometric clockwork music machine, rainbow-lit glass tower](./isometricstyleaclockworkmu-10581095.jpg)
