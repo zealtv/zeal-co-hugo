@@ -25,7 +25,6 @@ The composition is built from eight musical motifs, carefully positioned to acti
 - Installable indoors in natural or artificial light
 
 ![photosynthesizer mk1](./photosynthesizer-mk1-square.jpg)
-![photosynthesizer detail](./img-2556.jpg)
 ![Photosynthesis installation](./photosynthesis-003.jpg)
 ![photosynthesizer mk1 disassembled](./photosynthesizer-disassembled.jpg)
 
