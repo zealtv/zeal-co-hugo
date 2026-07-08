@@ -5,7 +5,7 @@ when:
 what: "solar-powered kinetic sound installation"
 abstract: "An immersive sound installation powered entirely by the sun and performed by the rotation of the earth and the movement of clouds. Dozens of solar-powered electromechanical musical instruments strum gentle chords and motifs, stopping and starting as shadow and light fall on their petal-like arrangements of photovoltaic cells."
 heroImage: "./photosynthesis-003.jpg"
-tier: 1
+tier: -1
 ---
 
 {{< youtube hl0uu1jruVg >}}
