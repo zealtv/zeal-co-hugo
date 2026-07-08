@@ -7,6 +7,7 @@ where:
   - "latent space"
 heroImage: "./isometricstyleaclockworkmu-19483375.jpg"
 tier: 3
+draft: "true"
 ---
 
 ![clockwork music machine](./isometricstyleaclockworkmu-10581095.jpg)
