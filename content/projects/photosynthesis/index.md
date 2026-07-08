@@ -4,7 +4,7 @@ when:
   - "2026"
 what: "solar-powered kinetic sound installation"
 abstract: "An immersive sound installation powered entirely by the sun and performed by the rotation of the earth and the movement of clouds. Dozens of solar-powered electromechanical musical instruments strum gentle chords and motifs, stopping and starting as shadow and light fall on their petal-like arrangements of photovoltaic cells."
-heroImage: "./photosynthesis-003.jpg"
+heroImage: "./photosynthesizer-mk1-square.jpg"
 tier: -1
 ---
 
@@ -26,7 +26,7 @@ The composition is built from eight musical motifs, carefully positioned to acti
 
 ![two photosynthesizers in a flowering meadow](./img-2553.jpg)
 ![photosynthesizer detail](./img-2556.jpg)
-![photosynthesizer mk1](./photosynthesizer-mk1-square.jpg)
+![Photosynthesis installation](./photosynthesis-003.jpg)
 ![photosynthesizer mk1 disassembled](./photosynthesizer-disassembled.jpg)
 
 ![installation render](./photosynthesis-render-001-1920.jpg)
